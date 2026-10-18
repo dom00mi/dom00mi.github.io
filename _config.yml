@@ -1,0 +1,14 @@
+title: Domenico Nava | Quantitative Research
+name: Domenico Nava
+description: Quantitative finance, mathematics and machine learning
+url: "https://dom00mi.github.io"
+baseurl: ""
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - SETUP.md
+  - Gemfile
+  - Gemfile.lock
