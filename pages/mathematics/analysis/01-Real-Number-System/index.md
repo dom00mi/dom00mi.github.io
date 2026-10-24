@@ -13,13 +13,10 @@ permalink: /pages/mathematics/analysis/real-number-system/
 
 <article class="article" markdown="1">
 
-> **Intent.** These notes are written primarily for educational purposes, with the hope that they may also be useful to others interested in mathematics.
-=======
+
 > **Intent.** These notes are intended primarily for educational purposes, with the aim of helping readers develop a deeper understanding of mathematics and inspiring those who have not yet had the opportunity to explore the subject in depth.
 
 We begin with the very foundations of the real number system. In any journey through mathematics, I believe Mathematical Analysis is one of the most fundamental subjects, providing the rigorous framework upon which much of modern mathematics is built.
-
-We would like to 
 
 As Neil Falkner once wrote:
 
