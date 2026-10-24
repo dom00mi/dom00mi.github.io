@@ -92,7 +92,7 @@ TO DO
 
 ### Statistics
 
-[Read Intro 01 →]({{ '/pages/mathematics/statistics/' | relative_url }})
+TO DO
 
 
 ### Stochastic Differential Equations
@@ -105,7 +105,7 @@ TO DO
 
 ### Control Theory
 
-[Read Intro 01 →]({{ '/pages/mathematics/control_theory/' | relative_url }})
+TO DO
 
 ### Functional Analysis
 
