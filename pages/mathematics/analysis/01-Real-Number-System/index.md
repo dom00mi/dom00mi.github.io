@@ -13,7 +13,7 @@ permalink: /pages/mathematics/analysis/real-number-system/
 
 <article class="article" markdown="1">
 
-> **Intent.** These notes are written primarily for educational purposes and personal revision, with the hope that they may also be useful to others interested in mathematics.
+> **Intent.** These notes are intended primarily for educational purposes, with the aim of helping readers develop a deeper understanding of mathematics and inspiring those who have not yet had the opportunity to explore the subject in depth.
 
 We begin with the very foundations of the real number system. In any journey through mathematics, I believe Mathematical Analysis is one of the most fundamental subjects, providing the rigorous framework upon which much of modern mathematics is built.
 
@@ -61,7 +61,46 @@ Rational numbers do not exhaust the number line. For instance, $\sqrt 2$ is irra
 
 **Proof.** Suppose $\sqrt 2=p/q$ for integers $p,q$ with $q\ne0$ and no common factor. Then $p^2=2q^2$, so $p$ is even. Write $p=2k$. It follows that $q^2=2k^2$, so $q$ is even as well, contradicting that $p/q$ was in lowest terms. $\square$
 
-The real numbers include both rational and irrational numbers. One rigorous construction of $\mathbb R$ uses equivalence classes of Cauchy sequences of rational numbers; another uses Dedekind cuts. For the present chapter, we work with the defining properties of $\mathbb R$ rather than constructing it from scratch.
+The real numbers include both rational and irrational numbers. One rigorous construction of $\mathbb R$ uses equivalence classes of Cauchy sequences of rational numbers. 
+
+The set of real numbers $\mathbb{R}$ can be constructed from the set of rational numbers $\mathbb{Q}$ using a mathematical procedure known as **completion**. To understand this construction, we first need to study sequences, especially Cauchy sequences.
+
+A real number can be formally represented by an equivalence class of Cauchy sequences of rational numbers. Intuitively, a Cauchy sequence is a sequence whose terms become increasingly close to one another, so that the distance between any two sufficiently late terms can be made arbitrarily small.
+
+We commonly represent real numbers using infinite decimal expansions, such as
+
+$$
+12.3456789014573\ldots
+$$
+
+This decimal expansion can be approximated by a sequence of rational numbers obtained by retaining progressively more digits after the decimal point. For example,
+
+$$
+\begin{aligned}
+a_0 &= 12,\\
+a_1 &= 12.3,\\
+a_2 &= 12.34,\\
+a_3 &= 12.345,\\
+a_4 &= 12.3456,\\
+&\vdots
+\end{aligned}
+$$
+
+Every term $a_i$ is rational. Moreover, the difference between $a_i$ and any later term is at most $10^{-i}$. As $i$ increases, this bound approaches zero, illustrating why the sequence is Cauchy.
+
+The concept of an **equivalence class** ensures that Cauchy sequences representing the same real number are treated as equivalent. For instance,
+
+$$
+1.00000\ldots = 0.99999\ldots = 1.
+$$
+
+Although these decimal expansions differ in their representation, they determine the same real number.
+
+A fully rigorous construction of $\mathbb{R}$ as the completion of $\mathbb{Q}$ requires a precise definition of Cauchy sequences of rational numbers, which will be developed later. An alternative, mathematically equivalent construction can be found in Chapter 1 of W. Rudin's *Principles of Mathematical Analysis*, Third Edition, McGraw-Hill, 1976.
+
+Both $\mathbb{Q}$ and $\mathbb{R}$ also satisfy a fundamental property known as the **Archimedean axiom**, which we will examine next.
+
+Another construction uses Dedekind cuts. For the present chapter, we work with the defining properties of $\mathbb R$ rather than constructing it from scratch.
 
 ## 2. The ordered field of real numbers
 
@@ -107,24 +146,363 @@ $$
 
 ## 4. Intervals and bounded sets
 
-For $a<b$, the open and closed intervals are
+## Definition: Intervals in $\mathbb{R}$
+
+Let $a,b \in \mathbb{R}$ with $a < b$. We define the **open interval** $(a,b)$ and the **closed interval** $[a,b]$ by
 
 $$
-(a,b)=\{x\in\mathbb R:a<x<b\},\qquad
-[a,b]=\{x\in\mathbb R:a\le x\le b\}.
+(a,b) := \{x \in \mathbb{R} : a < x < b\},
 $$
 
-Half-open and unbounded intervals are defined similarly.
+and
 
-A set $A\subseteq\mathbb R$ is **bounded above** if there is an $M\in\mathbb R$ such that $a\le M$ for every $a\in A$. Such an $M$ is an *upper bound*. Lower bounds are defined analogously. A set is **bounded** if it is bounded both above and below.
+$$
+[a,b] := \{x \in \mathbb{R} : a \leq x \leq b\},
+$$
+
+respectively.
+
+More generally, we use the following notation for **half-open and half-closed intervals**:
+
+$$
+[a,b) := \{x \in \mathbb{R} : a \leq x < b\},
+$$
+
+$$
+(a,b] := \{x \in \mathbb{R} : a < x \leq b\}.
+$$
+
+We also define the following **unbounded intervals**:
+
+$$
+(a,\infty) := \{x \in \mathbb{R} : x > a\},
+$$
+
+$$
+[a,\infty) := \{x \in \mathbb{R} : x \geq a\},
+$$
+
+$$
+(-\infty,b) := \{x \in \mathbb{R} : x < b\},
+$$
+
+and
+
+$$
+(-\infty,b] := \{x \in \mathbb{R} : x \leq b\}.
+$$
 
 For example, $A=(0,1)$ is bounded above by $1$, $2$, and every larger number, but has no largest element.
 
 ## 5. Maximum, minimum, supremum, and infimum
 
-A **maximum** of a nonempty set $A$ is an element $m\in A$ such that $a\le m$ for every $a\in A$. A **minimum** is defined with the inequality reversed.
+We begin by introducing the concepts of **maximum** and **minimum** of a set $A \subseteq \mathbb{R}$. The maximum is the largest element of the set, while the minimum is its smallest element. However, these elements do not necessarily exist, even when the set is bounded.
 
-The **supremum** $\sup A$ is the *least upper bound* of $A$; the **infimum** $\inf A$ is the *greatest lower bound*. For a nonempty set bounded above or below, respectively, these are real numbers by completeness.
+To understand when maximum and minimum exist, we first define what it means for a set to be bounded above or below.
+
+### Definition 5.1 (Bounded Sets)
+
+Let $A \subseteq \mathbb{R}$. We say that:
+
+1. **$A$ is bounded above** if there exists $L \in \mathbb{R}$ such that
+
+   $$
+   x \leq L \qquad \text{for every } x \in A.
+   $$
+
+   In this case, $L$ is called an **upper bound** of $A$.
+
+2. **$A$ is bounded below** if there exists $l \in \mathbb{R}$ such that
+
+   $$
+   l \leq x \qquad \text{for every } x \in A.
+   $$
+
+   In this case, $l$ is called a **lower bound** of $A$.
+
+3. **$A$ is bounded** if it is both bounded above and bounded below.
+
+### Definition 5.2 (Maximum and Minimum)
+
+Let $A \subseteq \mathbb{R}$ be nonempty.
+
+A number $M \in \mathbb{R}$ is called the **maximum** of $A$ if:
+
+- $M \in A$.
+- $x \leq M$ for every $x \in A$.
+
+When such a number exists, we write
+
+$$
+\max A := M.
+$$
+
+Similarly, a number $m \in \mathbb{R}$ is called the **minimum** of $A$ if:
+
+- $m \in A$.
+- $m \leq x$ for every $x \in A$.
+
+When such a number exists, we write
+
+$$
+\min A := m.
+$$
+
+A number $c \in A$ is called an **extremum** of $A$ if it is either the maximum or the minimum of the set.
+
+### Remark 5.3 (Uniqueness)
+
+If the maximum or minimum of a nonempty set $A \subseteq \mathbb{R}$ exists, then it is unique.
+
+**Exercise:** Prove this statement.
+
+### Remark 5.4 (Existence)
+
+A set does not necessarily have a maximum or a minimum, even if it is bounded. The following examples illustrate this fact.
+
+### Example 5.5
+
+**1. Consider the set**
+
+$$
+A = [0,2) = \{x \in \mathbb{R} : 0 \leq x < 2\}.
+$$
+
+The minimum exists and is given by
+
+$$
+\min A = 0,
+$$
+
+because $0 \in A$ and $0 \leq x$ for every $x \in A$.
+
+However, $A$ has no maximum. Indeed, for any $a \in A$, define
+
+$$
+b := \frac{a+2}{2}.
+$$
+
+Since $a < 2$, we have $a < b < 2$, so $b \in A$ and $b > a$. Thus, every element of $A$ has a larger element in the set.
+
+**2. Consider the closed interval**
+
+$$
+A = [3,8].
+$$
+
+Both endpoints belong to the set, so
+
+$$
+\max A = 8, \qquad \min A = 3.
+$$
+
+**3. Consider the set**
+
+$$
+A = (-\infty,7] = \{x \in \mathbb{R} : x \leq 7\}.
+$$
+
+The maximum exists and equals
+
+$$
+\max A = 7.
+$$
+
+However, $A$ has no minimum. For any $a \in A$, the number
+
+$$
+b := a-1
+$$
+
+also belongs to $A$ and satisfies $b < a$. Therefore, no element of $A$ can be its minimum.
+
+The previous examples show that a nonempty bounded set need not have a maximum or a minimum. To describe the least upper bound and greatest lower bound of a set, we introduce the concepts of **supremum** and **infimum**.
+
+### Theorem 5.7 (Existence of the Supremum)
+
+Let $A \subseteq \mathbb{R}$ be nonempty and bounded above. Then the set of all upper bounds of $A$,
+
+$$
+U_A := \{L \in \mathbb{R} : L \text{ is an upper bound of } A\},
+$$
+
+has a minimum element.
+
+### Definition 5.8 (Supremum)
+
+Let $A \subseteq \mathbb{R}$ be nonempty. The **supremum** of $A$, also called its **least upper bound**, is defined by
+
+$$
+\sup A :=
+\begin{cases}
+\min U_A, & \text{if } A \text{ is bounded above},\\
++\infty, & \text{otherwise},
+\end{cases}
+$$
+
+where
+
+$$
+U_A := \{L \in \mathbb{R} : L \text{ is an upper bound of } A\}.
+$$
+
+Thus, if $A$ is bounded above, its supremum is the smallest of all its upper bounds.
+
+### Theorem 5.9 (Existence of the Infimum)
+
+Let $A \subseteq \mathbb{R}$ be nonempty and bounded below. Then the set of all lower bounds of $A$,
+
+$$
+L_A := \{l \in \mathbb{R} : l \text{ is a lower bound of } A\},
+$$
+
+has a maximum element.
+
+### Definition 5.10 (Infimum)
+
+Let $A \subseteq \mathbb{R}$ be nonempty. The **infimum** of $A$, also called its **greatest lower bound**, is defined by
+
+$$
+\inf A :=
+\begin{cases}
+\max L_A, & \text{if } A \text{ is bounded below},\\
+-\infty, & \text{otherwise},
+\end{cases}
+$$
+
+where
+
+$$
+L_A := \{l \in \mathbb{R} : l \text{ is a lower bound of } A\}.
+$$
+
+Thus, if $A$ is bounded below, its infimum is the largest of all its lower bounds.
+
+### Remark 5.11 (The Meaning of Infinity)
+
+The symbols $+\infty$ and $-\infty$ do not represent real numbers. They are used to indicate that a set is unbounded.
+
+- $\sup A = +\infty$ means that $A$ is not bounded above.
+- $\inf A = -\infty$ means that $A$ is not bounded below.
+
+### Remark 5.12 (Supremum, Infimum, Maximum and Minimum)
+
+The maximum and minimum of a set must belong to the set itself. The supremum and infimum, however, may or may not belong to the set.
+
+### Remark 5.13 (Relationship Between Maximum and Supremum)
+
+Whenever $\max A$ exists, we have
+
+$$
+\sup A = \max A.
+$$
+
+Similarly, whenever $\min A$ exists,
+
+$$
+\inf A = \min A.
+$$
+
+**Exercise:** Prove both statements.
+
+### Example 5.14
+
+We revisit the sets considered in Example 5.5.
+
+**1. Let**
+
+$$
+A = [0,2).
+$$
+
+The set has no maximum, but its supremum is
+
+$$
+\sup A = 2.
+$$
+
+Since $2 \notin A$, the supremum does not belong to the set. Meanwhile,
+
+$$
+\min A = \inf A = 0.
+$$
+
+**2. Let**
+
+$$
+A = [3,8].
+$$
+
+Then
+
+$$
+\max A = \sup A = 8,
+$$
+
+and
+
+$$
+\min A = \inf A = 3.
+$$
+
+Both the supremum and infimum belong to $A$.
+
+**3. Let**
+
+$$
+A = (-\infty,7].
+$$
+
+The maximum and supremum coincide:
+
+$$
+\max A = \sup A = 7 \in A.
+$$
+
+The set has no minimum and is unbounded below, so
+
+$$
+\inf A = -\infty.
+$$
+
+### Remark 5.15 (Characterization of the Supremum)
+
+Let $A \subseteq \mathbb{R}$ be nonempty and bounded above. A number $S \in \mathbb{R}$ is the supremum of $A$ if and only if:
+
+1. $S$ is an upper bound of $A$:
+
+   $$
+   x \leq S \qquad \text{for every } x \in A.
+   $$
+
+2. For every $r < S$, there exists $x_r \in A$ such that
+
+   $$
+   r < x_r.
+   $$
+
+The second condition ensures that no number smaller than $S$ can be an upper bound of $A$.
+
+### Remark 5.16 (Characterization of the Infimum)
+
+Let $A \subseteq \mathbb{R}$ be nonempty and bounded below. A number $I \in \mathbb{R}$ is the infimum of $A$ if and only if:
+
+1. $I$ is a lower bound of $A$:
+
+   $$
+   x \geq I \qquad \text{for every } x \in A.
+   $$
+
+2. For every $t > I$, there exists $x_t \in A$ such that
+
+   $$
+   x_t < t.
+   $$
+
+The second condition ensures that no number larger than $I$ can be a lower bound of $A$.
+
+
+
 
 | Set $A$ | $\min A$ | $\max A$ | $\inf A$ | $\sup A$ |
 |---|---:|---:|---:|---:|
@@ -132,12 +510,7 @@ The **supremum** $\sup A$ is the *least upper bound* of $A$; the **infimum** $\i
 | $[0,1)$ | $0$ | Does not exist | $0$ | $1$ |
 | $[0,1]$ | $0$ | $1$ | $0$ | $1$ |
 
-**Characterization of the supremum.** For a nonempty set $A$ bounded above, $s=\sup A$ if and only if:
 
-1. $a\le s$ for every $a\in A$; and
-2. for every $\varepsilon>0$, there is some $a\in A$ with $s-\varepsilon<a$.
-
-The second condition says that no number strictly below $s$ can remain an upper bound.
 
 ## 6. The completeness property
 
