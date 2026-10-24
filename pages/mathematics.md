@@ -37,20 +37,10 @@ and personal revision.
 | 01 | [The Real Number System: Foundations and Properties]({{ '/pages/mathematics/analysis/real-number-system/' | relative_url }}) | Theory, exercises, solutions, references |
 
 
-## Mathematical typesetting
-
-This website supports LaTeX-style equations through MathJax. For example, the Itô process
-
-$$
-dX_t = \mu(t,X_t)\,dt + \sigma(t,X_t)\,dW_t
-$$
-
-can be rendered directly in Markdown.
-
 ## Notes and presentations
 
-- **Research notes (PDF)** — Coming soon
-- **Mathematical presentations (PDF)** — Coming soon
+- **Research notes ** — Coming soon
+- **Mathematical presentations ** — Coming soon
 - **Worked derivations and notebooks** — Coming soon
 
 
@@ -78,6 +68,14 @@ Probability theory provides a rigorous framework for understanding randomness an
 
 
 
+### Stochastic Processes
+
+**01 — Introduction to Stochastic Processes**
+
+[Read Intro 01 →]({{ '/pages/mathematics/stochastic-processes/intro-to-stochastic-processes/' | relative_url }})
+
+
+
 
 ### Partial Differential Equations
 
@@ -87,33 +85,55 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 
 **01 — Introduction to Partial Differential Equations**
 
-TO DO
+[Read Intro 01 →]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }})
+
+[View References →]({{ '/pages/mathematics/pdes/intro-to-pdes/references/' | relative_url }})
 
 
 ### Statistics
 
-TO DO
+- **01 — Univariate Statistics**
+
+  [Read Intro 01 →]({{ '/pages/mathematics/statistics/univariate/intro-to-univariate-statistics/' | relative_url }})
+
+- **01 — Multivariate Statistics**
+
+  [Read Intro 01 →]({{ '/pages/mathematics/statistics/multivariate/intro-to-multivariate-statistics/' | relative_url }})
 
 
 ### Stochastic Differential Equations
  
- TO DO
+**01 — Introduction to Stochastic Differential Equations**
+
+[Read Intro 01 →]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }})
 
 ### Multi-variable Calculus
 
-[Read Intro 01 →]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }})
+**01 — Introduction to Multi-variable Calculus**
+
+[Read Intro 01 →]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/' | relative_url }})
 
 ### Control Theory
 
-TO DO
+**01 — Introduction to Deterministic Control**
+
+[Read Intro 01 →]({{ '/pages/mathematics/control_theory/deterministic-controls/intro-to-deterministic-control/' | relative_url }})
+
+**01 — Introduction to Stochastic Control**
+
+[Read Intro 01 →]({{ '/pages/mathematics/control_theory/stochastic-control/intro-to-stochastic-control/' | relative_url }})
 
 ### Functional Analysis
 
-[Read Intro 01 →]({{ '/pages/mathematics/functional_analysis/' | relative_url }})
+**01 — Introduction to Functional Analysis**
+
+[Read Intro 01 →]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }})
 
 ### Algebra
 
-TO DO
+**01 — Introduction to Algebra**
+
+[Read Intro 01 →]({{ '/pages/mathematics/algebra/intro-to-algebra/' | relative_url }})
 
 
 </article>
