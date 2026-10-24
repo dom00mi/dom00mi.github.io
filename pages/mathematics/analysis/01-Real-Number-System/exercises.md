@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chapter 1: Exercises"
-permalink: /pages/mathematics/analysis/real-number-system/exercises
+permalink: /pages/mathematics/analysis/real-number-system/exercises/
 ---
 
 <div class="page-header">

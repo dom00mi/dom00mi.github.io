@@ -35,7 +35,7 @@ Beyond serving as a personal reference, I hope these notes might also encourage 
 
 **01 — Finite Probability Spaces**
 
-[Read Chapter 01 →]({{ '/pages/mathematics/probability/finite-probability-spaces/' | relative_url }})
+[Read Chapter 01 →]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }})
 
 TBD!!!
 

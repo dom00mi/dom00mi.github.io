@@ -112,7 +112,7 @@ For readers approaching probability theory from the beginning, the following pro
 
 These references are provided for educational purposes and further independent study.
 
-The accompanying notes in [`index.md`](./index.md) present a self-contained introduction to finite probability spaces, with definitions, mathematical examples, and explanations developed from foundational concepts.
+The accompanying [chapter notes]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) present an introduction to finite probability spaces, with definitions, mathematical examples, and explanations developed from foundational concepts.
 
 The material is intended to support a broader theoretical journey from elementary probability to advanced topics in stochastic analysis and mathematical finance.
 

@@ -29,7 +29,7 @@ This is particularly good for anyone that is starting to dive into those topics,
 
 These references are provided for educational purposes and further independent study.
 
-The accompanying notes in [`index.md`](./index.md) present a self-contained introduction to 
+The accompanying [chapter notes]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/' | relative_url }}) present a self-contained introduction to
 
 
 ---

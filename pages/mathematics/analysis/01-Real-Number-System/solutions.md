@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chapter 1: Solutions"
-permalink: /pages/mathematics/analysis/real-number-system/solutions
+permalink: /pages/mathematics/analysis/real-number-system/solutions/
 ---
 
 <div class="page-header">

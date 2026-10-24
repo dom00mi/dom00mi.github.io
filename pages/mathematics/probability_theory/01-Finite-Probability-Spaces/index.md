@@ -62,7 +62,7 @@ The goal is to move gradually from familiar examples to more formal definitions,
 
 ## References
 
-For textbooks and further reading, see [References](./references.md).
+For textbooks and further reading, see [References]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/references/' | relative_url }}).
 
 
 ## Overview
@@ -433,4 +433,8 @@ Together, these concepts form the foundation for more advanced probability theor
 
 ## 9. References
 
-See [reference.md](reference.md) for introductory and advanced textbooks on probability, measure theory, and stochastic processes.
+See [references]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/references/' | relative_url }}) for introductory and advanced textbooks on probability, measure theory, and stochastic processes.
+
+- [Exercises]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/exercises/' | relative_url }})
+- [Worked solutions]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/solutions/' | relative_url }})
+- [References]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/references/' | relative_url }})

@@ -20,5 +20,7 @@ permalink: /pages/mathematics/functional_analysis/
 
 ## Intro to Functional Analysis
 
+[Read the notes]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }})
+
 
 </article>

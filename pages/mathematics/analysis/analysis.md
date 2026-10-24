@@ -19,8 +19,9 @@ TBD
 
 ## 5. Further Reading
 
-- [Exercises]({{ '/pages/mathematics/analysis/exercises/' | relative_url }})
-- [Worked Solutions]({{ '/pages/mathematics/analysis/solutions/' | relative_url }})
-- [References]({{ '/pages/mathematics/analysis/references/' | relative_url }})
+- [Chapter notes]({{ '/pages/mathematics/analysis/real-number-system/' | relative_url }})
+- [Exercises]({{ '/pages/mathematics/analysis/real-number-system/exercises/' | relative_url }})
+- [Worked Solutions]({{ '/pages/mathematics/analysis/real-number-system/solutions/' | relative_url }})
+- [References]({{ '/pages/mathematics/analysis/real-number-system/references/' | relative_url }})
 
 </article>

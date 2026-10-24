@@ -20,5 +20,7 @@ permalink: /pages/mathematics/multivariable_calculus/
 
 ## Intro to Multi-variable Calculus
 
+[Read the notes]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/' | relative_url }})
+
 
 </article>

@@ -23,4 +23,8 @@ permalink: /pages/mathematics/multivariable_calculus/intro-to-multivariable-calc
 
 ## 9. References
 
-See [reference.md](reference.md) for 
+See [references]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/references/' | relative_url }}) for further reading.
+
+- [Exercises]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/exercises/' | relative_url }})
+- [Worked solutions]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/solutions/' | relative_url }})
+- [References]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/references/' | relative_url }})

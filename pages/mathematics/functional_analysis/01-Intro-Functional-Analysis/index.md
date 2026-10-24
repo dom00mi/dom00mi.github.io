@@ -21,7 +21,11 @@ permalink: /pages/mathematics/functional_analysis/intro-functional-analysis/
 
 ## References
 
-For textbooks and further reading, see [References](./references.md).
+For textbooks and further reading, see [References]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/references/' | relative_url }}).
+
+- [Exercises]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/exercises/' | relative_url }})
+- [Worked solutions]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/solutions/' | relative_url }})
+- [References]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/references/' | relative_url }})
 
 
 

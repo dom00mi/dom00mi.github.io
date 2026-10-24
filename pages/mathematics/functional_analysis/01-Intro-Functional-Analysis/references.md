@@ -5,7 +5,7 @@ permalink: /pages/mathematics/functional_analysis/intro-functional-analysis/refe
 ---
 
 <div class="page-header">
-  <a class="back" href="{{ '/pages/mathematics/functional_analysis/intro-functional-analysis' | relative_url }}">← Intro to Functional Analysis</a>
+  <a class="back" href="{{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }}">← Intro to Functional Analysis</a>
   <div class="eyebrow">Mathematics / Functional Analysis / 01</div>
   <h1>References &amp; Further Reading</h1>
   <p class="lead">References for the foundations of Functional Analysis.</p>
@@ -24,7 +24,7 @@ Here, we collect textbooks and academic references covering the foundations of
 
 These references are provided for educational purposes and further independent study.
 
-The accompanying notes in [`index.md`](./index.md) 
+The accompanying [chapter notes]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }})
 
 
 ---
