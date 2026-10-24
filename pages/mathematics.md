@@ -90,4 +90,30 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 TO DO
 
 
+### Statistics
+
+[Read Intro 01 →]({{ '/pages/mathematics/statistics/' | relative_url }})
+
+
+### Stochastic Differential Equations
+ 
+ TO DO
+
+### Multi-variable Calculus
+
+[Read Intro 01 →]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }})
+
+### Control Theory
+
+[Read Intro 01 →]({{ '/pages/mathematics/control_theory/' | relative_url }})
+
+### Functional Analysis
+
+[Read Intro 01 →]({{ '/pages/mathematics/functional_analysis/' | relative_url }})
+
+### Algebra
+
+TO DO
+
+
 </article>
