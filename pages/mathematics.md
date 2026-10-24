@@ -67,4 +67,15 @@ to more advanced topics.
 [Read Chapter 01 →]({{ '/pages/mathematics/analysis/real-number-system/' | relative_url }})
 
 
+
+### Probability Theory
+
+Probability theory provides a rigorous framework for understanding randomness and uncertainty. Starting from finite probability spaces, these notes introduce events, probability measures, random variables, and the mathematical description of information, laying the foundations for more advanced topics in stochastic processes and stochastic analysis.
+
+**01 — Finite Probability Spaces: Foundations and Properties**
+
+[Read Chapter 01 →]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }})
+
+
+
 </article>
