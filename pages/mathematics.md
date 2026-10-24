@@ -87,9 +87,7 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 
 **01 — Introduction to Partial Differential Equations**
 
-[Read Chapter 01 →]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }})
-
-[Explore PDE Notes →]({{ '/pages/mathematics/pdes/' | relative_url }})
+TO DO
 
 
 </article>
