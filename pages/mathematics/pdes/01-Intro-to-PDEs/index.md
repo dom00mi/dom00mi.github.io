@@ -6,16 +6,16 @@ permalink: /pages/mathematics/pdes/intro-to-pdes/
 ---
 
 <div class="page-header">
-  <a class="back" href="{{ '/pages/mathematics/pdes/' | relative_url }}">â† Mathematical Analysis</a>
+  <a class="back" href="{{ '/pages/mathematics/pdes/' | relative_url }}">← Mathematical Analysis</a>
   <div class="eyebrow">Mathematics / PDEs / 01</div>
   <h1>Introduction to Partial Differential Equations</h1>
-  <p class="lead">Foundations and Properties â€” .</p>
+  <p class="lead">Foundations and Properties — .</p>
 </div>
 
 <article class="article" markdown="1">
 
 
-# Chapter 01 â€” Introduction to Partial Differential Equations
+# Chapter 01 — Introduction to Partial Differential Equations
 
 ## 1. What Is a Partial Differential Equation?
 
@@ -53,7 +53,7 @@ where $F$ is a given function and $u$ is the unknown.
 
 The objective is to determine functions $u$ that satisfy the equation, possibly together with additional conditions imposed on the boundary of the domain or at an initial time.
 
-### Definition 1.1 â€” Classical Solution
+### Definition 1.1 — Classical Solution
 
 A function $u:U\to\mathbb{R}$ is called a **classical solution** of a PDE if it possesses the required continuous partial derivatives and satisfies the differential equation at every point of its domain.
 
@@ -93,7 +93,7 @@ These additional conditions play a fundamental role in determining whether a PDE
 
 ## 2. Classification by Order and Linearity
 
-### Definition 1.2 â€” Order of a PDE
+### Definition 1.2 — Order of a PDE
 
 The **order** of a PDE is the highest order of partial differentiation appearing in the equation.
 
@@ -120,7 +120,7 @@ u_{x_ix_j}
 =\frac{\partial^2u}{\partial x_i\partial x_j}.
 $$
 
-### Definition 1.3 â€” Linear PDE
+### Definition 1.3 — Linear PDE
 
 A PDE is called **linear** if the unknown function $u$ and all its derivatives appear linearly, with coefficients depending only on the independent variables.
 
@@ -146,7 +146,7 @@ $$
 
 is nonlinear because the unknown function $u$ multiplies one of its derivatives.
 
-### Definition 1.4 â€” Homogeneous and Non-Homogeneous PDEs
+### Definition 1.4 — Homogeneous and Non-Homogeneous PDEs
 
 For a linear PDE written as
 
@@ -181,7 +181,7 @@ is non-homogeneous.
 
 The following examples illustrate the different types of PDEs.
 
-### Example 1.1 â€” Linear Homogeneous First-Order PDE
+### Example 1.1 — Linear Homogeneous First-Order PDE
 
 Consider
 
@@ -195,7 +195,7 @@ This equation is:
 - Linear, because $u$ and its derivatives enter linearly.
 - Homogeneous, because the right-hand side is zero.
 
-### Example 1.2 â€” Linear Non-Homogeneous First-Order PDE
+### Example 1.2 — Linear Non-Homogeneous First-Order PDE
 
 Consider
 
@@ -209,7 +209,7 @@ This equation is:
 - Linear, with variable coefficient $y$.
 - Non-homogeneous, because the right-hand side is nonzero.
 
-### Example 1.3 â€” Nonlinear First-Order PDE
+### Example 1.3 — Nonlinear First-Order PDE
 
 Consider
 
@@ -219,7 +219,7 @@ $$
 
 This is a first-order nonlinear PDE because the term $u\,u_y$ involves a product of the unknown function and one of its derivatives.
 
-### Example 1.4 â€” The Wave Equation
+### Example 1.4 — The Wave Equation
 
 Consider
 
@@ -235,7 +235,7 @@ This equation is:
 
 It is a forced, one-dimensional wave equation.
 
-### Example 1.5 â€” The Eikonal Equation
+### Example 1.5 — The Eikonal Equation
 
 Consider
 
@@ -291,7 +291,7 @@ $$
 \Delta=AC-B^2.
 $$
 
-### Definition 1.5 â€” Elliptic, Parabolic, and Hyperbolic PDEs
+### Definition 1.5 — Elliptic, Parabolic, and Hyperbolic PDEs
 
 At a given point, a second-order linear PDE in two variables is classified as follows:
 
@@ -477,7 +477,7 @@ has one positive direction associated with time and negative directions associat
 
 We will study three classical PDEs as representatives of the main types of second-order equations.
 
-### 6.1 Laplace's Equation â€” Elliptic
+### 6.1 Laplace's Equation — Elliptic
 
 $$
 \boxed{\Delta u=0,}
@@ -502,7 +502,7 @@ Laplace's equation arises in:
 
 Its solutions are called **harmonic functions**.
 
-### 6.2 The Heat Equation â€” Parabolic
+### 6.2 The Heat Equation — Parabolic
 
 $$
 \boxed{u_t-\kappa\Delta u=0,\qquad\kappa>0.}
@@ -519,7 +519,7 @@ The heat equation models:
 
 A key feature of the heat equation is its smoothing behaviour: under suitable assumptions, irregular initial data can produce smoother solutions at positive times.
 
-### 6.3 The Wave Equation â€” Hyperbolic
+### 6.3 The Wave Equation — Hyperbolic
 
 $$
 \boxed{u_{tt}-c^2\Delta u=0,\qquad c>0.}
@@ -589,6 +589,7 @@ The next step is to investigate these equations in greater detail and develop th
 
 ---
 
-[â† Back to PDEs]({{ '/pages/mathematics/pdes/' | relative_url }})
+[← Back to PDEs]({{ '/pages/mathematics/pdes/' | relative_url }})
+
 
 

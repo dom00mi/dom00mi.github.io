@@ -7,7 +7,7 @@ permalink: /pages/mathematics/pdes/
 
 <div class="page-header">
   <a class="back" href="{{ '/pages/mathematics/' | relative_url }}">
-    Ã¢â€ Â Probability Theory
+    ← Probability Theory
   </a>
   <div class="eyebrow">Mathematics / PDEs / 01</div>
   <h1>Introduction to PDEs</h1>
@@ -39,7 +39,7 @@ The contributions of **Peter D. Lax** and **Louis Nirenberg** further illustrate
 
 > "for his groundbreaking contributions to the theory and application of partial differential equations and to the computation of their solutions."
 
-Ã¢â‚¬â€ [Abel Prize Committee, 2005](https://www.mathunion.org/fileadmin/IMU/Prizes/Abel/2005/Abelprize_2005_Lax_Citation.pdf) [[1]](https://www.mathunion.org/fileadmin/IMU/Prizes/Abel/2005/Abelprize_2005_Lax_Citation.pdf)
+— [Abel Prize Committee, 2005](https://www.mathunion.org/fileadmin/IMU/Prizes/Abel/2005/Abelprize_2005_Lax_Citation.pdf) [[1]](https://www.mathunion.org/fileadmin/IMU/Prizes/Abel/2005/Abelprize_2005_Lax_Citation.pdf)
 
 **Louis Nirenberg** received the 2015 Abel Prize jointly with John Nash for their contributions to the theory of nonlinear partial differential equations and its applications to geometric analysis.
 
@@ -50,15 +50,15 @@ As **Alan Turing** famously wrote:
 
 > "Science is a differential equation. Religion is a boundary condition."
 >
-> Ã¢â‚¬â€ Alan Turing, postcard to Robin Gandy (1954)
+> — Alan Turing, postcard to Robin Gandy (1954)
 
 Beyond its philosophical meaning, the remark provides a memorable reminder that a differential equation alone may not determine a unique solution. Initial and boundary conditions are often essential in identifying the particular solution relevant to a given problem.
 
-I would also like to remember **George PÃƒÂ³lya** humorously remarked:
+I would also like to remember **George Pólya** humorously remarked:
 
 > "In order to solve this differential equation you look at it till a solution occurs to you."
 >
-> Ã¢â‚¬â€ George PÃƒÂ³lya, *How to Solve It* (1945)
+> — George Pólya, *How to Solve It* (1945)
 
 Behind the humour lies an important mathematical lesson: finding a solution is not always a mechanical process, that trascends several areas of mathematics. Intuition, observation, and a careful understanding of the underlying structure often play an essential role.
 
@@ -72,11 +72,11 @@ I hope you enjoy the journey.
 
 ## Theoretical Journey: From Basics to Advanced PDEs
 
-### Chapter 01 Ã¢â‚¬â€ Introduction to Partial Differential Equations
+### Chapter 01 — Introduction to Partial Differential Equations
 
 We begin with the fundamental definitions of PDEs, their order and linearity, and the classification of second-order equations into elliptic, parabolic, and hyperbolic types.
 
-[Read Chapter 01 Ã¢â€ â€™]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }})
+[Read Chapter 01 →]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }})
 
 ---
 
@@ -84,13 +84,16 @@ We begin with the fundamental definitions of PDEs, their order and linearity, an
 
 Historical sources, mathematical textbooks, and further reading are collected separately.
 
-[View References Ã¢â€ â€™]({{ '/pages/mathematics/pdes/intro-to-pdes/references/' | relative_url }})
+[View References →]({{ '/pages/mathematics/pdes/intro-to-pdes/references/' | relative_url }})
 
 ---
 
-[Ã¢â€ Â Back to Mathematics]({{ '/pages/mathematics/' | relative_url }})
+[← Back to Mathematics]({{ '/pages/mathematics/' | relative_url }})
 
 </article>
+
+
+
 
 
 

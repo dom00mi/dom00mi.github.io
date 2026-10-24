@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "References Ã¢â‚¬â€ Introduction to PDEs"
+title: "References — Introduction to PDEs"
 permalink: /pages/mathematics/pdes/intro-to-pdes/references/
 ---
 
 <div class="page-header">
-  <a class="back" href="{{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}">Ã¢â€ Â Introduction to Partial Differential Equations</a>
+  <a class="back" href="{{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}">← Introduction to Partial Differential Equations</a>
   <div class="eyebrow">Mathematics / PDEs / 01</div>
   <h1>References &amp; Further Reading</h1>
   <p class="lead">References for the foundations of Partial Differential Equations.</p>
@@ -16,7 +16,7 @@ permalink: /pages/mathematics/pdes/intro-to-pdes/references/
 
 
 
-# References Ã¢â‚¬â€ Partial Differential Equations
+# References — Partial Differential Equations
 
 The following references provide historical context, theoretical foundations, and further reading for the study of partial differential equations.
 
@@ -34,27 +34,27 @@ Klein emphasized the central role of differential equations in the development o
 
 The remark comparing science to a differential equation and religion to a boundary condition appeared in a postcard sent by Turing to Robin Gandy in March 1954.
 
-- Hodges, A. (1983). *Alan Turing: The Enigma*. Simon & Schuster. See the discussion of Turing's correspondence with Robin Gandy, pp. 512Ã¢â‚¬â€œ514 in the cited edition.
+- Hodges, A. (1983). *Alan Turing: The Enigma*. Simon & Schuster. See the discussion of Turing's correspondence with Robin Gandy, pp. 512–514 in the cited edition.
 
-  [Quotation and historical verification Ã¢â‚¬â€ Quote Investigator](https://quoteinvestigator.com/2023/01/05/boundary/)
+  [Quotation and historical verification — Quote Investigator](https://quoteinvestigator.com/2023/01/05/boundary/)
 
-### George PÃƒÂ³lya
+### George Pólya
 
-PÃƒÂ³lya's reflections on mathematical problem-solving highlight the importance of intuition, understanding, and the development of suitable methods.
+Pólya's reflections on mathematical problem-solving highlight the importance of intuition, understanding, and the development of suitable methods.
 
-- PÃƒÂ³lya, G. (1945). *How to Solve It: A New Aspect of Mathematical Method*. Princeton University Press.
+- Pólya, G. (1945). *How to Solve It: A New Aspect of Mathematical Method*. Princeton University Press.
 
-  [Selected quotations Ã¢â‚¬â€ MacTutor, University of St Andrews](https://mathshistory.st-andrews.ac.uk/Biographies/Polya/quotations/)
+  [Selected quotations — MacTutor, University of St Andrews](https://mathshistory.st-andrews.ac.uk/Biographies/Polya/quotations/)
 
 ### Peter D. Lax and Louis Nirenberg
 
 Their contributions helped shape the modern theory of partial differential equations.
 
-- The Abel Prize (2005). *Peter D. Lax Ã¢â‚¬â€ Laureate Citation*.
+- The Abel Prize (2005). *Peter D. Lax — Laureate Citation*.
 
-  [Peter D. Lax Ã¢â‚¬â€ Abel Prize](https://abelprize.no/abel-prize-laureates/2005)
+  [Peter D. Lax — Abel Prize](https://abelprize.no/abel-prize-laureates/2005)
 
-- The Abel Prize (2015). *John F. Nash Jr. and Louis Nirenberg Ã¢â‚¬â€ Laureate Information*.
+- The Abel Prize (2015). *John F. Nash Jr. and Louis Nirenberg — Laureate Information*.
 
   [The Abel Prize](https://abelprize.no/)
 
@@ -106,9 +106,12 @@ The explanations and organization of the notes are developed independently, whil
 
 ---
 
-[Ã¢â€ Â Back to PDEs]({{ '/pages/mathematics/pdes/' | relative_url }})
+[← Back to PDEs]({{ '/pages/mathematics/pdes/' | relative_url }})
 
 </article>
+
+
+
 
 
 
