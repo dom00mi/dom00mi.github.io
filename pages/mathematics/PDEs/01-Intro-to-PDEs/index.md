@@ -1,9 +1,19 @@
 
 ---
 layout: default
-title: Introduction to Partial Differential Equations
-permalink: /pages/mathematics/PDEs/intro-to-pdes/
+title: "Introduction to Partial Differential Equations"
+permalink: /pages/mathematics/pdes/intro-to-pdes/
 ---
+
+<div class="page-header">
+  <a class="back" href="{{ '/pages/mathematics/pdes/' | relative_url }}">← Mathematical Analysis</a>
+  <div class="eyebrow">Mathematics / PDEs / 01</div>
+  <h1>Introduction to Partial Differential Equations</h1>
+  <p class="lead">Foundations and Properties — .</p>
+</div>
+
+<article class="article" markdown="1">
+
 
 # Chapter 01 — Introduction to Partial Differential Equations
 

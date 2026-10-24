@@ -1,3 +1,19 @@
+---
+layout: default
+title: "References — Introduction to PDEs"
+permalink: /pages/mathematics/pdes/intro-to-pdes/references/
+---
+
+<div class="page-header">
+  <a class="back" href="{{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}">← Introduction to Partial Differential Equations</a>
+  <div class="eyebrow">Mathematics / PDEs / 01</div>
+  <h1>References &amp; Further Reading</h1>
+  <p class="lead">References for the foundations of Partial Differential Equations.</p>
+</div>
+
+<article class="article" markdown="1">
+
+
 
 ---
 layout: default
@@ -96,3 +112,5 @@ The explanations and organization of the notes are developed independently, whil
 ---
 
 [← Back to PDEs]({{ '/pages/mathematics/PDEs/' | relative_url }})
+
+</article>

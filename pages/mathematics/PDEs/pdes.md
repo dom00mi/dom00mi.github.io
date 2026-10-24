@@ -5,6 +5,19 @@ title: Partial Differential Equations
 permalink: /pages/mathematics/PDEs/
 ---
 
+<div class="page-header">
+  <a class="back" href="{{ '/pages/mathematics/pdes/' | relative_url }}">
+    ← Probability Theory
+  </a>
+  <div class="eyebrow">Mathematics / PDEs / 01</div>
+  <h1>Introduction to PDEs</h1>
+  <p class="lead">
+    Basic definitions, and properties.
+  </p>
+</div>
+
+<article class="article" markdown="1">
+
 # Partial Differential Equations
 
 ## From Fundamental Equations to Advanced PDE Theory
@@ -77,3 +90,4 @@ Historical sources, mathematical textbooks, and further reading are collected se
 
 [← Back to Mathematics]({{ '/pages/mathematics/' | relative_url }})
 
+</article>
