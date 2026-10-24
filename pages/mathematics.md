@@ -20,6 +20,23 @@ This section will collect **LaTeX-style explanations, detailed READMEs, PDF lect
 | Partial Differential Equations | Analytical and numerical methods | TBD |
 | Optimisation | Theory and computational examples | TBD |
 
+
+## From First Principles to Advanced Theory
+
+An evolving collection of mathematical notes, proofs,
+exercises, and worked solutions, progressing from
+fundamental concepts to advanced mathematical theory.
+
+These materials are intended for educational purposes
+and personal revision.
+
+### Mathematical Analysis
+
+| Chapter | Topic | Material |
+|---|---|---|
+| 01 | [The Real Number System: Foundations and Properties]({{ '/pages/mathematics/analysis/real-number-system/' | relative_url }}) | Theory, exercises, solutions, references |
+
+
 ## Mathematical typesetting
 
 This website supports LaTeX-style equations through MathJax. For example, the Itô process
@@ -36,18 +53,18 @@ can be rendered directly in Markdown.
 - **Mathematical presentations (PDF)** — Coming soon
 - **Worked derivations and notebooks** — Coming soon
 
-### Adding a new topic
 
-Add a Markdown link to a repository:
+## From First Principles to Advanced Theory (In Progress)
 
-```markdown
-- [Numerical Methods](https://github.com/dom00mi/YOUR-REPO) — implementations and notes.
-```
+These notes are intended for educational purposes and
+personal revision, progressing from foundational mathematics
+to more advanced topics.
 
-Add a PDF file under `assets/pdfs/`, then link it:
+### Mathematical Analysis
 
-```markdown
-[Read the PDF]({{ '/assets/pdfs/numerical-methods.pdf' | relative_url }})
-```
+**01 — The Real Number System: Foundations and Properties**
+
+[Read Chapter 01 →]({{ '/pages/mathematics/analysis/real-number-system/' | relative_url }})
+
 
 </article>
