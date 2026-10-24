@@ -78,4 +78,18 @@ Probability theory provides a rigorous framework for understanding randomness an
 
 
 
+
+### Partial Differential Equations
+
+Partial Differential Equations provide a mathematical framework for describing phenomena that evolve across space and time. From the diffusion of heat to the propagation of waves, these equations connect fundamental ideas in Mathematical Analysis with applications in physics, engineering, and mathematical finance.
+
+Beginning with the basic definitions and classifications of PDEs, these notes gradually explore the theory of elliptic, parabolic, and hyperbolic equations, with particular emphasis on understanding the existence, uniqueness, and properties of their solutions.
+
+**01 — Introduction to Partial Differential Equations**
+
+[Read Chapter 01 →]({{ '/pages/mathematics/PDEs/intro-to-pdes/' | relative_url }})
+
+[Explore PDE Notes →]({{ '/pages/mathematics/PDEs/' | relative_url }})
+
+
 </article>
