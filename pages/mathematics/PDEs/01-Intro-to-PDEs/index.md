@@ -1,7 +1,7 @@
 
 ---
 layout: default
-title: "Chapter 01 — Introduction to Partial Differential Equations"
+title: Introduction to Partial Differential Equations
 permalink: /pages/mathematics/PDEs/intro-to-pdes/
 ---
 
