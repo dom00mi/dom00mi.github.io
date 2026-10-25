@@ -111,7 +111,7 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 
 **01 — Introduction to Multi-variable Calculus**
 
-[Read Intro 01 →]({{ '/pages/mathematics/multivariable_calculus/intro-to-multivariable-calculus/' | relative_url }})
+[Open Multivariable Calculus →]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }})
 
 ### Control Theory
 
