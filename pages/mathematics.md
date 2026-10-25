@@ -117,7 +117,7 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 
 - **01 — Introduction to Deterministic Control**
 
-  [Read Intro 01 →]({{ '/pages/mathematics/control_theory/deterministic-controls/intro-to-deterministic-control/' | relative_url }})
+  [Open Deterministic Control →]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }})
 
 - **01 — Introduction to Stochastic Control**
 
