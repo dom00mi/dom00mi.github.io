@@ -16,7 +16,7 @@ This section will collect **LaTeX-style explanations, detailed READMEs, PDF lect
 |---|---|---|
 | Stochastic Calculus | Itô calculus, stochastic differential equations | TBD |
 | Probability & Stochastic Processes | Models, proofs and simulations | TBD |
-| Numerical Analysis | Numerical schemes, error and convergence | TBD |
+| Numerical Analysis | [Numerical schemes, error and convergence]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | Chapters, subchapters, exercises, solutions, references |
 | Partial Differential Equations | Analytical and numerical methods | TBD |
 | Optimisation | Theory and computational examples | TBD |
 
