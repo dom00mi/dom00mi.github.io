@@ -57,6 +57,13 @@ The Analysis notes develop a rigorous progression from the real number system th
 [Open the Mathematical Analysis course →]({{ '/pages/mathematics/analysis/' | relative_url }})
 
 
+### Numerical Analysis
+
+Numerical Analysis develops reliable computational methods for approximation, error control, numerical linear algebra, and differential equations.
+
+[Open the Numerical Analysis course →]({{ '/pages/mathematics/numerical_analysis/' | relative_url }})
+
+
 
 ### Probability Theory
 
