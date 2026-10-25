@@ -34,7 +34,7 @@ and personal revision.
 
 | Chapter | Topic | Material |
 |---|---|---|
-| 01 | [The Real Number System: Foundations and Properties]({{ '/pages/mathematics/analysis/real-number-system/' | relative_url }}) | Theory, exercises, solutions, references |
+| 01–07 | [Mathematical Analysis: Foundations to Advanced Topics]({{ '/pages/mathematics/analysis/' | relative_url }}) | Chapters, subchapters, exercises, solutions, references |
 
 
 ## Notes and presentations
@@ -52,9 +52,9 @@ to more advanced topics.
 
 ### Mathematical Analysis
 
-**01 — The Real Number System: Foundations and Properties**
+The Analysis notes develop a rigorous progression from the real number system through sequences, continuity, differentiation, integration, and power series.
 
-[Read Chapter 01 →]({{ '/pages/mathematics/analysis/real-number-system/' | relative_url }})
+[Open the Mathematical Analysis course →]({{ '/pages/mathematics/analysis/' | relative_url }})
 
 
 
