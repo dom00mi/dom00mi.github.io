@@ -4,91 +4,69 @@ title: Mathematics
 permalink: /pages/mathematics/
 ---
 <div class="page-header"><a class="back" href="{{ '/' | relative_url }}">← Back to home</a><div class="eyebrow">Domenico Nava / Research</div><h1>Mathematics</h1><p class="lead">An evolving collection of mathematical notes, derivations and presentations.</p></div><div class="page-image"><img src="https://images.openai.com/static-rsc-4/FccF36olN0Yq7LCsdaiNHbAACfTnXS2DZUQqrFnJZFM-O2WeP6JBw5K5oCxyrNqtM0ApdN9Mdq3vpzV7tY13lUN4hDup7ZsVgp1l14KdtjAxa_H6HKj6WUaSXQ1loEmWl0rceUWVuYA9bimjWG1UyXwd6Md-gWjEDcgGX9_th5A?purpose=inline" alt="Mathematics banner" onerror="this.style.display='none'"></div><article class="article" markdown="1">
-## A growing mathematical notebook
+## A growing mathematical collection
 
-This section will collect **LaTeX-style explanations, detailed READMEs, PDF lecture notes, presentations and computational notebooks**. Many topics are still being written or revised.
+This section collects **lecture notes, exercises and solutions** across a journey from fundamental concepts to advanced mathematical theory. Many topics are still being written or revised, so please stay tuned!
 
 <div class="note"><strong>Work in progress.</strong> Content and repository links will appear as notes and supporting code are ready for publication.</div>
 
-## Topics in preparation
-
 | Area | Planned material | Status |
 |---|---|---|
-| Stochastic Calculus | Itô calculus, stochastic differential equations | TBD |
-| Probability & Stochastic Processes | Models, proofs and simulations | TBD |
-| Numerical Analysis | [Numerical schemes, error and convergence]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | Chapters, subchapters, exercises, solutions, references |
-| Partial Differential Equations | Analytical and numerical methods | TBD |
-| Optimisation | Theory and computational examples | TBD |
-
+| [Mathematical Analysis](#mathematical-analysis) | [Real numbers, sequences, continuity, differentiation, integration and power series]({{ '/pages/mathematics/analysis/' | relative_url }}) | TBD |
+| [Numerical Analysis](#numerical-analysis) | [Numerical schemes, error control, convergence, numerical linear algebra and differential equations]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | TBD |
+| [Probability Theory](#probability-theory) | [Finite probability spaces, probability measures, random variables and foundations of uncertainty]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) | TBD |
+| [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic-processes/intro-to-stochastic-processes/' | relative_url }}) | TBD |
+| [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
+| [Partial Differential Equations](#partial-differential-equations) | [Elliptic, parabolic and hyperbolic equations, with existence and uniqueness of solutions]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}) | TBD |
+| [Statistics](#statistics) | [Univariate and multivariate statistics, inference and applied examples]({{ '/pages/mathematics/statistics/univariate/intro-to-univariate-statistics/' | relative_url }}) | TBD |
+| [Stochastic Differential Equations](#stochastic-differential-equations) | [Introduction to stochastic differential equations and their applications]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
+| [Multi-variable Calculus](#multi-variable-calculus) | [Differentiation, integration and geometric ideas in several variables]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }}) | TBD |
+| [Control Theory](#control-theory) | [Deterministic and stochastic control, optimisation and dynamic systems]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
+| [Functional Analysis](#functional-analysis) | [Normed and inner-product spaces, operators and infinite-dimensional methods]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }}) | TBD |
+| [Algebra](#algebra) | [An introduction to algebraic structures, maps and examples]({{ '/pages/mathematics/algebra/intro-to-algebra/' | relative_url }}) | TBD |
+| [Optimisation](#optimisation) | [Optimisation theory, computational methods and worked examples]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
 
 ## From First Principles to Advanced Theory
 
-An evolving collection of mathematical notes, proofs,
-exercises, and worked solutions, progressing from
-fundamental concepts to advanced mathematical theory.
-
-These materials are intended for educational purposes
-and personal revision.
+These notes are intended for educational purposes and personal revision, progressing from foundational mathematics to more advanced topics.
 
 ### Mathematical Analysis
 
-| Chapter | Topic | Material |
-|---|---|---|
-| 01–07 | [Mathematical Analysis: Foundations to Advanced Topics]({{ '/pages/mathematics/analysis/' | relative_url }}) | Chapters, subchapters, exercises, solutions, references |
-
-
-## Notes and presentations
-
-- **Research notes ** — Coming soon
-- **Mathematical presentations ** — Coming soon
-- **Worked derivations and notebooks** — Coming soon
-
-
-## From First Principles to Advanced Theory (In Progress)
-
-These notes are intended for educational purposes and
-personal revision, progressing from foundational mathematics
-to more advanced topics.
-
-### Mathematical Analysis
-
-The Analysis notes develop a rigorous progression from the real number system through sequences, continuity, differentiation, integration, and power series.
+The Analysis notes develop a rigorous progression from the real number system through sequences, continuity, differentiation, integration and power series.
 
 [Open the Mathematical Analysis course →]({{ '/pages/mathematics/analysis/' | relative_url }})
 
-
 ### Numerical Analysis
 
-Numerical Analysis develops reliable computational methods for approximation, error control, numerical linear algebra, and differential equations.
+Numerical Analysis develops reliable computational methods for approximation, error control, numerical linear algebra and differential equations.
 
 [Open the Numerical Analysis course →]({{ '/pages/mathematics/numerical_analysis/' | relative_url }})
 
-
-
 ### Probability Theory
 
-Probability theory provides a rigorous framework for understanding randomness and uncertainty. Starting from finite probability spaces, these notes introduce events, probability measures, random variables, and the mathematical description of information, laying the foundations for more advanced topics in stochastic processes and stochastic analysis.
+Probability theory provides a rigorous framework for understanding randomness and uncertainty. Starting from finite probability spaces, these notes introduce events, probability measures and random variables.
 
 **01 — Finite Probability Spaces: Foundations and Properties**
 
 [Read Chapter 01 →]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }})
 
-
-
 ### Stochastic Processes
+
+Stochastic processes study random systems that evolve over time, connecting probability theory with stochastic analysis spanning across branching processes, counting processes and Markov chains.
 
 **01 — Introduction to Stochastic Processes**
 
 [Read Intro 01 →]({{ '/pages/mathematics/stochastic-processes/intro-to-stochastic-processes/' | relative_url }})
 
+### Stochastic Calculus
 
+Stochastic calculus develops the tools needed to integrate and differentiate processes driven by randomness, including Itô calculus, martingale theory and an introduction to stochastic differential equations.
 
+[Open the Stochastic Differential Equations course →]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }})
 
 ### Partial Differential Equations
 
-Partial Differential Equations provide a mathematical framework for describing phenomena that evolve across space and time. From the diffusion of heat to the propagation of waves, these equations connect fundamental ideas in Mathematical Analysis with applications in physics, engineering, and mathematical finance.
-
-Beginning with the basic definitions and classifications of PDEs, these notes gradually explore the theory of elliptic, parabolic, and hyperbolic equations, with particular emphasis on understanding the existence, uniqueness, and properties of their solutions.
+Partial Differential Equations provide a mathematical framework for describing phenomena that evolve across space and time, including diffusion, wave propagation and heat conduction.
 
 **01 — Introduction to Partial Differential Equations**
 
@@ -96,8 +74,9 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 
 [View References →]({{ '/pages/mathematics/pdes/intro-to-pdes/references/' | relative_url }})
 
-
 ### Statistics
+
+Statistics develops methods for describing data and drawing conclusions from observations, beginning with univariate and multivariate settings.
 
 - **01 — Univariate Statistics**
 
@@ -107,20 +86,23 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 
   [Read Intro 01 →]({{ '/pages/mathematics/statistics/multivariate/intro-to-multivariate-statistics/' | relative_url }})
 
-
 ### Stochastic Differential Equations
- 
+
+Stochastic differential equations model systems whose dynamics are affected by random inputs, with applications across science, engineering and finance.
+
 **01 — Introduction to Stochastic Differential Equations**
 
 [Read Intro 01 →]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }})
 
 ### Multi-variable Calculus
 
-**01 — Introduction to Multi-variable Calculus**
+Multi-variable calculus extends the ideas of differentiation and integration to functions of several variables and provides the language of geometry and change in higher dimensions. 
 
-[Open Multivariable Calculus →]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }})
+[Open Multi-variable Calculus →]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }})
 
 ### Control Theory
+
+Control theory studies how to influence dynamic systems, from deterministic models to systems affected by stochasticity.
 
 - **01 — Introduction to Deterministic Control**
 
@@ -132,18 +114,30 @@ Beginning with the basic definitions and classifications of PDEs, these notes gr
 
 ### Functional Analysis
 
+Functional analysis studies spaces of functions and the operators acting on them, providing a foundation for many modern analytical methods.
+
 **01 — Introduction to Functional Analysis**
 
 [Read Intro 01 →]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }})
 
 ### Algebra
 
+Algebra introduces abstract structures, their relationships and the maps that preserve their essential properties.
+
 **01 — Introduction to Algebra**
 
 [Read Intro 01 →]({{ '/pages/mathematics/algebra/intro-to-algebra/' | relative_url }})
 
+### Optimisation
+
+Optimisation studies how to find the best solution to a problem under specified constraints, with links to numerical methods and control theory.
+
+[Explore the Control Theory material →]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }})
+
+## Notes and presentations
+
+- **Research notes** — Coming soon
+- **Mathematical presentations** — Coming soon
+- **Worked derivations and notebooks** — Coming soon
 
 </article>
-
-
-
