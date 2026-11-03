@@ -6,11 +6,11 @@ permalink: /pages/about/
 <div class="page-header"><a class="back" href="{{ '/' | relative_url }}">← Back to home</a><div class="eyebrow">Domenico Nava / Research</div><h1>About Me</h1><p class="lead">Education, experience and the ideas that drive my work.</p></div><div class="page-image"><img src="https://images.openai.com/static-rsc-4/yj5nBMC5hvpRSe3ue-rPoeJfufjr7sy8lJhYDCQ-YS7L0qTyWazPgQhrlilKQOsFhqKqpXsDY73NvewIa60Ji5xA4_CMrjkPqaTA8EilgbH8pazdt8tmCENWfg86O_6ApkCqNpDP3Zi6L6g0HrvpeXeYoJ6tianyGTadUzOwlKCWzALMi5MRt5q2P8SBt2Ue?purpose=inline" alt="About Me banner" onerror="this.style.display='none'"></div><article class="article" markdown="1">
 ## Introduction
 
-I'm **Domenico Nava**, interested in quantitative research, mathematical modelling, stochastic processes and machine learning for financial markets.
+I'm **Domenico Nava**, interested in quantitative research, mathematical modelling, stochastic analysis and machine learning and deep learning for financial markets.
 
 ## Education
 
-- **University of Oxford** — MSc Mathematical & Computational Finance (2025–2026). Topics include deep learning, stochastic control, advanced volatility modelling, market microstructure and financial computing in C++.
+- **University of Oxford** — MSc Mathematical & Computational Finance (2025–2026). Topics include deep learning, stochastic control, advanced volatility modelling, market microstructure and algorithmic trading, stochastic calculus and financial computing in C++.
 - **Certificate in Quantitative Finance (CQF)** — Fitch Learning, awarded with Distinction (2024).
 - **University of Sussex** — BSc Mathematics with Finance, First Class Honours (2018–2021).
 
@@ -25,7 +25,7 @@ I'm **Domenico Nava**, interested in quantitative research, mathematical modelli
 
 ## Technical interests
 
-Stochastic volatility · Derivatives pricing · Market microstructure · Reinforcement learning · Numerical methods · Statistical modelling
+Volatility modelling · Derivatives pricing · Market microstructure · Reinforcement learning · Numerical methods · Statistical modelling · Deep Learning · Stochastic analysis
 
 ## Tools
 
