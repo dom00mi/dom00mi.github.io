@@ -17,7 +17,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | [Probability Theory](#probability-theory) | [Finite probability spaces, probability measures, random variables and foundations of uncertainty]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) | TBD |
 | [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic_processes/' | relative_url }}) | TBD |
 | [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/stochastic_calculus/' | relative_url }}) | TBD |
-| [Partial Differential Equations](#partial-differential-equations) | [Elliptic, parabolic and hyperbolic equations, with existence and uniqueness of solutions]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}) | TBD |
+| [Partial Differential Equations](#partial-differential-equations) | [Elliptic, parabolic and hyperbolic equations, with existence and uniqueness of solutions]({{ '/pages/mathematics/pdes/' | relative_url }}) | TBD |
 | [Statistics](#statistics) | [Univariate and multivariate statistics, inference and applied examples]({{ '/pages/mathematics/statistics/' | relative_url }}) | TBD |
 | [Stochastic Differential Equations](#stochastic-differential-equations) | [Introduction to stochastic differential equations and their applications]({{ '/pages/mathematics/sdes/' | relative_url }}) | TBD |
 | [Multi-variable Calculus](#multi-variable-calculus) | [Differentiation, integration and geometric ideas in several variables]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }}) | TBD |
@@ -73,13 +73,15 @@ Stochastic calculus develops the tools needed to integrate and differentiate pro
 
 ### Partial Differential Equations
 
+[Open the PDEs course]({{ '/pages/mathematics/pdes/' | relative_url }})
+
+[Start Chapter 1: Foundations of Partial Differential Equations]({{ '/pages/mathematics/pdes/01-foundations-of-partial-differential-equations/' | relative_url }})
+
 Partial Differential Equations provide a mathematical framework for describing phenomena that evolve across space and time, including diffusion, wave propagation and heat conduction.
 
 **01 — Introduction to Partial Differential Equations**
 
-[Read Intro 01 →]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }})
 
-[View References →]({{ '/pages/mathematics/pdes/intro-to-pdes/references/' | relative_url }})
 
 ### Statistics
 
