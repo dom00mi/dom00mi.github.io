@@ -22,7 +22,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | [Stochastic Differential Equations](#stochastic-differential-equations) | [Introduction to stochastic differential equations and their applications]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
 | [Multi-variable Calculus](#multi-variable-calculus) | [Differentiation, integration and geometric ideas in several variables]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }}) | TBD |
 | [Control Theory](#control-theory) | [Deterministic and stochastic control, optimisation and dynamic systems]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
-| [Functional Analysis](#functional-analysis) | [Normed and inner-product spaces, operators and infinite-dimensional methods]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }}) | TBD |
+| [Functional Analysis](#functional-analysis) | [Normed and inner-product spaces, operators and infinite-dimensional methods]({{ '/pages/mathematics/functional_analysis/' | relative_url }}) | TBD |
 | [Algebra](#algebra) | [An introduction to algebraic structures, maps and examples]({{ '/pages/mathematics/algebra/intro-to-algebra/' | relative_url }}) | TBD |
 | [Optimisation](#optimisation) | [Optimisation theory, computational methods and worked examples]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
 
@@ -116,9 +116,11 @@ Control theory studies how to influence dynamic systems, from deterministic mode
 
 Functional analysis studies spaces of functions and the operators acting on them, providing a foundation for many modern analytical methods.
 
-**01 — Introduction to Functional Analysis**
+**Functional Analysis course**
 
-[Read Intro 01 →]({{ '/pages/mathematics/functional_analysis/intro-functional-analysis/' | relative_url }})
+[Open Functional Analysis]({{ '/pages/mathematics/functional_analysis/' | relative_url }})
+
+[Start Chapter 1: Normed Spaces and Banach Spaces]({{ '/pages/mathematics/functional_analysis/01-normed-spaces-and-banach-spaces/' | relative_url }})
 
 ### Algebra
 
