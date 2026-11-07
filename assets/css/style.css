@@ -22,3 +22,112 @@ a:hover,.article a{color:#fff}
 .article th,.article td{border-bottom-color:#444}
 .article th{color:#fff}
 .footer{border-top-color:#444}
+
+
+/* ==========================================================
+   C++ CODE SHOWCASE — SYNTAX HIGHLIGHTING
+   GitHub Dark inspired, compatible with Jekyll Rouge
+   ========================================================== */
+
+/* Code container */
+.article .highlight {
+    position: relative;
+    margin: 26px 0;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Code area */
+.article .highlight pre {
+    margin: 0;
+    padding: 22px 24px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    overflow-x: auto;
+    line-height: 1.7;
+    font-size: 13.5px;
+    tab-size: 4;
+}
+
+/* Monospaced font */
+.article .highlight pre code {
+    font-family: "Cascadia Code", "Fira Code",
+                 Consolas, monospace;
+    background: transparent;
+    color: #e6edf3;
+    padding: 0;
+    font-size: inherit;
+}
+
+/* Rouge syntax tokens */
+
+/* Keywords: if, return, const, class */
+.article .highlight .k,
+.article .highlight .kd,
+.article .highlight .kn,
+.article .highlight .kp,
+.article .highlight .kr,
+.article .highlight .kt {
+    color: #ff7b72;
+}
+
+/* Types and class names */
+.article .highlight .nc,
+.article .highlight .nn,
+.article .highlight .no {
+    color: #79c0ff;
+}
+
+/* Function names */
+.article .highlight .nf,
+.article .highlight .fm {
+    color: #d2a8ff;
+}
+
+/* Strings */
+.article .highlight .s,
+.article .highlight .s1,
+.article .highlight .s2,
+.article .highlight .sa {
+    color: #a5d6ff;
+}
+
+/* Comments */
+.article .highlight .c,
+.article .highlight .c1,
+.article .highlight .cm,
+.article .highlight .cp {
+    color: #8b949e;
+    font-style: italic;
+}
+
+/* Numbers */
+.article .highlight .m,
+.article .highlight .mi,
+.article .highlight .mf {
+    color: #79c0ff;
+}
+
+/* Operators */
+.article .highlight .o,
+.article .highlight .ow {
+    color: #ff7b72;
+}
+
+/* Variables and identifiers */
+.article .highlight .n,
+.article .highlight .nv,
+.article .highlight .na {
+    color: #e6edf3;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 720px) {
+    .article .highlight pre {
+        padding: 16px;
+        font-size: 12px;
+    }
+}
