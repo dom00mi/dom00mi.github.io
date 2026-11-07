@@ -18,7 +18,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic-processes/intro-to-stochastic-processes/' | relative_url }}) | TBD |
 | [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
 | [Partial Differential Equations](#partial-differential-equations) | [Elliptic, parabolic and hyperbolic equations, with existence and uniqueness of solutions]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}) | TBD |
-| [Statistics](#statistics) | [Univariate and multivariate statistics, inference and applied examples]({{ '/pages/mathematics/statistics/univariate/intro-to-univariate-statistics/' | relative_url }}) | TBD |
+| [Statistics](#statistics) | [Univariate and multivariate statistics, inference and applied examples]({{ '/pages/mathematics/statistics/' | relative_url }}) | TBD |
 | [Stochastic Differential Equations](#stochastic-differential-equations) | [Introduction to stochastic differential equations and their applications]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
 | [Multi-variable Calculus](#multi-variable-calculus) | [Differentiation, integration and geometric ideas in several variables]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }}) | TBD |
 | [Control Theory](#control-theory) | [Deterministic and stochastic control, optimisation and dynamic systems]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
@@ -80,11 +80,11 @@ Statistics develops methods for describing data and drawing conclusions from obs
 
 - **01 — Univariate Statistics**
 
-  [Read Intro 01 →]({{ '/pages/mathematics/statistics/univariate/intro-to-univariate-statistics/' | relative_url }})
+  [Open Univariate Statistics]({{ '/pages/mathematics/statistics/univariate/' | relative_url }})
 
 - **01 — Multivariate Statistics**
 
-  [Read Intro 01 →]({{ '/pages/mathematics/statistics/multivariate/intro-to-multivariate-statistics/' | relative_url }})
+  [Open Multivariate Statistics →]({{ '/pages/mathematics/statistics/multivariate/' | relative_url }})
 
 ### Stochastic Differential Equations
 
@@ -110,7 +110,7 @@ Control theory studies how to influence dynamic systems, from deterministic mode
 
 - **01 — Introduction to Stochastic Control**
 
-  [Read Intro 01 →]({{ '/pages/mathematics/control_theory/stochastic-control/intro-to-stochastic-control/' | relative_url }})
+  [Open Stochastic Control →]({{ '/pages/mathematics/control_theory/stochastic-controls/' | relative_url }})
 
 ### Functional Analysis
 

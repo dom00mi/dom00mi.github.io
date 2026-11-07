@@ -8,5 +8,5 @@ permalink: /pages/mathematics/control_theory/
 <article class="article" markdown="1">
 
 - [Deterministic Controls]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }})
-- [Stochastic Control]({{ '/pages/mathematics/control_theory/stochastic-control/intro-to-stochastic-control/' | relative_url }})
+- [Stochastic Control]({{ '/pages/mathematics/control_theory/stochastic-controls/' | relative_url }})
 </article>

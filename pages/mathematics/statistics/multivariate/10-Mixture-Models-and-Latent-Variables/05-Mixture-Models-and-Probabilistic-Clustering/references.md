@@ -1,0 +1,18 @@
+---
+layout: default
+title: References - 10.5 Mixture Models and Probabilistic Clustering
+permalink: /pages/mathematics/statistics/multivariate/10-Mixture-Models-and-Latent-Variables/05-Mixture-Models-and-Probabilistic-Clustering/references/
+---
+
+# References
+
+## 10.5 - Mixture Models and Probabilistic Clustering
+
+This is a placeholder references page for **Mixture Models and Probabilistic Clustering**.
+
+[Return to 10.5 - Mixture Models and Probabilistic Clustering]({{ '/pages/mathematics/statistics/multivariate/10-Mixture-Models-and-Latent-Variables/05-Mixture-Models-and-Probabilistic-Clustering/' | relative_url }})
+
+## Navigation
+
+[Previous subchapter]({{ '/pages/mathematics/statistics/multivariate/10-Mixture-Models-and-Latent-Variables/04-Model-Selection-and-Mixture-Estimation/' | relative_url }}) | [Course overview]({{ '/pages/mathematics/statistics/multivariate/' | relative_url }})
+
