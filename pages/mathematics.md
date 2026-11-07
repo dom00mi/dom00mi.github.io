@@ -24,6 +24,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | [Control Theory](#control-theory) | [Deterministic and stochastic control, optimisation and dynamic systems]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
 | [Functional Analysis](#functional-analysis) | [Normed and inner-product spaces, operators and infinite-dimensional methods]({{ '/pages/mathematics/functional_analysis/' | relative_url }}) | TBD |
 | [Algebra](#algebra) | [An introduction to algebraic structures, maps and examples]({{ '/pages/mathematics/algebra/intro-to-algebra/' | relative_url }}) | TBD |
+| [Linear Algebra](#linear-algebra) | [Vectors, matrices, linear maps, eigenvalues, inner products and matrix decompositions]({{ '/pages/mathematics/linear_algebra/' | relative_url }}) | TBD |
 | [Optimisation](#optimisation) | [Optimisation theory, computational methods and worked examples]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
 
 ## From First Principles to Advanced Theory
@@ -133,6 +134,14 @@ Functional analysis studies spaces of functions and the operators acting on them
 [Open Functional Analysis]({{ '/pages/mathematics/functional_analysis/' | relative_url }})
 
 [Start Chapter 1: Normed Spaces and Banach Spaces]({{ '/pages/mathematics/functional_analysis/01-normed-spaces-and-banach-spaces/' | relative_url }})
+
+### Linear Algebra
+
+Linear algebra develops the language of vectors, matrices, linear transformations, eigenvalues, inner products, and numerical decompositions.
+
+[Open Linear Algebra]({{ '/pages/mathematics/linear_algebra/' | relative_url }})
+
+[Start Chapter 1: Vectors and Euclidean Geometry]({{ '/pages/mathematics/linear_algebra/01-vectors-and-euclidean-geometry/' | relative_url }})
 
 ### Algebra
 
