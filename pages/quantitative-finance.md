@@ -13,10 +13,11 @@ permalink: /pages/quantitative-finance/
 
 ## Project library
 
-> **Work in progress.** I am reviewing and documenting selected repositories before linking them here.
+> **Work in progress.** The project library is being built gradually; the first project is available below.
 
 | Project | Focus | Link |
 |---|---|---|
+| Numerical Linear Algebra in C++ | Numerical algorithms and their applications in quantitative finance | [Read the project page]({{ '/pages/quantitative-finance/numerical-linear-algebra/' | relative_url }}) |
 | Dynamic Delta Hedging | Hedging simulations and visual analytics | Coming soon |
 | Market-Making Model | Poisson processes and inventory decisions | Coming soon |
 | UK Yield Curve PCA | Yield curve factors | Coming soon |
