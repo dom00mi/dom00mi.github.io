@@ -16,7 +16,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | [Numerical Analysis](#numerical-analysis) | [Numerical schemes, error control, convergence, numerical linear algebra and differential equations]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | TBD |
 | [Probability Theory](#probability-theory) | [Finite probability spaces, probability measures, random variables and foundations of uncertainty]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) | TBD |
 | [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic_processes/' | relative_url }}) | TBD |
-| [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/sdes/' | relative_url }}) | TBD |
+| [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/stochastic_calculus/' | relative_url }}) | TBD |
 | [Partial Differential Equations](#partial-differential-equations) | [Elliptic, parabolic and hyperbolic equations, with existence and uniqueness of solutions]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}) | TBD |
 | [Statistics](#statistics) | [Univariate and multivariate statistics, inference and applied examples]({{ '/pages/mathematics/statistics/' | relative_url }}) | TBD |
 | [Stochastic Differential Equations](#stochastic-differential-equations) | [Introduction to stochastic differential equations and their applications]({{ '/pages/mathematics/sdes/' | relative_url }}) | TBD |
@@ -62,6 +62,10 @@ Stochastic processes study random systems that evolve over time, connecting prob
 
 
 ### Stochastic Calculus
+
+[Open the Stochastic Calculus course]({{ '/pages/mathematics/stochastic_calculus/' | relative_url }})
+
+[Start Chapter 1: Measure-Theoretic Probability Foundations]({{ '/pages/mathematics/stochastic_calculus/01-measure-theoretic-probability-foundations/' | relative_url }})
 
 Stochastic calculus develops the tools needed to integrate and differentiate processes driven by randomness, including Itô calculus, martingale theory and an introduction to stochastic differential equations.
 
