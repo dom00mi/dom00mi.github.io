@@ -15,7 +15,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | [Mathematical Analysis](#mathematical-analysis) | [Real numbers, sequences, continuity, differentiation, integration and power series]({{ '/pages/mathematics/analysis/' | relative_url }}) | TBD |
 | [Numerical Analysis](#numerical-analysis) | [Numerical schemes, error control, convergence, numerical linear algebra and differential equations]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | TBD |
 | [Probability Theory](#probability-theory) | [Finite probability spaces, probability measures, random variables and foundations of uncertainty]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) | TBD |
-| [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic-processes/intro-to-stochastic-processes/' | relative_url }}) | TBD |
+| [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic_processes/' | relative_url }}) | TBD |
 | [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
 | [Partial Differential Equations](#partial-differential-equations) | [Elliptic, parabolic and hyperbolic equations, with existence and uniqueness of solutions]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}) | TBD |
 | [Statistics](#statistics) | [Univariate and multivariate statistics, inference and applied examples]({{ '/pages/mathematics/statistics/' | relative_url }}) | TBD |
@@ -54,9 +54,12 @@ Probability theory provides a rigorous framework for understanding randomness an
 
 Stochastic processes study random systems that evolve over time, connecting probability theory with stochastic analysis spanning across branching processes, counting processes and Markov chains.
 
+[Open Stochastic Processes]({{ '/pages/mathematics/stochastic_processes/' | relative_url }})
+
+[Start Chapter 1: Foundations of Stochastic Processes]({{ '/pages/mathematics/stochastic_processes/01-foundations-of-stochastic-processes/' | relative_url }})
+
 **01 — Introduction to Stochastic Processes**
 
-[Read Intro 01 →]({{ '/pages/mathematics/stochastic-processes/intro-to-stochastic-processes/' | relative_url }})
 
 ### Stochastic Calculus
 
