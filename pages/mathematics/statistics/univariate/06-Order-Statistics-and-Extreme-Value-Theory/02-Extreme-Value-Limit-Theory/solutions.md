@@ -1,0 +1,22 @@
+---
+layout: default
+title: "6.2: Extreme Value Limit Theory - Worked Solutions"
+permalink: /pages/mathematics/statistics/univariate/06-order-statistics-and-extreme-value-theory/02-extreme-value-limit-theory/solutions/
+---
+
+<div class="page-header">
+  <a class="back" href="{{ '/pages/mathematics/statistics/univariate/06-order-statistics-and-extreme-value-theory/02-extreme-value-limit-theory/' | relative_url }}">← Extreme Value Limit Theory</a>
+  <div class="eyebrow">Mathematics / Statistics / Univariate / 6.2</div>
+  <h1>Worked Solutions</h1>
+  <p class="lead">Placeholder worked solutions for Extreme Value Limit Theory. (TBD)</p>
+</div>
+
+<article class="article" markdown="1">
+
+TBD
+
+[Back to Extreme Value Limit Theory]({{ '/pages/mathematics/statistics/univariate/06-order-statistics-and-extreme-value-theory/02-extreme-value-limit-theory/' | relative_url }})
+
+[Back to Order Statistics and Extreme Value Theory]({{ '/pages/mathematics/statistics/univariate/06-order-statistics-and-extreme-value-theory/' | relative_url }})
+
+</article>
