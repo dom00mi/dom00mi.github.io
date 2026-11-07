@@ -23,31 +23,31 @@ The system can be described by ordinary differential equations (ODEs), as in avi
 
 ### 1.1 The rocket-car example
 
-Suppose a vehicle moves along a line. At \(t=0\) it is at \(y_0\), with zero velocity. We can prescribe a forward or backward thrust \(u(t)\), but the engine is limited:
+Suppose a vehicle moves along a line. At $t=0$ it is at $y_0$, with zero velocity. We can prescribe a forward or backward thrust $u(t)$, but the engine is limited:
 
 $$
 -1\leq u(t)\leq1.
 $$
 
-Let \(y(t)\) denote the position. Then \(y'(t)\) is velocity and \(y''(t)\) is acceleration. Newton’s law gives
+Let $y(t)$ denote the position. Then $y'(t)$ is velocity and $y''(t)$ is acceleration. Newton’s law gives
 
 $$
 m y''(t)=u(t),\qquad y(0)=y_0,\qquad y'(0)=0.
 $$
 
-The vehicle must reach \(y_T\neq y_0\) and stop there:
+The vehicle must reach $y_T\neq y_0$ and stop there:
 
 $$
 y(T)=y_T,\qquad y'(T)=0,\qquad |u(t)|\leq1.
 $$
 
-The final time \(T>0\) is free and is to be minimized. In this simple example the natural strategy is maximum acceleration up to the midpoint, followed by maximum braking. The point of the model is not the obvious strategy itself, but the structure it exposes:
+The final time $T>0$ is free and is to be minimized. In this simple example the natural strategy is maximum acceleration up to the midpoint, followed by maximum braking. The point of the model is not the obvious strategy itself, but the structure it exposes:
 
-1. a **cost functional** to minimize, here the travel time \(T\);
-2. a **state equation**, here the initial-value problem for \(y\);
+1. a **cost functional** to minimize, here the travel time $T$;
+2. a **state equation**, here the initial-value problem for $y$;
 3. **constraints**, including the terminal conditions and the thrust bound.
 
-The function \(u\) is the control. A control that gives the smallest admissible cost is an **optimal control**, and the associated trajectory is the **optimal state**.
+The function $u$ is the control. A control that gives the smallest admissible cost is an **optimal control**, and the associated trajectory is the **optimal state**.
 
 ## 2. Examples of convex control problems
 
@@ -55,7 +55,7 @@ The next models we briefly show have quadratic objectives and linear state equat
 
 ### 2.1 Stationary boundary heating
 
-Let \(\Omega\subset\mathbb R^3\) be a body with boundary \(\Gamma=\partial\Omega\). A boundary heater has intensity \(u(x)\), independent of time but variable along \(\Gamma\). We want the stationary temperature \(y(x)\) to approximate a prescribed profile \(y_\Omega(x)\), while penalizing the energy used:
+Let $\Omega\subset\mathbb R^3$ be a body with boundary $\Gamma=\partial\Omega$. A boundary heater has intensity $u(x)$, independent of time but variable along $\Gamma$. We want the stationary temperature $y(x)$ to approximate a prescribed profile $y_\Omega(x)$, while penalizing the energy used:
 
 $$
 \begin{aligned}
@@ -69,13 +69,13 @@ u_a(x)&\leq u(x)\leq u_b(x) &&\text{on }\Gamma.
 \end{aligned}
 $$
 
-Here \(\nu\) is the outward unit normal, \(\alpha>0\) is a heat-transfer coefficient, \(\lambda\geq0\) weights the control effort, and \(u_a,u_b\) are prescribed bounds. If the material is heterogeneous, the Laplacian may be replaced by
+Here $\nu$ is the outward unit normal, $\alpha>0$ is a heat-transfer coefficient, $\lambda\geq0$ weights the control effort, and $u_a,u_b$ are prescribed bounds. If the material is heterogeneous, the Laplacian may be replaced by
 
 $$
 \operatorname{div}(a(x)\nabla y(x))=0,
 $$
 
-with \(a\equiv1\) recovering the Laplace equation. Since the PDE is linear elliptic, the objective is quadratic, and the control acts on \(\Gamma\), this is a **linear-quadratic elliptic boundary-control problem**.
+with $a\equiv1$ recovering the Laplace equation. Since the PDE is linear elliptic, the objective is quadratic, and the control acts on $\Gamma$, this is a **linear-quadratic elliptic boundary-control problem**.
 
 ### 2.2 Stationary distributed heating
 
@@ -93,7 +93,7 @@ u_a(x)&\leq u(x)\leq u_b(x) &&\text{in }\Omega.
 \end{aligned}
 $$
 
-The second integral is over \(\Omega\), because the actuator is distributed. The coefficient \(\beta\) specifies where it acts; for a subdomain \(\Omega'\subset\Omega\), one may take
+The second integral is over $\Omega$, because the actuator is distributed. The coefficient $\beta$ specifies where it acts; for a subdomain $\Omega'\subset\Omega$, one may take
 
 $$
 \beta=\chi_{\Omega'},\qquad
@@ -104,11 +104,11 @@ $$
 \end{cases}
 $$
 
-This is a **linear-quadratic elliptic distributed-control problem**. Other boundary conditions, such as \(\partial_\nu y=\alpha(y_a-y)\), can be used as well.
+This is a **linear-quadratic elliptic distributed-control problem**. Other boundary conditions, such as $\partial_\nu y=\alpha(y_a-y)$, can be used as well.
 
 ### 2.3 Non-stationary boundary heating
 
-Let \(\Omega\) be a potato being heated during \(0\leq t\leq T\). The temperature is \(y(x,t)\), initially \(y_0(x)\). A time-dependent boundary control \(u(x,t)\) should make the final temperature close to \(y_\Omega(x)\):
+Let $\Omega$ be a potato being heated during $0\leq t\leq T$. The temperature is $y(x,t)$, initially $y_0(x)$. A time-dependent boundary control $u(x,t)$ should make the final temperature close to $y_\Omega(x)$:
 
 $$
 \begin{aligned}
@@ -127,7 +127,7 @@ This is a **linear-quadratic parabolic boundary-control problem**. Optimal vibra
 
 ## 3. The finite-dimensional problem
 
-Let the state be \(y\in\mathbb R^n\), the control \(u\in\mathbb R^m\), and the admissible set \(U_{\mathrm{ad}}\subset\mathbb R^m\). Given \(J:\mathbb R^n\times\mathbb R^m\to\mathbb R\), consider
+Let the state be $y\in\mathbb R^n$, the control $u\in\mathbb R^m$, and the admissible set $U_{\mathrm{ad}}\subset\mathbb R^m$. Given $J:\mathbb R^n\times\mathbb R^m\to\mathbb R$, consider
 
 $$
 \min J(y,u)
@@ -135,17 +135,17 @@ $$
 Ay=Bu,\qquad u\in U_{\mathrm{ad}},
 $$
 
-where \(A\in\mathbb R^{n\times n}\) and \(B\in\mathbb R^{n\times m}\).
+where $A\in\mathbb R^{n\times n}$ and $B\in\mathbb R^{n\times m}$.
 
 ### 3.1 The reduced problem
 
-If \(A\) is invertible, each admissible \(u\) determines one and only one state:
+If $A$ is invertible, each admissible $u$ determines one and only one state:
 
 $$
 y=A^{-1}Bu.
 $$
 
-This is why \(u\) is called the control: varying it changes the state. Define the solution operator
+This is why $u$ is called the control: varying it changes the state. Define the solution operator
 
 $$
 S:=A^{-1}B,\qquad y=Su.
@@ -163,7 +163,7 @@ $$
 \min_{u\in U_{\mathrm{ad}}}f(u).
 $$
 
-For example, with desired state \(y_d\in\mathbb R^n\) and \(\lambda\geq0\),
+For example, with desired state $y_d\in\mathbb R^n$ and $\lambda\geq0$,
 
 $$
 J(y,u)=|y-y_d|^2+\lambda|u|^2
@@ -178,21 +178,21 @@ $$
 
 ### 3.2 Existence
 
-**Definition.** A vector \(\bar u\in U_{\mathrm{ad}}\) is an optimal control if
+**Definition.** A vector $\bar u\in U_{\mathrm{ad}}$ is an optimal control if
 
 $$
 f(\bar u)\leq f(u)\qquad\forall u\in U_{\mathrm{ad}}.
 $$
 
-The associated optimal state is \(\bar y=S\bar u\). Overlines will indicate optimal quantities.
+The associated optimal state is $\bar y=S\bar u$. Overlines will indicate optimal quantities.
 
-**Theorem.** If \(A\) is invertible, \(J\) is continuous, and \(U_{\mathrm{ad}}\) is nonempty, closed, and bounded, then an optimal control exists.
+**Theorem.** If $A$ is invertible, $J$ is continuous, and $U_{\mathrm{ad}}$ is nonempty, closed, and bounded, then an optimal control exists.
 
-Indeed, \(f(u)=J(A^{-1}Bu,u)\) is continuous. In \(\mathbb R^m\), closed and bounded sets are compact, so the Weierstrass theorem guarantees that \(f\) attains its minimum on \(U_{\mathrm{ad}}\). This proof does not carry over directly to infinite-dimensional spaces: there, bounded closed sets need not be compact.
+Indeed, $f(u)=J(A^{-1}Bu,u)$ is continuous. In $\mathbb R^m$, closed and bounded sets are compact, so the Weierstrass theorem guarantees that $f$ attains its minimum on $U_{\mathrm{ad}}$. This proof does not carry over directly to infinite-dimensional spaces: there, bounded closed sets need not be compact.
 
 ## 4. First-order necessary conditions
 
-For \(f:\mathbb R^m\to\mathbb R\), write
+For $f:\mathbb R^m\to\mathbb R$, write
 
 $$
 D_i=\frac{\partial}{\partial u_i},\qquad
@@ -200,17 +200,17 @@ f'(u)=\big(D_1f(u),\ldots,D_mf(u)\big),\qquad
 \nabla f(u)=f'(u)^T.
 $$
 
-For \(a,b\in\mathbb R^m\), let
+For $a,b\in\mathbb R^m$, let
 
 $$
 (a,b)_{\mathbb R^m}=a\cdot b=\sum_{i=1}^m a_i b_i,
 $$
 
-so \(f'(u)h=(\nabla f(u),h)_{\mathbb R^m}\).
+so $f'(u)h=(\nabla f(u),h)_{\mathbb R^m}$.
 
 ### 4.1 Variational inequality
 
-Assume \(U_{\mathrm{ad}}\) is convex and \(\bar u\) is optimal. Then
+Assume $U_{\mathrm{ad}}$ is convex and $\bar u$ is optimal. Then
 
 $$
 f'(\bar u)(u-\bar u)\geq0
@@ -218,23 +218,23 @@ f'(\bar u)(u-\bar u)\geq0
 \tag{VI}
 $$
 
-To see this, fix \(u\in U_{\mathrm{ad}}\) and set
+To see this, fix $u\in U_{\mathrm{ad}}$ and set
 
 $$
 u(\tau)=\bar u+\tau(u-\bar u),\qquad 0<\tau<1.
 $$
 
-Convexity puts \(u(\tau)\) in \(U_{\mathrm{ad}}\). Optimality gives
+Convexity puts $u(\tau)$ in $U_{\mathrm{ad}}$. Optimality gives
 
 $$
 0\leq\frac{f(\bar u+\tau(u-\bar u))-f(\bar u)}{\tau}.
 $$
 
-Taking \(\tau\to0^+\) proves (VI). It says that the objective cannot decrease in a feasible direction from \(\bar u\). It does not generally imply \(f'(\bar u)=0\): for \(f(u)=-u^2\) on \([0,1]\), the minimum is at \(\bar u=1\), while \(f'(1)=-2\).
+Taking $\tau\to0^+$ proves (VI). It says that the objective cannot decrease in a feasible direction from $\bar u$. It does not generally imply $f'(\bar u)=0$: for $f(u)=-u^2$ on $[0,1]$, the minimum is at $\bar u=1$, while $f'(1)=-2$.
 
 ### 4.2 Derivative of the reduced functional
 
-Since \(f(u)=J(Su,u)\), the chain rule gives, for \(h\in\mathbb R^m\),
+Since $f(u)=J(Su,u)$, the chain rule gives, for $h\in\mathbb R^m$,
 
 $$
 \begin{aligned}
@@ -244,7 +244,7 @@ f'(u)h
 \end{aligned}
 $$
 
-Because \(S=A^{-1}B\),
+Because $S=A^{-1}B$,
 
 $$
 f'(u)h=
@@ -278,7 +278,7 @@ $$
 
 ## 5. The adjoint state and optimality system
 
-The inverse transpose \((A^{-1})^T\) is best avoided in numerical work. Define the adjoint state by
+The inverse transpose $(A^{-1})^T$ is best avoided in numerical work. Define the adjoint state by
 
 $$
 p=(A^{-1})^T\nabla_yJ(y,u).
@@ -290,7 +290,7 @@ $$
 A^Tp=\nabla_yJ(y,u).
 $$
 
-For the quadratic tracking functional this is \(A^T\bar p=\bar y-y_d\).
+For the quadratic tracking functional this is $A^T\bar p=\bar y-y_d$.
 
 The state equation, adjoint equation, and control inequality form the optimality system:
 
@@ -304,7 +304,7 @@ A^T\bar p&=\nabla_yJ(\bar y,\bar u),\\
 \tag{OS}
 $$
 
-If \(U_{\mathrm{ad}}=\mathbb R^m\), every direction is feasible. Applying the inequality to opposite directions gives
+If $U_{\mathrm{ad}}=\mathbb R^m$, every direction is feasible. Applying the inequality to opposite directions gives
 
 $$
 B^T\bar p+\nabla_uJ(\bar y,\bar u)=0.
@@ -324,7 +324,7 @@ A^T\bar p=C^T(C\bar y-y_d),\qquad
 B^T\bar p+\lambda\bar u=0.
 $$
 
-When \(\lambda>0\),
+When $\lambda>0$,
 
 $$
 \bar u=-\frac1\lambda B^T\bar p.
@@ -357,7 +357,7 @@ $$
 \qquad\forall v\in U_{\mathrm{ad}},
 $$
 
-which reproduces the third equation of (OS). If there are no control constraints, all three derivatives of \(L\) vanish.
+which reproduces the third equation of (OS). If there are no control constraints, all three derivatives of $L$ vanish.
 
 ## 7. Box constraints
 
@@ -373,7 +373,7 @@ $$
 q:=B^T\bar p+\nabla_uJ(\bar y,\bar u).
 $$
 
-The variational inequality is equivalent to saying that \(\bar u\) solves
+The variational inequality is equivalent to saying that $\bar u$ solves
 
 $$
 \min_{u\in U_{\mathrm{ad}}}(q,u)_{\mathbb R^m}.
@@ -393,7 +393,7 @@ Thus a positive derivative pushes the control to its lower bound, a negative der
 
 ## 8. Karush–Kuhn–Tucker conditions
 
-For \(v\in\mathbb R^m\), define
+For $v\in\mathbb R^m$, define
 
 $$
 v_i^+=\max\{v_i,0\},\qquad
@@ -437,7 +437,7 @@ $$
 =\nabla_uJ+B^Tp-\mu_a+\mu_b,
 $$
 
-and \(\mu_a-\mu_b=B^Tp+\nabla_uJ\), so stationarity in \(u\) is exactly the variational inequality written with multipliers.
+and $\mu_a-\mu_b=B^Tp+\nabla_uJ$, so stationarity in $u$ is exactly the variational inequality written with multipliers.
 
 ## 9. Worked example with two controls
 
@@ -455,7 +455,7 @@ $$
 J(y,u)=u_1^2+u_2^2+2y.
 $$
 
-The state equation gives \(y=-u_1+2u_2\), so
+The state equation gives $y=-u_1+2u_2$, so
 
 $$
 \begin{aligned}
@@ -464,20 +464,20 @@ f(u)&=u_1^2+u_2^2-2u_1+4u_2\\
 \end{aligned}
 $$
 
-The admissible set is \([-2,2]\times[-1,1]\). The unconstrained minimum \((1,-2)\) violates the second bound, so
+The admissible set is $[-2,2]\times[-1,1]$. The unconstrained minimum $(1,-2)$ violates the second bound, so
 
 $$
 \bar u=\begin{pmatrix}1\\-1\end{pmatrix},\qquad f(\bar u)=-4.
 $$
 
-The KKT calculation agrees. Since \(\nabla_yJ=2\), the adjoint equation gives \(\bar p=2\). Hence
+The KKT calculation agrees. Since $\nabla_yJ=2$, the adjoint equation gives $\bar p=2$. Hence
 
 $$
 B^T\bar p+\nabla_uJ(\bar y,\bar u)
 =\begin{pmatrix}2\bar u_1-2\\2\bar u_2+4\end{pmatrix}.
 $$
 
-For \(i=1\), neither bound is compatible with the required sign, so the component must vanish: \(\bar u_1=1\). For \(i=2\), \(\bar u_2=-1\) gives \(2\bar u_2+4=2>0\), which is precisely the sign associated with the lower bound. Therefore
+For $i=1$, neither bound is compatible with the required sign, so the component must vanish: $\bar u_1=1$. For $i=2$, $\bar u_2=-1$ gives $2\bar u_2+4=2>0$, which is precisely the sign associated with the lower bound. Therefore
 
 $$
 \bar u=\begin{pmatrix}1\\-1\end{pmatrix},\qquad
