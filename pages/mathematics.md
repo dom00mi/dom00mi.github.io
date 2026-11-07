@@ -16,10 +16,10 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | [Numerical Analysis](#numerical-analysis) | [Numerical schemes, error control, convergence, numerical linear algebra and differential equations]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | TBD |
 | [Probability Theory](#probability-theory) | [Finite probability spaces, probability measures, random variables and foundations of uncertainty]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) | TBD |
 | [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic_processes/' | relative_url }}) | TBD |
-| [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
+| [Stochastic Calculus](#stochastic-calculus) | [Itô calculus, stochastic integration and stochastic differential equations]({{ '/pages/mathematics/sdes/' | relative_url }}) | TBD |
 | [Partial Differential Equations](#partial-differential-equations) | [Elliptic, parabolic and hyperbolic equations, with existence and uniqueness of solutions]({{ '/pages/mathematics/pdes/intro-to-pdes/' | relative_url }}) | TBD |
 | [Statistics](#statistics) | [Univariate and multivariate statistics, inference and applied examples]({{ '/pages/mathematics/statistics/' | relative_url }}) | TBD |
-| [Stochastic Differential Equations](#stochastic-differential-equations) | [Introduction to stochastic differential equations and their applications]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }}) | TBD |
+| [Stochastic Differential Equations](#stochastic-differential-equations) | [Introduction to stochastic differential equations and their applications]({{ '/pages/mathematics/sdes/' | relative_url }}) | TBD |
 | [Multi-variable Calculus](#multi-variable-calculus) | [Differentiation, integration and geometric ideas in several variables]({{ '/pages/mathematics/multivariable_calculus/' | relative_url }}) | TBD |
 | [Control Theory](#control-theory) | [Deterministic and stochastic control, optimisation and dynamic systems]({{ '/pages/mathematics/control_theory/deterministic-controls/' | relative_url }}) | TBD |
 | [Functional Analysis](#functional-analysis) | [Normed and inner-product spaces, operators and infinite-dimensional methods]({{ '/pages/mathematics/functional_analysis/' | relative_url }}) | TBD |
@@ -65,7 +65,7 @@ Stochastic processes study random systems that evolve over time, connecting prob
 
 Stochastic calculus develops the tools needed to integrate and differentiate processes driven by randomness, including Itô calculus, martingale theory and an introduction to stochastic differential equations.
 
-[Open the Stochastic Differential Equations course →]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }})
+[Open the Stochastic Differential Equations course →]({{ '/pages/mathematics/sdes/' | relative_url }})
 
 ### Partial Differential Equations
 
@@ -93,9 +93,12 @@ Statistics develops methods for describing data and drawing conclusions from obs
 
 Stochastic differential equations model systems whose dynamics are affected by random inputs, with applications across science, engineering and finance.
 
+[Open the SDEs course]({{ '/pages/mathematics/sdes/' | relative_url }})
+
+[Start Chapter 1: From ODEs to SDEs]({{ '/pages/mathematics/sdes/01-from-odes-to-sdes/' | relative_url }})
+
 **01 — Introduction to Stochastic Differential Equations**
 
-[Read Intro 01 →]({{ '/pages/mathematics/sdes/intro-to-sdes/' | relative_url }})
 
 ### Multi-variable Calculus
 
