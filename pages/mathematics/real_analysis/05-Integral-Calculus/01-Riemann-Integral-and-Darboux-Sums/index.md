@@ -25,7 +25,7 @@ $$
 
 as the signed area under the curve (or graph) of $f$ from $x=a$ to $x=b$. The Riemann integral encompasses the usual notion of an integral encountered at school. However, its precise mathematical definition allows us to integrate functions that are not continuous and that cannot be integrated using the elementary methods previously learned.
 
-## 1.11 â€” Lower and Upper Darboux Sums of a Function with Respect to a Partition
+## 1.11 Lower and Upper Darboux Sums of a Function with Respect to a Partition
 
 We want to define the Riemann integral
 
@@ -33,11 +33,7 @@ $$
 \int_a^b f(x)\,dx
 $$
 
-as the **signed area** under the graph of $f$ from $x=a$ to $x=b$. The following illustrations show a positive area, a negative area, and an area with portions of both signs.
-
-![Positive, negative, and mixed signed areas under the graph of a function](./assets/signed-integral-areas.png)
-
-*Figure 1.11.1 â€” Positive area under $f$, negative area under $g$, and area of both signs under $h$, each taken from $x=a$ to $x=b$.*
+as the **signed area** under the graph of $f$ from $x=a$ to $x=b$.
 
 To approximate the area under a curve, we partition the interval $[a,b]$ and approximate the area by rectangles. We will define this construction rigorously once the necessary notation has been introduced.
 
@@ -62,7 +58,7 @@ $$
 
 To approximate the area under the graph of a function $f$, we construct a rectangle over every subinterval $[x_{k-1},x_k]$. The sum of the signed areas of these rectangles gives an approximation to the area under the graph. By shrinking the widths of the subintervals, we obtain increasingly accurate approximations; this idea will lead to the Riemann integral.
 
-### Definition 1.11.1 â€” Bounded function
+### Definition 1.11.1 Bounded function
 
 A function $f:[a,b]\to\mathbb R$ is called **bounded** if there exist $m,M\in\mathbb R$ such that
 
@@ -82,7 +78,7 @@ $$
 \mathcal B([a,b]).
 $$
 
-### Definition 1.11.2 â€” Partition, width, and refinement
+### Definition 1.11.2 Partition, width, and refinement
 
 1. A **partition** $P=\{x_0,\ldots,x_n\}$ of an interval $[a,b]$ is a finite set of points satisfying
 
@@ -104,7 +100,7 @@ $$
    P\subseteq Q.
    $$
 
-### Example 1.11.3 â€” Examples of partitions of $[0,1]$
+### Example 1.11.3 Examples of partitions of $[0,1]$
 
 **(a)** Let
 
@@ -172,7 +168,7 @@ $$
 P_n:=\left\{x_k:=a+k\frac{b-a}{n}:k=0,1,2,\ldots,n\right\}.
 $$
 
-### Lemma 1.11.4 â€” Partition width decreases under refinement
+### Lemma 1.11.4 Partition width decreases under refinement
 
 If $P,Q\in\mathcal P([a,b])$ and $P\subseteq Q$, then
 
@@ -184,7 +180,7 @@ $$
 
 To specify the height of the rectangular approximation over each subinterval $[x_{k-1},x_k]$, we need the notions of the **infimum** and **supremum**, which are familiar from introductory analysis.
 
-### Definition 1.11.5 â€” Infimum
+### Definition 1.11.5 Infimum
 
 Let $X\subseteq\mathbb R$ be a nonempty set. A number $\alpha$ is called the **infimum** of $X$, denoted $\alpha=\inf X$, if
 
@@ -193,7 +189,7 @@ Let $X\subseteq\mathbb R$ be a nonempty set. A number $\alpha$ is called the **i
 
 In other words, the infimum is the **greatest lower bound**.
 
-### Definition 1.11.6 â€” Supremum
+### Definition 1.11.6 Supremum
 
 Let $X\subseteq\mathbb R$ be a nonempty set. A number $\beta$ is called the **supremum** of $X$, denoted $\beta=\sup X$, if
 
@@ -204,7 +200,7 @@ In other words, the supremum is the **least upper bound**.
 
 The **completeness axiom** of the real numbers ensures that every nonempty bounded subset of $\mathbb R$ has an infimum and a supremum.
 
-### Example 1.11.7 â€” Infimum and supremum of $(-1,1]$
+### Example 1.11.7 Infimum and supremum of $(-1,1]$
 
 Find the infimum and supremum of
 
@@ -251,11 +247,11 @@ $$
 
 $\square$
 
-### Remark 1.11.8 â€” The infimum or supremum need not belong to the set
+### Remark 1.11.8 The infimum or supremum need not belong to the set
 
 By arguments analogous to those in Example 1.11.7, each of the intervals $[a,b]$, $(a,b)$, $(a,b]$, and $[a,b)$ has infimum $a$ and supremum $b$. Therefore the infimum or supremum of a set $X\subseteq\mathbb R$ **may or may not be an element of $X$**.
 
-### Example 1.11.9 â€” Infimum and supremum of $\{1/n:n\in\mathbb N\}$
+### Example 1.11.9 Infimum and supremum of $\{1/n:n\in\mathbb N\}$
 
 Determine the infimum and supremum of
 
@@ -294,9 +290,9 @@ We can now introduce approximations to the area under the graph of a bounded fun
 
 ![Darboux lower and upper sums formed from rectangles on a common partition](./assets/darboux-lower-upper-sums.png)
 
-*Figure 1.11.2 â€” Lower Darboux sum $\mathcal{L}(f,P)$ (left) and upper Darboux sum $\mathcal{U}(f,P)$ (right), constructed on the same partition $P$.*
+*Figure 1.11.2 Lower Darboux sum $\mathcal{L}(f,P)$ (left) and upper Darboux sum $\mathcal{U}(f,P)$ (right), constructed on the same partition $P$.*
 
-### Definition 1.11.10 â€” Lower and upper Darboux sums
+### Definition 1.11.10 Lower and upper Darboux sums
 
 Let $f\in\mathcal B([a,b])$, and let $P=\{x_0,\ldots,x_n\}\in\mathcal P([a,b])$. The **lower sum** of $f$ with respect to $P$ is
 
@@ -343,7 +339,7 @@ $$
 
 We now work through several examples.
 
-### Example 1.11.11 â€” The lower and upper sums usually differ
+### Example 1.11.11 The lower and upper sums usually differ
 
 Let $f:[7,11]\to\mathbb R$ be defined by
 
@@ -388,7 +384,7 @@ $$
 
 Thus the lower and upper sums are independent of the partition in this example, yet their values are different. $\square$
 
-### Example 1.11.12 â€” A bounded function with a discontinuity
+### Example 1.11.12 A bounded function with a discontinuity
 
 Let $f:[1,2]\to\mathbb R$ be defined by
 
@@ -446,7 +442,7 @@ $$
 
 $\square$
 
-### Example 1.11.13 â€” A piecewise constant function
+### Example 1.11.13 A piecewise constant function
 
 Let $f:[0,2]\to\mathbb R$ be defined by
 
@@ -523,7 +519,7 @@ $\square$
 
 We now derive bounds for the lower and upper sums.
 
-### Lemma 1.11.14 â€” Bounds on lower and upper sums I
+### Lemma 1.11.14 Bounds on lower and upper sums I
 
 Let $f\in\mathcal B([a,b])$ and $P\in\mathcal P([a,b])$. Then
 
@@ -545,7 +541,7 @@ $$
 
 Multiplying by the nonnegative number $x_k-x_{k-1}$ and summing over $k=1,\ldots,n$ gives (1.11.1). $\square$
 
-### Remark 1.11.15 â€” Lower and upper sums are bounded
+### Remark 1.11.15 Lower and upper sums are bounded
 
 Lemma 1.11.14 shows that the sets
 
@@ -559,7 +555,7 @@ are bounded subsets of $\mathbb R$.
 
 The next lemma is a technical result needed for the proof of Lemma 1.11.17. Its proof is given at the end of this chapter. It is less important to memorize the technical estimate itself than to understand Lemmas 1.11.14 and 1.11.17.
 
-### Lemma 1.11.16 â€” Bounds on lower and upper sums II
+### Lemma 1.11.16 Bounds on lower and upper sums II
 
 Let $f\in\mathcal B([a,b])$ and $P,Q\in\mathcal P([a,b])$, where $P\subseteq Q$ and $Q$ has $j$ more points than $P$. Let $K$ be an upper bound for $|f|$ on $[a,b]$. Then
 
@@ -573,7 +569,7 @@ $$
 \tag{1.11.3}
 $$
 
-### Lemma 1.11.17 â€” Every lower sum is at most every upper sum
+### Lemma 1.11.17 Every lower sum is at most every upper sum
 
 Let $f\in\mathcal B([a,b])$. For **any two** partitions $P,Q\in\mathcal P([a,b])$,
 
@@ -607,11 +603,11 @@ $$
 
 which proves (1.11.4). $\square$
 
-## 1.12 â€” Lower and Upper Riemann Integrals
+## 1.12 Lower and Upper Riemann Integrals
 
 After these preparations, we can define the lower and upper Riemann integrals of a bounded function. The intuitive idea is to make the subintervals in a partition smaller and smaller and then take a limit. Although the formal definition below does not express this process directly, we will see later that it agrees with the idea of shrinking the partition width to zero.
 
-### Definition 1.12.18 â€” Lower and upper Riemann integrals
+### Definition 1.12.18 Lower and upper Riemann integrals
 
 Let $f\in\mathcal B([a,b])$. The **lower Riemann integral** of $f$ over $[a,b]$ is
 
@@ -629,7 +625,7 @@ $$
 \tag{1.12.2}
 $$
 
-### Remark 1.12.19 â€” Lower and upper Riemann integrals are finite
+### Remark 1.12.19 Lower and upper Riemann integrals are finite
 
 From Lemmas 1.11.14 and 1.11.17, for every $P,Q\in\mathcal P([a,b])$ and every $f\in\mathcal B([a,b])$,
 
@@ -643,7 +639,7 @@ It follows that both the supremum in (1.12.1) and the infimum in (1.12.2) exist 
 
 We can now define the Riemann integral and specify when a function is Riemann integrable. A bounded function is Riemann integrable precisely when its lower and upper Riemann integrals have the same value; this common value is its integral.
 
-### Definition 1.12.20 â€” Riemann integrability and the Riemann integral
+### Definition 1.12.20 Riemann integrability and the Riemann integral
 
 We say that $f\in\mathcal B([a,b])$ is **Riemann integrable** over $[a,b]$ if
 
@@ -668,7 +664,7 @@ $$
 
 Lemma 1.11.17 established that the lower sum for any partition does not exceed the upper sum for any other partition. This implies that the lower Riemann integral never exceeds the upper Riemann integral.
 
-### Lemma 1.12.21 â€” Lower Riemann integral $\leq$ upper Riemann integral
+### Lemma 1.12.21 Lower Riemann integral $\leq$ upper Riemann integral
 
 Let $f\in\mathcal B([a,b])$. Then
 
@@ -694,7 +690,7 @@ By Definition 1.12.18, this is precisely the stated inequality. $\square$
 
 We consider several examples.
 
-### Example 1.12.22 â€” Constant functions are Riemann integrable
+### Example 1.12.22 Constant functions are Riemann integrable
 
 Every constant function $f:[a,b]\to\mathbb R$, $f(x):=C$ for some fixed $C\in\mathbb R$, is Riemann integrable, and
 
@@ -720,7 +716,7 @@ $$
 
 It follows that the lower and upper Riemann integrals coincide, and hence (1.12.3) holds. $\square$
 
-### Example 1.12.23 â€” An everywhere discontinuous function
+### Example 1.12.23 An everywhere discontinuous function
 
 Show that the function $f:[7,11]\to\mathbb R$ defined by
 
@@ -755,7 +751,7 @@ $$
 
 As $8\neq20$, the lower and upper integrals do not coincide. Therefore $f$ is not Riemann integrable over $[7,11]$. $\square$
 
-### Example 1.12.24 â€” A bounded function with a single discontinuity
+### Example 1.12.24 A bounded function with a single discontinuity
 
 The function $f:[1,2]\to\mathbb R$ from Example 1.11.12,
 
@@ -774,7 +770,7 @@ $$
 
 We will establish this formally in the next chapter. $\square$
 
-## 1.13 â€” Proof of the Technical Refinement Lemma
+## 1.13 Proof of the Technical Refinement Lemma
 
 We now give the proof of Lemma 1.11.16, which was deferred earlier.
 

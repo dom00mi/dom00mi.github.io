@@ -37,7 +37,7 @@ $$
 
 Each new position is obtained by halving the preceding distance from the goal.
 
-![A runner crosses successive half-distances from one towards zero](assets/figure-intro-01-zeno-racecourse.png)
+![A runner crosses successive half-distances from one towards zero](assets/figure-intro-01-zeno-racecourse.png.png)
 
 *Introductory Figure I.1 — The racecourse is subdivided into infinitely many successive portions. The goal is at $0$; the marked positions are the fractions of the course still to be covered. Original diagram.*
 
@@ -121,7 +121,7 @@ The last equation does **not** mean that an infinite number of operations have b
 
 Under the constant-speed assumption, the runner reaches the finish in a finite time: precisely twice the time required to reach the halfway point. Thus the mere presence of infinitely many subdivisions does not make the total duration infinite.
 
-![Geometric partial sums stay below two, while harmonic sums keep growing](assets/figure-intro-02-geometric-versus-harmonic.png)
+![Geometric partial sums stay below two, while harmonic sums keep growing](assets/figure-intro-02-geometric-versus-harmonic.png.png)
 
 *Introductory Figure I.2 — The normalised geometric partial sums approach $2$, whereas the harmonic partial sums continue increasing. Original graph.*
 
@@ -173,7 +173,7 @@ $$
 \end{aligned}
 $$
 
-![Harmonic rectangles above the curve one over x](assets/figure-intro-03-harmonic-integral-comparison.png)
+![Harmonic rectangles above the curve one over x](assets/figure-intro-03-harmonic-integral-comparison.png.png)
 
 *Introductory Figure I.3 — The total area of the rectangles is the harmonic partial sum; it exceeds the shaded area under $1/x$. Original illustration.*
 
@@ -277,7 +277,7 @@ a:\mathbb N\longrightarrow\mathbb R,
 \qquad a(n)=a_n.
 $$
 
-Sequences may also take complex values, in which case their codomain is $\mathbb C$. Their defining feature is the index, not the particular way their terms are written down.
+Sequences may also take complex values, in which case their codomain is $\mathbb C$. Now this is not the objective of this curriculum, but it is worth seeing an example at least (a proactive reader can have a look into the [complex analysis module]({{ '/pages/mathematics/complex_analysis/' | relative_url }})). Their defining feature is the index, not the particular way their terms are written down.
 
 There are several common ways to specify a sequence:
 
@@ -322,7 +322,7 @@ $$
 
 This sequence is traditionally associated with **Leonardo of Pisa (Fibonacci)** and his problem about the reproduction of rabbits.
 
-![Odd-even and Fibonacci examples of sequences](assets/figure-intro-04-sequence-examples.png)
+![Odd-even and Fibonacci examples of sequences](assets/figure-intro-04-sequence-examples.png.png)
 
 *Introductory Figure I.4 — A sequence may be defined by separate odd/even formulas or by a recurrence such as Fibonacci's. Original graphs.*
 
@@ -413,7 +413,7 @@ $$
 
 converges to $0$ in the complex plane, since both its real and imaginary parts approach zero.
 
-![A complex sequence approaching zero in the Argand plane](assets/figure-intro-06-complex-sequence.png)
+![A complex sequence approaching zero in the Argand plane](assets/figure-intro-06-complex-sequence.png.png)
 
 *Introductory Figure I.5 — The terms of a complex sequence alternately lie above and below the real axis while their distance to the origin tends to zero. Original graph.*
 
@@ -527,7 +527,7 @@ $$
 
 The reverse implication is also true: a sequence that converges to a finite limit must be bounded (Theorem 1.31 below gives a complete proof). Together, these facts establish the criterion. $\square$
 
-![A bounded increasing sequence and an unbounded increasing sequence](assets/figure-intro-05-monotone-sequences.png)
+![A bounded increasing sequence and an unbounded increasing sequence](assets/figure-intro-05-monotone-sequences.png.png)
 
 *Introductory Figure I.6 — The increasing sequence $1-1/n$ converges to its supremum $1$, whereas $\sqrt n$ increases without bound. Original graphs.*
 
@@ -551,7 +551,7 @@ Finally, monotonicity is a **sufficient**, not a necessary, condition when paire
 
 ## 1.1 — Sequences, Convergence and Limits
 
-We recall the definition of a function, which is of paramount importance in Mathematics.
+Before diving into sequences, we would like to recall the very basic definition of a function, a paramount notion in Mathematics, and quintessential in developing the right analytical framework that we'd need later on.
 
 ### Definition 1.11 — Function
 
@@ -563,12 +563,12 @@ $$
 
 and say that $f$ is defined on $A$, with values in $B$. If $f$ maps $x\in A$ to $y\in B$, we write $y=f(x)$.
 
-### Example 1.12 — The Square Function
+### Example 1.12 — The Square Root Function
 
-Let $A=B=\mathbb R$. We can define a function $f:\mathbb R\to\mathbb R$ by mapping every real number $x$ to its square $x^2$. In this case,
+Let $A=B=\mathbb R$. We can define a function $f:\mathbb R^{+}\to\mathbb R$ by mapping every positive real number $x$ to its square root $\sqrt{x}$. In this case,
 
 $$
-f(x)=x^2.
+f(x)=\sqrt{x}.
 $$
 
 ### Example 1.13 — A Piecewise-Defined Function
@@ -675,7 +675,43 @@ From these last two examples, we have an intuitive idea of what the limit of a s
 
 At first, the crucial point seems to be that $a_n$ gets closer and closer to the proposed limit as $n$ increases. We might therefore try the following definition:
 
-> A sequence $(a_n)_{n\in\mathbb N}$ converges to $\alpha$ if $|a_n-\alpha|$, representing the distance between $a_n$ and $\alpha$ (recall the discussion of absolute value and distance in the earlier chapter), becomes smaller and smaller as $n$ increases.
+> A sequence
+>
+> $$
+> (a_n)_{n\in\mathbb N}
+> $$
+>
+> converges to
+>
+> $$
+> \alpha
+> $$
+>
+> if
+>
+> $$
+> |a_n-\alpha|
+> $$
+>
+> representing the distance between
+>
+> $$
+> a_n
+> $$
+>
+> and
+>
+> $$
+> \alpha
+> $$
+>
+> becomes smaller and smaller as
+>
+> $$
+> n
+> $$
+>
+> increases.
 
 There are two problems with this proposal. First, we have not clarified what “becomes smaller and smaller” means. Second, there are sequences that approach a limit although the distance to that limit does **not** decrease at every step, as the next example shows.
 
@@ -720,7 +756,13 @@ $$
 
 ![The epsilon band of width 0.3](assets/figure-05-epsilon-030.png)
 
-*Figure 1.5 — For the sequence in (1.12), $|a_n-1|<0.3$ whenever $n>3$ (source Figure 2.5).*
+*Figure 1.5 — For the sequence in (1.12):*
+
+$$
+|a_n-1|<0.3\quad\text{whenever}\quad n>3.
+$$
+
+*(Source Figure 2.5.)*
 
 Let us change the size of the band and see what happens. If we draw a band extending $0.18$ above and below the proposed limit $1$, we find that all terms of the sequence with $n>5$ lie inside it. Thus,
 
@@ -730,7 +772,13 @@ $$
 
 ![The epsilon band of width 0.18](assets/figure-06-epsilon-018.png)
 
-*Figure 1.6 — For the sequence in (1.12), $|a_n-1|<0.18$ whenever $n>5$ (source Figure 2.6).*
+*Figure 1.6 — For the sequence in (1.12):*
+
+$$
+|a_n-1|<0.18\quad\text{whenever}\quad n>5.
+$$
+
+*(Source Figure 2.6.)*
 
 If we drew bands of different sizes, the situation would always be the same: after a certain integer, depending on the width of the band, **all subsequent terms of the sequence lie inside that band**.
 
@@ -854,7 +902,13 @@ Thus, whenever $n>3$, the distance from $n/(n+1)$ to $1$ is less than $1/4$, as 
 
 ![The sequence trapped between three quarters and five quarters](assets/figure-08-trapped-sequence.png)
 
-*Figure 1.8 — The sequence $n/(n+1)$ from Example 1.24 lies between $3/4$ and $5/4$ when $n>3$ (source Figure 2.8).*
+*Figure 1.8 — The sequence from Example 1.24 lies between:*
+
+$$
+\frac34\leq\frac{n}{n+1}\leq\frac54\quad\text{when}\quad n>3.
+$$
+
+*(Source Figure 2.8.)*
 
 In proving (1.17), we established that this procedure works **regardless of the value of $\varepsilon$**: we can trap $n/(n+1)$ in a band centred at $1$ as small as we wish, as long as $n$ is large enough.
 
@@ -931,7 +985,13 @@ But $0<\varepsilon$ is always true because $\varepsilon$ is positive. Thus **any
 
 ![Constant sequence enclosed by an epsilon band](assets/figure-09-constant-sequence.png)
 
-*Figure 1.9 — For a constant sequence, $|a_n-c|<\varepsilon$ for every $n$ and every $\varepsilon>0$; hence any integer can serve as $N_\varepsilon$ (source Figure 2.9).*
+*Figure 1.9 — For a constant sequence:*
+
+$$
+|a_n-c|<\varepsilon\quad\text{for every}\quad n\quad\text{and every}\quad\varepsilon>0.
+$$
+
+*Hence any integer can serve as the threshold (source Figure 2.9).*
 
 ### Example 1.28 — A Sequence That Is Eventually Constant
 
@@ -977,7 +1037,13 @@ For every $\varepsilon>0$, the choice $N_\varepsilon=7$ therefore satisfies (1.2
 
 ![The sequence with initial terms two and subsequent terms five](assets/figure-10-eventually-constant.png)
 
-*Figure 1.10 — For the sequence in Example 1.28, $|a_n-5|<\varepsilon$ whenever $n>7$ (source Figure 2.10).*
+*Figure 1.10 — For the sequence in Example 1.28:*
+
+$$
+|a_n-5|<\varepsilon\quad\text{whenever}\quad n>7.
+$$
+
+*(Source Figure 2.10.)*
 
 ### Theorem 1.29 — Uniqueness of the Limit
 
@@ -1125,7 +1191,7 @@ $$
 
 is bounded but does **not** converge (the original lecture discusses this again in its Example 3.3).
 
-We will see later that every bounded sequence admits at least one **convergent subsequence** (the Bolzano–Weierstrass theorem, cited as Theorem 5.22 in the original lecture).
+We will see later that every bounded sequence admits at least one **convergent subsequence** (the Bolzano–Weierstrass theorem).
 
 ---
 
