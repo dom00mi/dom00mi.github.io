@@ -13,6 +13,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 | Area | Planned material | Status |
 |---|---|---|
 | [Real Analysis](#real-analysis) | [Real numbers, sequences, continuity, differentiation, integration and power series]({{ '/pages/mathematics/real_analysis/' | relative_url }}) | TBD |
+| [Complex Analysis](#complex-analysis) | [Complex numbers, holomorphic functions, contour integration, residues and conformal mappings]({{ '/pages/mathematics/complex_analysis/' | relative_url }}) | TBD |
 | [Numerical Analysis](#numerical-analysis) | [Numerical schemes, error control, convergence, numerical linear algebra and differential equations]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | TBD |
 | [Probability Theory](#probability-theory) | [Finite probability spaces, probability measures, random variables and foundations of uncertainty]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) | TBD |
 | [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic_processes/' | relative_url }}) | TBD |
@@ -37,6 +38,12 @@ These notes are intended for educational purposes and personal revision, progres
 The Real Analysis notes develop a rigorous progression from the real number system through sequences, continuity, differentiation, integration and power series.
 
 [Open the Real Analysis course →]({{ '/pages/mathematics/real_analysis/' | relative_url }})
+
+### Complex Analysis
+
+Complex Analysis develops the theory of complex functions, holomorphicity, contour integration, residues, conformal maps and connections with harmonic functions.
+
+[Open the Complex Analysis course →]({{ '/pages/mathematics/complex_analysis/' | relative_url }})
 
 ### Numerical Analysis
 
