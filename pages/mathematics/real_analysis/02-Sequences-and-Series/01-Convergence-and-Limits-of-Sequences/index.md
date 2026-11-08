@@ -823,7 +823,11 @@ n>N_\varepsilon\quad\Longrightarrow\quad
 \left|\frac{n}{n+1}-1\right|<\varepsilon. \tag{1.17}
 $$
 
-To find $N_\varepsilon$, we work with the inequality $\left|\frac n{n+1}-1\right|<\varepsilon$. We have
+To find $N_\varepsilon$, we work with the inequality 
+$$\left|\frac n{n+1}-1\right <\varepsilon
+$$. 
+
+We have
 
 $$
 \left|\frac{n}{n+1}-1\right|<\varepsilon
@@ -1051,7 +1055,7 @@ $$
 \eta=\frac{|\alpha-\beta|}{2}>0.
 $$
 
-By (1.27), there exists $C_{|\alpha-\beta|/2}\in\mathbb N$ such that
+By (1.27), there exists $$C_{|\alpha-\beta|/2}\in\mathbb N $$ such that
 
 $$
 n>C_{|\alpha-\beta|/2}
@@ -1157,7 +1161,10 @@ $$
 \qquad\text{for every }n>N_5. \tag{1.35}
 $$
 
-Combining (1.34) and (1.35), we obtain $|a_n|\leq M$ for every $n\in\mathbb N$, which is (1.32). The proof works in exactly the same way for any $\varepsilon>0$ in place of $5$. $\square$
+Combining (1.34) and (1.35), we obtain 
+$$|a_n|\leq M$$ for every $$n\in\mathbb N$$, which is (1.32). 
+
+The proof works in exactly the same way for any $\varepsilon>0$ in place of $5$. $\square$
 
 ### Remark 1.32 — The Converse Is False
 
@@ -1179,7 +1186,7 @@ In this section, we discuss how limits can be calculated **without always using 
 
 ### Theorem 1.33 — Algebra of Sequences
 
-Let $(a_n)_{n\in\mathbb N}$ and $(b_n)_{n\in\mathbb N}$ be two sequences, and let $\alpha,\beta\in\mathbb R$. Assume that
+Let $$(a_n)_{n\in\mathbb N}$$ and $$(b_n)_{n\in\mathbb N}$$ be two sequences, and let $$\alpha,\beta\in\mathbb R$$. Assume that
 
 $$
 \lim_{n\to\infty}a_n=\alpha
@@ -1282,7 +1289,7 @@ $$
 L:=\max\{K,|\beta|\},
 $$
 
-and choose $\eta=\theta=\varepsilon/(2L)$ in (1.36) and (1.37). Since $L>0$, this is a valid choice. We obtain $C_{\varepsilon/(2L)},D_{\varepsilon/(2L)}\in\mathbb N$ such that
+and choose  $$\eta=\theta=\varepsilon/(2L)$$ in (1.36) and (1.37). Since $$L>0$$, this is a valid choice. We obtain $$C_{\varepsilon/(2L)},D_{\varepsilon/(2L)}\in\mathbb N$$ such that
 
 $$
 n>C_{\varepsilon/(2L)}\quad\Longrightarrow\quad
@@ -1370,7 +1377,7 @@ $$
 \qquad\text{for every }n>D_{|\beta|/2}. \tag{1.42}
 $$
 
-Apply (1.37) once more, this time with $\theta=\varepsilon|\beta|^2/2$. There exists $D_{\varepsilon|\beta|^2/2}\in\mathbb N$ for which
+Apply (1.37) once more, this time with $$\theta=\varepsilon|\beta|^2/2$$. There exists $$D_{\varepsilon|\beta|^2/2}\in\mathbb N$$ for which
 
 $$
 n>D_{\varepsilon|\beta|^2/2}
@@ -1401,7 +1408,7 @@ This proves (1.40), and hence the quotient rule. $\square$
 
 ### Theorem 1.34 — Comparison Principle
 
-Let $(a_n)_{n\in\mathbb N}$ and $(b_n)_{n\in\mathbb N}$ be two **convergent** sequences. Then
+Let $$(a_n)_{n\in\mathbb N}$$ and $$(b_n)_{n\in\mathbb N}$$ be two **convergent** sequences. Then
 
 $$
 \boxed{a_n\leq b_n\quad\text{for every }n\in\mathbb N
@@ -1521,7 +1528,7 @@ We conclude the chapter with an important theorem.
 
 ### Theorem 1.36 — Squeeze Theorem
 
-Let $(a_n)_{n\in\mathbb N}$, $(b_n)_{n\in\mathbb N}$ and $(c_n)_{n\in\mathbb N}$ be sequences with real values, and let $\alpha\in\mathbb R$. Assume that
+Let $$(a_n)_{n\in\mathbb N}$$, $$(b_n)_{n\in\mathbb N}$$ and $$(c_n)_{n\in\mathbb N}$$ be sequences with real values, and let $$\alpha\in\mathbb R$$. Assume that
 
 $$
 a_n\leq b_n\leq c_n\qquad\text{for every }n\in\mathbb N,
