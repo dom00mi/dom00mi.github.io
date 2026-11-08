@@ -58,9 +58,14 @@ on the structure and properties of $A$.
 
 ### Matrix Operations — C++ Implementation
 
+
+<div class="cpp-code" data-filename="Matrix.cpp">
+
 {% highlight cpp %}
 {% include code/numerical-linear-algebra/Matrix.cpp %}
 {% endhighlight %}
+
+</div>
 
 ---
 

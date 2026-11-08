@@ -132,3 +132,176 @@ a:hover,.article a{color:#fff}
         font-size: 12px;
     }
 }
+
+
+/* ==================================================
+   REUSABLE C++ CODE VIEWER
+   ================================================== */
+
+.cpp-code {
+    margin: 28px 0;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Filename toolbar */
+
+.cpp-code-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 16px;
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+}
+
+.cpp-code-filename {
+    color: #c9d1d9;
+    font: 13px "Cascadia Code", Consolas, monospace;
+}
+
+/* Hover-to-copy button */
+
+.cpp-code-copy {
+    background: #21262d;
+    border: 1px solid #444c56;
+    border-radius: 6px;
+    color: #e6edf3;
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s, background 0.2s;
+}
+
+.cpp-code:hover .cpp-code-copy,
+.cpp-code:focus-within .cpp-code-copy {
+    opacity: 1;
+}
+
+.cpp-code-copy:hover {
+    background: #30363d;
+}
+
+@media (hover: none) {
+    .cpp-code-copy {
+        opacity: 1;
+    }
+}
+
+/* Reset existing highlight styles */
+
+.cpp-code .highlight {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.cpp-code .highlight pre {
+    margin: 0;
+    padding: 20px 22px;
+    background: #0d1117;
+    border: none;
+    border-radius: 0;
+    overflow-x: auto;
+    line-height: 1.7;
+    tab-size: 4;
+}
+
+.cpp-code .highlight pre code {
+    background: transparent;
+    color: #e6edf3;
+    padding: 0;
+    font: 13px/1.7 "Cascadia Code",
+          "Fira Code", Consolas, monospace;
+}
+
+/* ===== ROUGE SYNTAX COLOURS ===== */
+
+/* Keywords */
+.cpp-code .highlight .k,
+.cpp-code .highlight .kd,
+.cpp-code .highlight .kn,
+.cpp-code .highlight .kp,
+.cpp-code .highlight .kr {
+    color: #ff7b72;
+}
+
+/* Types */
+.cpp-code .highlight .kt,
+.cpp-code .highlight .nc,
+.cpp-code .highlight .nb {
+    color: #79c0ff;
+}
+
+/* Functions */
+.cpp-code .highlight .nf,
+.cpp-code .highlight .fm {
+    color: #d2a8ff;
+}
+
+/* Namespaces and constants */
+.cpp-code .highlight .nn,
+.cpp-code .highlight .no {
+    color: #ffa657;
+}
+
+/* Strings */
+.cpp-code .highlight .s,
+.cpp-code .highlight .s1,
+.cpp-code .highlight .s2,
+.cpp-code .highlight .se {
+    color: #a5d6ff;
+}
+
+/* Comments */
+.cpp-code .highlight .c,
+.cpp-code .highlight .c1,
+.cpp-code .highlight .cm {
+    color: #8b949e;
+    font-style: italic;
+}
+
+/* Preprocessor directives */
+.cpp-code .highlight .cp,
+.cpp-code .highlight .cpf {
+    color: #d2a8ff;
+}
+
+/* Numbers */
+.cpp-code .highlight .m,
+.cpp-code .highlight .mi,
+.cpp-code .highlight .mf,
+.cpp-code .highlight .mh {
+    color: #79c0ff;
+}
+
+/* Operators */
+.cpp-code .highlight .o,
+.cpp-code .highlight .ow {
+    color: #ff7b72;
+}
+
+/* General identifiers */
+.cpp-code .highlight .n,
+.cpp-code .highlight .nv,
+.cpp-code .highlight .na {
+    color: #e6edf3;
+}
+
+/* Mobile layout */
+
+@media (max-width: 720px) {
+    .cpp-code .highlight pre {
+        padding: 16px;
+    }
+
+    .cpp-code .highlight pre code {
+        font-size: 12px;
+    }
+}
