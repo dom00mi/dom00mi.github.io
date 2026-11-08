@@ -12,7 +12,7 @@ This section collects **lecture notes, exercises and solutions** across a journe
 
 | Area | Planned material | Status |
 |---|---|---|
-| [Mathematical Analysis](#mathematical-analysis) | [Real numbers, sequences, continuity, differentiation, integration and power series]({{ '/pages/mathematics/analysis/' | relative_url }}) | TBD |
+| [Real Analysis](#real-analysis) | [Real numbers, sequences, continuity, differentiation, integration and power series]({{ '/pages/mathematics/real_analysis/' | relative_url }}) | TBD |
 | [Numerical Analysis](#numerical-analysis) | [Numerical schemes, error control, convergence, numerical linear algebra and differential equations]({{ '/pages/mathematics/numerical_analysis/' | relative_url }}) | TBD |
 | [Probability Theory](#probability-theory) | [Finite probability spaces, probability measures, random variables and foundations of uncertainty]({{ '/pages/mathematics/probability_theory/finite-probability-spaces/' | relative_url }}) | TBD |
 | [Stochastic Processes](#stochastic-processes) | [Models, proofs, simulations and the mathematical description of evolving randomness]({{ '/pages/mathematics/stochastic_processes/' | relative_url }}) | TBD |
@@ -32,11 +32,11 @@ This section collects **lecture notes, exercises and solutions** across a journe
 
 These notes are intended for educational purposes and personal revision, progressing from foundational mathematics to more advanced topics.
 
-### Mathematical Analysis
+### Real Analysis
 
-The Analysis notes develop a rigorous progression from the real number system through sequences, continuity, differentiation, integration and power series.
+The Real Analysis notes develop a rigorous progression from the real number system through sequences, continuity, differentiation, integration and power series.
 
-[Open the Mathematical Analysis course →]({{ '/pages/mathematics/analysis/' | relative_url }})
+[Open the Real Analysis course →]({{ '/pages/mathematics/real_analysis/' | relative_url }})
 
 ### Numerical Analysis
 

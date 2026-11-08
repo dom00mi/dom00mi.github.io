@@ -5,7 +5,7 @@ permalink: /pages/mathematics/probability_theory/finite-probability-spaces/
 ---
 
 <div class="page-header">
-  <a class="back" href="{{ '/pages/mathematics/probability_theory/' | relative_url }}">← Mathematical Analysis</a>
+  <a class="back" href="{{ '/pages/mathematics/probability_theory/' | relative_url }}">← Real Analysis</a>
   <div class="eyebrow">Mathematics / Probability Theory / 01</div>
   <h1>Finite Probability Spaces: Foundations and Properties</h1>
   <p class="lead">Foundations and Properties — .</p>
