@@ -17,24 +17,29 @@ permalink: /pages/quantitative-finance/
 
 | Project | Focus | Link |
 |---|---|---|
+| Quant Finance Library in C++ | A model-driven pricing, calibration and risk library | [Read the library page]({{ '/pages/quantitative-finance/quant_finance_library_cpp/' | relative_url }}) |
 | Numerical Linear Algebra in C++ | Numerical algorithms and their applications in quantitative finance | [Read the project page]({{ '/pages/quantitative-finance/numerical-linear-algebra/' | relative_url }}) |
 | Dynamic Delta Hedging | Hedging simulations and visual analytics | Coming soon |
 | Market-Making Model | Poisson processes and inventory decisions | Coming soon |
 | UK Yield Curve PCA | Yield curve factors | Coming soon |
 | Volatility Modelling | Calibration and numerical methods | In preparation |
 
-## Add a repository
+## Quant Finance Library in C++
 
-Replace the placeholder with a real link:
+The [Quant Finance Library in C++]({{ '/pages/quantitative-finance/quant_finance_library_cpp/' | relative_url }}) is the main implementation-focused project in this collection. It brings together market data, mathematical models, pricing engines, calibration routines, numerical methods and portfolio risk in a single C++ codebase.
 
-```markdown
-[View code](https://github.com/dom00mi/YOUR-REPOSITORY)
-```
+### Library breakdown
 
-For a PDF in this website's `assets/pdfs/` directory:
+| Section | What it covers | Implementation focus |
+|---|---|---|
+| **Core analytics** | Black–Scholes, Bachelier, Greeks and implied volatility | Closed-form pricing with explicit domain and no-arbitrage checks |
+| **Stochastic models** | Geometric Brownian motion, arithmetic Brownian motion and short-rate models | Risk-neutral evolution, discount-factor carrying and Hull–White curve consistency |
+| **Curves and rates** | Discount-curve bootstrapping, interpolation, forwards, swaps, caplets and swaptions | Market conventions, accrual schedules and curve-implied pricing |
+| **Calibration** | Hull–White caplet calibration | Positive parameterisation and weighted market-price fitting |
+| **PDE pricing** | European and American option pricing | Theta finite differences, tridiagonal solves and projected SOR |
+| **Numerics** | Root-finding, regression and numerical safeguards | Bisection, stable small-system fitting and fallbacks for degenerate samples |
+| **Risk** | Numerical Greeks, portfolio aggregation, VaR and expected shortfall | Bumped pricing, position-level sensitivities and historical tail loss |
 
-```markdown
-[Download research notes]({{ '/assets/pdfs/your-notes.pdf' | relative_url }})
-```
+The full walkthrough, including the model equations and embedded C++ source, is available on the [library showcase page]({{ '/pages/quantitative-finance/quant_finance_library_cpp/' | relative_url }}).
 
 </article>
