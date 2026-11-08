@@ -13,9 +13,8 @@ permalink: /pages/mathematics/real_analysis/05-integral-calculus/04-methods-and-
 
 <article class="article" markdown="1">
 
-## Content
+TBD
 
-TBD.
 
 ## Supporting material
 
