@@ -15,8 +15,7 @@ permalink: /pages/mathematics/real_analysis/02-sequences-and-series/01-convergen
 
 # 01 — Convergence and Limits of Sequences
 
-> **Mathematical Analysis — Sequences**
-> Notes on sequences and convergence, opening with Zeno's racecourse paradox and continuing with the supplied lecture (PDF pages 16–34; printed pages 15–33). Definitions, examples, remarks and theorems in the main chapter retain their numbering from **1.11** onward. Mathematical display equations use `$$ ... $$`.
+> **Real Analysis — Sequences**
 
 One of the central questions in Analysis is what it means for an infinite process to approach a finite result. The question appears in problems about motion, infinite sums, numerical approximations and, eventually, the behaviour of functions. We begin with a historical paradox, use it to motivate sequences and series, and then develop the precise concept of convergence. After that, we examine algebraic operations on limits and the comparison and squeeze theorems.
 
