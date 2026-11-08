@@ -1,0 +1,24 @@
+---
+layout: default
+title: "8.2: Green's Functions and Boundary Value Solutions"
+permalink: /pages/mathematics/odes/08-boundary-value-problems-and-greens-functions/02-greens-functions-and-boundary-value-solutions/
+---
+
+<div class="page-header">
+  <a class="back" href="{{ '/pages/mathematics/odes/08-boundary-value-problems-and-greens-functions/02-greens-functions-and-boundary-value-solutions/' | relative_url }}">← Green's Functions and Boundary Value Solutions</a>
+  <div class="eyebrow">Mathematics / Ordinary Differential Equations / 8.2</div>
+  <h1>Green's Functions and Boundary Value Solutions</h1>
+  <p class="lead">Placeholder topic for Green's Functions and Boundary Value Solutions. (TBD)</p>
+</div>
+
+<article class="article" markdown="1">
+
+TBD
+
+- [Exercises]({{ '/pages/mathematics/odes/08-boundary-value-problems-and-greens-functions/02-greens-functions-and-boundary-value-solutions/exercises/' | relative_url }})
+- [Worked solutions]({{ '/pages/mathematics/odes/08-boundary-value-problems-and-greens-functions/02-greens-functions-and-boundary-value-solutions/solutions/' | relative_url }})
+- [References and further reading]({{ '/pages/mathematics/odes/08-boundary-value-problems-and-greens-functions/02-greens-functions-and-boundary-value-solutions/references/' | relative_url }})
+
+[Back to Boundary Value Problems and Green's Functions]({{ '/pages/mathematics/odes/08-boundary-value-problems-and-greens-functions/' | relative_url }})
+
+</article>

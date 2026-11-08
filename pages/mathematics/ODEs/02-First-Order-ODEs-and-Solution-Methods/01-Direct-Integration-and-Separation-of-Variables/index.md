@@ -1,0 +1,24 @@
+---
+layout: default
+title: "2.1: Direct Integration and Separation of Variables"
+permalink: /pages/mathematics/odes/02-first-order-odes-and-solution-methods/01-direct-integration-and-separation-of-variables/
+---
+
+<div class="page-header">
+  <a class="back" href="{{ '/pages/mathematics/odes/02-first-order-odes-and-solution-methods/01-direct-integration-and-separation-of-variables/' | relative_url }}">← Direct Integration and Separation of Variables</a>
+  <div class="eyebrow">Mathematics / Ordinary Differential Equations / 2.1</div>
+  <h1>Direct Integration and Separation of Variables</h1>
+  <p class="lead">Placeholder topic for Direct Integration and Separation of Variables. (TBD)</p>
+</div>
+
+<article class="article" markdown="1">
+
+TBD
+
+- [Exercises]({{ '/pages/mathematics/odes/02-first-order-odes-and-solution-methods/01-direct-integration-and-separation-of-variables/exercises/' | relative_url }})
+- [Worked solutions]({{ '/pages/mathematics/odes/02-first-order-odes-and-solution-methods/01-direct-integration-and-separation-of-variables/solutions/' | relative_url }})
+- [References and further reading]({{ '/pages/mathematics/odes/02-first-order-odes-and-solution-methods/01-direct-integration-and-separation-of-variables/references/' | relative_url }})
+
+[Back to First-Order ODEs and Solution Methods]({{ '/pages/mathematics/odes/02-first-order-odes-and-solution-methods/' | relative_url }})
+
+</article>
