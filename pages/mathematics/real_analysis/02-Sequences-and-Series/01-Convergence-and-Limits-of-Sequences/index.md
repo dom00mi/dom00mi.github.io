@@ -37,7 +37,7 @@ $$
 
 Each new position is obtained by halving the preceding distance from the goal.
 
-<img class="sequence-intro-figure" src="assets/figure-intro-01-zeno-racecourse.png.png" alt="A runner crosses successive half-distances from one towards zero">
+![A runner crosses successive half-distances from one towards zero](assets/figure-intro-01-zeno-racecourse.png.png)
 
 *Introductory Figure I.1 — The racecourse is subdivided into infinitely many successive portions. The goal is at $0$; the marked positions are the fractions of the course still to be covered. Original diagram.*
 
@@ -121,7 +121,7 @@ The last equation does **not** mean that an infinite number of operations have b
 
 Under the constant-speed assumption, the runner reaches the finish in a finite time: precisely twice the time required to reach the halfway point. Thus the mere presence of infinitely many subdivisions does not make the total duration infinite.
 
-<img class="sequence-intro-figure" src="assets/figure-intro-02-geometric-versus-harmonic.png.png" alt="Geometric partial sums stay below two, while harmonic sums keep growing">
+![Geometric partial sums stay below two, while harmonic sums keep growing](assets/figure-intro-02-geometric-versus-harmonic.png.png)
 
 *Introductory Figure I.2 — The normalised geometric partial sums approach $2$, whereas the harmonic partial sums continue increasing. Original graph.*
 
@@ -173,7 +173,7 @@ $$
 \end{aligned}
 $$
 
-<img class="sequence-intro-figure" src="assets/figure-intro-03-harmonic-integral-comparison.png.png" alt="Harmonic rectangles above the curve one over x">
+![Harmonic rectangles above the curve one over x](assets/figure-intro-03-harmonic-integral-comparison.png.png)
 
 *Introductory Figure I.3 — The total area of the rectangles is the harmonic partial sum; it exceeds the shaded area under $1/x$. Original illustration.*
 
@@ -322,7 +322,7 @@ $$
 
 This sequence is traditionally associated with **Leonardo of Pisa (Fibonacci)** and his problem about the reproduction of rabbits.
 
-<img class="sequence-intro-figure" src="assets/figure-intro-04-sequence-examples.png.png" alt="Odd-even and Fibonacci examples of sequences">
+![Odd-even and Fibonacci examples of sequences](assets/figure-intro-04-sequence-examples.png.png)
 
 *Introductory Figure I.4 — A sequence may be defined by separate odd/even formulas or by a recurrence such as Fibonacci's. Original graphs.*
 
@@ -413,7 +413,7 @@ $$
 
 converges to $0$ in the complex plane, since both its real and imaginary parts approach zero.
 
-<img class="sequence-intro-figure" src="assets/figure-intro-06-complex-sequence.png.png" alt="A complex sequence approaching zero in the Argand plane">
+![A complex sequence approaching zero in the Argand plane](assets/figure-intro-06-complex-sequence.png.png)
 
 *Introductory Figure I.5 — The terms of a complex sequence alternately lie above and below the real axis while their distance to the origin tends to zero. Original graph.*
 
@@ -527,7 +527,7 @@ $$
 
 The reverse implication is also true: a sequence that converges to a finite limit must be bounded (Theorem 1.31 below gives a complete proof). Together, these facts establish the criterion. $\square$
 
-<img class="sequence-intro-figure" src="assets/figure-intro-05-monotone-sequences.png.png" alt="A bounded increasing sequence and an unbounded increasing sequence">
+![A bounded increasing sequence and an unbounded increasing sequence](assets/figure-intro-05-monotone-sequences.png.png)
 
 *Introductory Figure I.6 — The increasing sequence $1-1/n$ converges to its supremum $1$, whereas $\sqrt n$ increases without bound. Original graphs.*
 
