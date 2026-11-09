@@ -49,5 +49,5 @@ Quadratic fit_quadratic(const std::vector<double>& x,
   return {system[0][3], system[1][3], system[2][3]};
 }
 
-}  // namespace quantengine::numerics
+}
 

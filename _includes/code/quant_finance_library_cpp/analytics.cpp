@@ -33,7 +33,7 @@ Deviates deviates(const EuropeanMarket& p) {
   return {d1, d1 - sig_sqrt_t};
 }
 
-}  // namespace
+}
 
 double normal_pdf(double x) noexcept {
   return std::exp(-0.5 * x * x) / std::sqrt(2 * std::numbers::pi);
@@ -117,5 +117,5 @@ double implied_black_vol(double price, EuropeanMarket p, payoffs::Right right) {
   return numerics::bisection(residual, 0, high, 1e-11);
 }
 
-}  // namespace quantengine::analytics
+}
 

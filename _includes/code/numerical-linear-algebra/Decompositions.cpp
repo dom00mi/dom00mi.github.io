@@ -29,7 +29,7 @@ double max_magnitude(const Matrix& matrix) {
     return scale;
 }
 
-}  // namespace
+}
 
 LUFactorization lu_factorize(const Matrix& matrix) {
     require_square(matrix);
@@ -232,4 +232,4 @@ Vector qr_least_squares(const Matrix& matrix, const Vector& rhs) {
     return x;
 }
 
-}  // namespace numerics
+}

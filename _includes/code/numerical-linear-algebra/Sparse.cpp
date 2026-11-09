@@ -212,4 +212,4 @@ IterativeResult conjugate_gradient(const CSRMatrix& matrix, const Vector& rhs, d
     return {std::move(x), max_iterations, std::sqrt(residual_squared), false};
 }
 
-}  // namespace numerics
+}

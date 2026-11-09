@@ -43,7 +43,7 @@ std::vector<double> tridiagonal(const std::vector<double>& lower,
   return x;
 }
 
-}  // namespace
+}
 
 Result price(const analytics::EuropeanMarket& m, payoffs::Right right,
              bool american, GridSettings settings) {
@@ -147,5 +147,5 @@ Result price(const analytics::EuropeanMarket& m, payoffs::Right right,
           dS};
 }
 
-}  // namespace quantengine::pde
+}
 

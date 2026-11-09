@@ -26,7 +26,7 @@ double second_derivative(const std::function<double(double)>& p,
   return (4 * central(step / 2) - central(step)) / 3;
 }
 
-}  // namespace
+}
 
 analytics::Sensitivities numerical_greeks(
     const std::function<double(const analytics::EuropeanMarket&)>& pricer,
@@ -91,5 +91,5 @@ TailRisk historical_tail_risk(std::vector<double> pnl, double confidence) {
   return {var, std::max(es, 0.0), confidence};
 }
 
-}  // namespace quantengine::risk
+}
 

@@ -10,7 +10,7 @@ void validate_step(double dt, double z) {
   if (!std::isfinite(dt) || dt <= 0 || !std::isfinite(z))
     throw std::invalid_argument("Invalid process step");
 }
-}  // namespace
+}
 
 TimeGrid::TimeGrid(std::vector<double> times) : times_(std::move(times)) {
   if (times_.size() < 2 || times_.front() != 0)
@@ -140,5 +140,5 @@ Observation HullWhiteOneFactor::observe(State s, double time) const {
   return {time, s.value, s.value, s.discount_factor};
 }
 
-}  // namespace quantengine::models
+}
 

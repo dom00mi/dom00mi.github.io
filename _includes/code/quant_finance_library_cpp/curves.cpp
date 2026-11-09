@@ -18,7 +18,7 @@ double endpoint_slope(double h0, double h1, double d0, double d1) {
   return m;
 }
 
-}  // namespace
+}
 
 MonotoneCubicCurve::MonotoneCubicCurve(std::vector<double> x,
                                        std::vector<double> y)
@@ -139,5 +139,5 @@ market::DiscountCurve bootstrap_discount_curve(
   return market::DiscountCurve(std::move(times), std::move(discounts));
 }
 
-}  // namespace quantengine::curves
+}
 

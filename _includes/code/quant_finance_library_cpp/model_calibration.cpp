@@ -50,5 +50,5 @@ HullWhiteFit fit_hull_white_caplets(const market::DiscountCurve& curve,
           std::sqrt(fit.objective), fit.converged};
 }
 
-}  // namespace quantengine::model_calibration
+}
 

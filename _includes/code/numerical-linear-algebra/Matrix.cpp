@@ -100,4 +100,4 @@ double dot(const Vector& left, const Vector& right) {
 
 double norm2(const Vector& vector) { return std::sqrt(dot(vector, vector)); }
 
-}  // namespace numerics
+}

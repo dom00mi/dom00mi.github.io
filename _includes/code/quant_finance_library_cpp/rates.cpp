@@ -34,7 +34,7 @@ void validate_schedule(SwapSchedule schedule) {
     throw std::invalid_argument("Swap tenor must divide into uniform coupons");
 }
 
-}  // namespace
+}
 
 double forward_libor(const market::DiscountCurve& curve,
                      double start, double end) {
@@ -119,5 +119,5 @@ double hull_white_caplet(const market::DiscountCurve& curve,
   return notional * repayment * p_start * bond_put;
 }
 
-}  // namespace quantengine::rates
+}
 
