@@ -1754,8 +1754,6 @@ $$
 \tag{3.54}
 $$
 
-> **End of the requested excerpt.** PDF page 80 (printed page 72) ends immediately after equation (3.54), in the middle of this proof. The rest of this proof and subsequent proofs in Chapter 3 are on later PDF pages; they are outside the requested pages 51–80.
-
 ---
 
 
