@@ -1,3 +1,9 @@
+---
+layout: default
+title: Mathematics License
+permalink: /pages/mathematics/license/
+---
+
 # License — Mathematics
 
 **Copyright © 2026 Domenico Nava. All rights reserved except as licensed below.**

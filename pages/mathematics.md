@@ -179,4 +179,8 @@ Optimisation studies how to find the best solution to a problem under specified 
 - **Mathematical presentations** — Coming soon
 - **Worked derivations and notebooks** — Coming soon
 
+## License
+
+The original educational content in this Mathematics collection is available under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)]({{ '/pages/mathematics/license/' | relative_url }}).
+
 </article>
