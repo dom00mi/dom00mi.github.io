@@ -34,7 +34,7 @@ permalink: /pages/mathematics/real_analysis/01-foundations-of-analysis/01-real-n
 
 ## Suggested reading path
 
-For a first pass, begin with **Abbott** or **Bartle and Sherbert**. Use **Rudin** for a more compact, theorem-driven treatment. Consult **Tao** if you want to understand the construction of the real numbers in greater foundational detail.
+For a first look, begin with **Abbott** or **Bartle and Sherbert**. Use **Rudin** for a more compact, theorem-driven treatment. Consult **Tao** if you want to understand the construction of the real numbers in greater detail.
 
 
 

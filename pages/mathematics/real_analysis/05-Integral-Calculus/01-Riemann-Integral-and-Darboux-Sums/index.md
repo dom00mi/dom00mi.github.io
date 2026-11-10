@@ -8,7 +8,7 @@ permalink: /pages/mathematics/real_analysis/05-integral-calculus/01-riemann-inte
   <a class="back" href="{{ '/pages/mathematics/real_analysis/05-integral-calculus/' | relative_url }}">Chapter 5: Integral Calculus</a>
   <div class="eyebrow">Mathematics / Real Analysis / 5.1</div>
   <h1>5.1: Riemann Integral and Darboux Sums</h1>
-  <p class="lead">Placeholder notes for Riemann Integral and Darboux Sums.</p>
+  <p class="lead"></p>
 </div>
 
 <article class="article" markdown="1">

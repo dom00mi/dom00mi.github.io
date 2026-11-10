@@ -78,18 +78,18 @@ This decimal expansion can be approximated by a sequence of rational numbers obt
 
 $$
 \begin{aligned}
-a_0 &= 12,\\
-a_1 &= 12.3,\\
-a_2 &= 12.34,\\
-a_3 &= 12.345,\\
-a_4 &= 12.3456,\\
+a_0 &= 17,\\
+a_1 &= 17.3,\\
+a_2 &= 17.35,\\
+a_3 &= 17.345,\\
+a_4 &= 17.3456,\\
 &\vdots
 \end{aligned}
 $$
 
 Every term $a_i$ is rational. Moreover, the difference between $a_i$ and any later term is at most $10^{-i}$. As $i$ increases, this bound approaches zero, illustrating why the sequence is Cauchy.
 
-The concept of an **equivalence class** ensures that Cauchy sequences representing the same real number are treated as equivalent. For instance,
+The concept of an **equivalence class** ensures that Cauchy sequences representing the same real number are treated as equivalent. For instance in the limit,
 
 $$
 1.00000\ldots = 0.99999\ldots = 1.
@@ -113,7 +113,7 @@ They also have an order compatible with arithmetic. In particular, for $x,y,z\in
 - If $x<y$ and $z>0$, then $xz<yz$.
 - If $x<y$ and $z<0$, then $xz>yz$.
 
-These rules make $\mathbb R$ an **ordered field**. The extra property that distinguishes $\mathbb R$ from $\mathbb Q$ is completeness, introduced below.
+These rules make $\mathbb R$ an **ordered field**. The extra property that distinguishes $\mathbb R$ from $\mathbb Q$ is completeness, introduced below. We will examine the [topology of the real line]({{ '/pages/mathematics/real_analysis/01-foundations-of-analysis/02-topology-of-the-real-line/' | relative_url }}) and [a more topological perspective through topological spaces]({{ '/pages/mathematics/real_analysis/01-foundations-of-analysis/03-introduction-to-topological-spaces/' | relative_url }}) in the later subsections of the chapter.
 
 ## 3. Absolute value and distance
 

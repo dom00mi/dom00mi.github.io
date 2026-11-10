@@ -91,4 +91,4 @@ structure are available on GitHub.
 ---
 
 **Note:** This project is part of an evolving collection
-of educational and computational finance implementations.
+of educational and computational mathematics implementations.
