@@ -8,7 +8,6 @@ permalink: /pages/mathematics/real_analysis/02-sequences-and-series/01-convergen
   <a class="back" href="{{ '/pages/mathematics/real_analysis/02-sequences-and-series/' | relative_url }}">Chapter 2: Sequences and Series</a>
   <div class="eyebrow">Mathematics / Real Analysis / 2.1</div>
   <h1>2.1: Convergence and Limits of Sequences</h1>
-  <p class="lead">Placeholder notes for Convergence and Limits of Sequences.</p>
 </div>
 
 <article class="article" markdown="1">

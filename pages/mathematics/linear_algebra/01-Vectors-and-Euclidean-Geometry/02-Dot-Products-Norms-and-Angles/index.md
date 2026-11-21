@@ -8,7 +8,6 @@ permalink: /pages/mathematics/linear_algebra/01-vectors-and-euclidean-geometry/0
   <a class="back" href="{{ '/pages/mathematics/linear_algebra/01-vectors-and-euclidean-geometry/02-dot-products-norms-and-angles/' | relative_url }}">← Dot Products Norms and Angles</a>
   <div class="eyebrow">Mathematics / Linear Algebra / 1.2</div>
   <h1>Dot Products Norms and Angles</h1>
-  <p class="lead">Placeholder topic for Dot Products Norms and Angles. (TBD)</p>
 </div>
 
 <article class="article" markdown="1">

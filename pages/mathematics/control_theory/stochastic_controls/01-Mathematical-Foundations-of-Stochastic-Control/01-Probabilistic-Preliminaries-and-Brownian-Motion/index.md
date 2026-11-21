@@ -8,7 +8,6 @@ permalink: /pages/mathematics/control_theory/stochastic-controls/01-mathematical
   <a class="back" href="{{ '/pages/mathematics/control_theory/stochastic-controls/01-mathematical-foundations-of-stochastic-control/' | relative_url }}">Chapter 1: Mathematical Foundations of Stochastic Control</a>
   <div class="eyebrow">Mathematics / Control Theory / Stochastic Control / 1.1</div>
   <h1>1.1: Probabilistic Preliminaries and Brownian Motion</h1>
-  <p class="lead">Placeholder notes for Probabilistic Preliminaries and Brownian Motion.</p>
 </div>
 
 <article class="article" markdown="1">

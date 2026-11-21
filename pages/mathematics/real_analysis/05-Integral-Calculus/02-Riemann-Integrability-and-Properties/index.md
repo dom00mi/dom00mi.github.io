@@ -8,7 +8,6 @@ permalink: /pages/mathematics/real_analysis/05-integral-calculus/02-riemann-inte
   <a class="back" href="{{ '/pages/mathematics/real_analysis/05-integral-calculus/' | relative_url }}">Chapter 5: Integral Calculus</a>
   <div class="eyebrow">Mathematics / Real Analysis / 5.2</div>
   <h1>5.2: Riemann Integrability and Properties</h1>
-  <p class="lead">Placeholder notes for Riemann Integrability and Properties.</p>
 </div>
 
 <article class="article" markdown="1">

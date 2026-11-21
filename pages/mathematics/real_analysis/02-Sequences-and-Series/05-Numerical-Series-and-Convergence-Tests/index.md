@@ -8,7 +8,6 @@ permalink: /pages/mathematics/real_analysis/02-sequences-and-series/05-numerical
   <a class="back" href="{{ '/pages/mathematics/real_analysis/02-sequences-and-series/' | relative_url }}">Chapter 2: Sequences and Series</a>
   <div class="eyebrow">Mathematics / Real Analysis / 2.5</div>
   <h1>2.5: Numerical Series and Convergence Tests</h1>
-  <p class="lead">Placeholder notes for Numerical Series and Convergence Tests.</p>
 </div>
 
 <article class="article" markdown="1">

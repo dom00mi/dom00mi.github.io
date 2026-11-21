@@ -8,7 +8,6 @@ permalink: /pages/mathematics/real_analysis/05-integral-calculus/04-methods-and-
   <a class="back" href="{{ '/pages/mathematics/real_analysis/05-integral-calculus/' | relative_url }}">Chapter 5: Integral Calculus</a>
   <div class="eyebrow">Mathematics / Real Analysis / 5.4</div>
   <h1>5.4: Methods and Techniques of Integration</h1>
-  <p class="lead">Placeholder notes for Methods and Techniques of Integration.</p>
 </div>
 
 <article class="article" markdown="1">

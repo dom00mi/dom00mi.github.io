@@ -8,7 +8,6 @@ permalink: /pages/mathematics/linear_algebra/01-vectors-and-euclidean-geometry/0
   <a class="back" href="{{ '/pages/mathematics/linear_algebra/01-vectors-and-euclidean-geometry/01-vectors-in-r2-r3-and-rn/' | relative_url }}">← Vectors in R2 R3 and Rn</a>
   <div class="eyebrow">Mathematics / Linear Algebra / 1.1</div>
   <h1>Vectors in R2 R3 and Rn</h1>
-  <p class="lead">Placeholder topic for Vectors in R2 R3 and Rn. (TBD)</p>
 </div>
 
 <article class="article" markdown="1">
