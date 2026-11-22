@@ -23,7 +23,7 @@ $$
 B(t)=\exp\!\left(\int_0^t r(s)\,\mathrm{d}s\right).
 $$
 
-In the complete, arbitrage-free semimartingale setting of the lecture, there is an equivalent martingale measure \(\mathbb{Q}\) such that sufficiently integrable self-financing asset prices divided by \(B\) are martingales. A replicable payoff \(H\) at maturity \(T\) then has value
+In the complete, arbitrage-free semimartingale setting of the framework, there is an equivalent martingale measure \(\mathbb{Q}\) such that sufficiently integrable self-financing asset prices divided by \(B\) are martingales. A replicable payoff \(H\) at maturity \(T\) then has value
 
 $$
 V(t)=B(t)\mathbb{E}^{\mathbb Q}

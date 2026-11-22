@@ -19,7 +19,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/04-Interest-Rate-Deriv
 
 A **payer swaption** gives its holder the right at expiry \(T_0\) to enter a swap paying a predetermined fixed strike \(K\) and receiving floating. A **receiver swaption** gives the right to receive fixed. The underlying swap pays on dates \(T_1,\ldots,T_n\).
 
-In the lecture's single-curve framework the unit-notional pay-fixed swap value at time \(t\) is
+In the single-curve framework the unit-notional pay-fixed swap value at time \(t\) is
 
 $$
 V_{\mathrm{swap}}(t)=P(t,T_0)-P(t,T_n)
@@ -88,7 +88,7 @@ For notional \(N\), multiply the entire result by \(N\). The model treats the **
 
 ## 4.4.4 Model consistency
 
-The PDF observes that a model in which every forward LIBOR is exactly lognormal need not make forward swap rates lognormal as well. A swap rate is a nonlinear ratio of bond-price combinations, and the two assumptions are generally not simultaneously exact; see the swap market model discussion in lecture §7.3.
+The PDF observes that a model in which every forward LIBOR is exactly lognormal need not make forward swap rates lognormal as well. A swap rate is a nonlinear ratio of bond-price combinations, and the two assumptions are generally not simultaneously exact; see the swap market model discussion in Section 7.3.
 
 ---
 

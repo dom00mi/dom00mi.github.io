@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-
 
 # 3.3 — DV01, Key-Rate Duration and Hedging
 
-> **Scope:** The lecture explicitly defines duration and convexity; DV01, key-rate duration and risk-bucket hedging are supplementary applications of those derivatives.
+> **Scope:** The framework explicitly defines duration and convexity; DV01, key-rate duration and risk-bucket hedging are supplementary applications of those derivatives.
 
 ## 3.3.1 Dollar value of a basis point
 

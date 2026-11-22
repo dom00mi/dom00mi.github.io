@@ -31,7 +31,7 @@ P(t,T)=\frac{1}{1+(T-t)L(t,T)},
 L(t,T)=\frac{P(t,T)^{-1}-1}{T-t}.
 $$
 
-The lecture notes refer to the historical market quote as the spot LIBOR rate. The algebraic discount-factor identity is more general than the benchmark's historical name.
+The source notes refer to the historical market quote as the spot LIBOR rate. The algebraic discount-factor identity is more general than the benchmark's historical name.
 
 ## 1.2.2 Discrete compounding
 

@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Mode
 
 # 7.2 — SABR Model and Volatility Smiles
 
-> **Scope:** SABR is **not derived or specified** in the supplied lecture PDF. The model below is supplementary theory for the requested chapter; it should not be attributed to the lecture text.
+> **Scope:** SABR is **not derived or specified** in the supplied source PDF. The model below is supplementary theory for the requested chapter; it should not be attributed to the framework text.
 
 ## 7.2.1 Why a volatility-smile model is needed
 

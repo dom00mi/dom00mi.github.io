@@ -15,9 +15,9 @@ permalink: /pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Mode
 
 # 7.3 — Calibration, Monte Carlo and PDE Pricing
 
-## 7.3.1 What the lecture explicitly calibrates
+## 7.3.1 Calibration targets
 
-The lecture notes distinguish two calibration targets: the initial term structure and the prices of interest-rate options. For a parametric short-rate model with vector \(\boldsymbol\phi\), the initial bond calibration seeks
+The source notes distinguish two calibration targets: the initial term structure and the prices of interest-rate options. For a parametric short-rate model with vector \(\boldsymbol\phi\), the initial bond calibration seeks
 
 $$
 P^{\mathrm{model}}(0,T;\boldsymbol\phi)
@@ -50,7 +50,7 @@ V_t+\mu^{\mathbb Q}(t,x)V_x
 \qquad V(T,x)=\Psi(x).
 $$
 
-The bond-price case uses terminal payoff \(\Psi(x)=1\). A bond-option or caplet terminal payoff can also be substituted, as demonstrated in lecture §5.1.
+The bond-price case uses terminal payoff \(\Psi(x)=1\). A bond-option or caplet terminal payoff can also be substituted, as demonstrated in Section 5.1.
 
 ## 7.3.3 Monte Carlo form of the same price
 

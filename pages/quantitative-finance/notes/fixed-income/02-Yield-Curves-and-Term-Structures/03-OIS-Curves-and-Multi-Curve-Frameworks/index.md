@@ -17,9 +17,9 @@ permalink: /pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Te
 
 ## 2.3.1 Motivation for multiple curves
 
-Before the 2007–08 crisis, single-curve approaches often treated discounting and term-rate projections as if they were governed by the same zero-coupon curve. The lecture notes describe how bank credit and funding concerns produced a material divergence between overnight-indexed swap (OIS) rates and term unsecured rates. This motivated **distinct discount and tenor-specific forward curves**.
+Before the 2007–08 crisis, single-curve approaches often treated discounting and term-rate projections as if they were governed by the same zero-coupon curve. The source notes describe how bank credit and funding concerns produced a material divergence between overnight-indexed swap (OIS) rates and term unsecured rates. This motivated **distinct discount and tenor-specific forward curves**.
 
-The lecture's post-LIBOR discussion refers to overnight reference rates such as SONIA, SOFR and €STR. These are backward-looking overnight benchmarks, unlike traditional forward-looking LIBOR term fixings.
+The framework's post-LIBOR discussion refers to overnight reference rates such as SONIA, SOFR and €STR. These are backward-looking overnight benchmarks, unlike traditional forward-looking LIBOR term fixings.
 
 ## 2.3.2 Discount curve and tenor-indexed forwards
 
@@ -40,7 +40,7 @@ This separates discounting from the projection of rate-dependent payoffs.
 
 ## 2.3.3 Additive and multiplicative spreads
 
-The lecture defines the **additive spread** as
+The framework defines the **additive spread** as
 
 $$
 S^x_k(t)=L^x_k(t)-F^d_k(t),

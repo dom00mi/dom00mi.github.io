@@ -17,7 +17,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Mode
 
 Connect market Black volatilities with caplet and swaption pricing, then add clearly marked supplementary normal volatility, SABR and numerical-calibration notes.
 
-For an option whose relevant forward is lognormal under the corresponding numéraire measure, the lecture uses Black-type pricing with the integrated variance
+For an option whose relevant forward is lognormal under the corresponding numéraire measure, the framework uses Black-type pricing with the integrated variance
 
 $$
 \nu^2=\int_t^{T_0}\lVert\boldsymbol\sigma(u)\rVert^2\,\mathrm{d}u.

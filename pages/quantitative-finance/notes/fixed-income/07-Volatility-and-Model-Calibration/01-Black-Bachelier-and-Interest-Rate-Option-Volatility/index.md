@@ -15,9 +15,9 @@ permalink: /pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Mode
 
 # 7.1 — Black, Bachelier and Interest-Rate Option Volatility
 
-## 7.1.1 Market-model volatility in the lecture notes
+## 7.1.1 Market-model volatility
 
-The lecture's market-model approach assumes a selected forward **simple interest rate**, or a forward swap rate, is lognormal under the numéraire measure appropriate to its payoff. For a caplet written on forward rate \(L_k\), the \(T_k\)-forward measure gives
+The framework's market-model approach assumes a selected forward **simple interest rate**, or a forward swap rate, is lognormal under the numéraire measure appropriate to its payoff. For a caplet written on forward rate \(L_k\), the \(T_k\)-forward measure gives
 
 $$
 \mathrm{d}L_k(t)=L_k(t)\boldsymbol\sigma_k(t)

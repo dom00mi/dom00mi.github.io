@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Te
 
 # 02 — Yield Curves and Term Structures
 
-Develop discount, zero and forward curves; then distinguish the lecture’s term-structure identities from supplementary numerical curve construction and the OIS/multi-curve setting.
+Develop discount, zero and forward curves; then distinguish the term-structure identities from supplementary numerical curve construction and the OIS/multi-curve setting.
 
 The spot, forward and discount curves are different descriptions of the same idealised default-free term structure:
 

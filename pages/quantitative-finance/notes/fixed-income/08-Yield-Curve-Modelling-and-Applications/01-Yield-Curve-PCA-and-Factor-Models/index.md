@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelli
 
 # 8.1 — Yield-Curve PCA and Factor Models
 
-> **Scope:** Principal-component analysis (PCA) of yield curves is **not covered** in the uploaded PDF. The notes below provide a supplementary statistical application of its curve representations; these are not statements taken from the lecture.
+> **Scope:** Principal-component analysis (PCA) of yield curves is **not covered** in the uploaded PDF. The notes below provide a supplementary statistical application of its curve representations; these are not statements taken from the framework.
 
 ## 8.1.1 A finite-dimensional observation of the yield curve
 

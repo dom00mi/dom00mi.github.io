@@ -17,13 +17,13 @@ permalink: /pages/quantitative-finance/notes/fixed-income/04-Interest-Rate-Deriv
 
 ## 4.1.1 Forward rate agreements
 
-A forward rate agreement (FRA) locks in a rate for a future accrual interval \([S,T]\), with year fraction \(\delta=T-S\). In the lecture's **single-curve** setting the reference simple rate realised at \(S\) is
+A forward rate agreement (FRA) locks in a rate for a future accrual interval \([S,T]\), with year fraction \(\delta=T-S\). In the **single-curve** setting the reference simple rate realised at \(S\) is
 
 $$
 L(S,T)=\frac{1}{\delta}\left(\frac{1}{P(S,T)}-1\right).
 $$
 
-Consider an FRA with notional \(N\) and a net payment at \(T\) of \(N\delta(L(S,T)-K)\) to the receive-floating party. For \(t\le S\), the lecture's replication lemma implies
+Consider an FRA with notional \(N\) and a net payment at \(T\) of \(N\delta(L(S,T)-K)\) to the receive-floating party. For \(t\le S\), the replication lemma implies
 
 $$
 \operatorname{PV}_t\!\left[\delta L(S,T)
@@ -65,7 +65,7 @@ These expressions coincide by the bond-ratio identity.
 
 ## 4.1.3 Reset dates and conventions
 
-Some FRA markets settle at the beginning rather than the end of the accrual period; a payment at \(S\) requires an appropriate settlement-adjustment convention. The simple end-payment formula above is the exact convention used to develop the lecture's LIBOR replication identity.
+Some FRA markets settle at the beginning rather than the end of the accrual period; a payment at \(S\) requires an appropriate settlement-adjustment convention. The simple end-payment formula above is the exact convention used to develop the LIBOR replication identity.
 
 ## 4.1.4 Interest-rate futures
 

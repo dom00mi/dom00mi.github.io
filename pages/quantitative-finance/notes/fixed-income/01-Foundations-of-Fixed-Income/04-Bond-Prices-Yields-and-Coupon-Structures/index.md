@@ -27,7 +27,7 @@ As rates or maturities change, the curve contributes differently to each coupon.
 
 ## 1.4.2 Yield to maturity
 
-The lecture notes define a *continuously compounded yield to maturity* \(y\) as the constant rate reproducing the bond price:
+The source notes define a *continuously compounded yield to maturity* \(y\) as the constant rate reproducing the bond price:
 
 $$
 B(t)=\sum_{k=1}^{n} c_ke^{-y(T_k-t)}+Ne^{-y(T_n-t)}.

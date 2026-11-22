@@ -17,7 +17,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/01-Foundations-of-Fixe
 
 ## 1.1.1 The time value of money
 
-An amount payable at one date cannot in general be compared directly with the same nominal amount at another date. We choose a valuation date, represent future obligations as dated cashflows, and discount each cashflow to that date. In the idealised default-free market of the lectures, the building blocks are **zero-coupon bonds**.
+An amount payable at one date cannot in general be compared directly with the same nominal amount at another date. We choose a valuation date, represent future obligations as dated cashflows, and discount each cashflow to that date. In the idealised default-free market of the source material, the building blocks are **zero-coupon bonds**.
 
 **Definition (zero-coupon bond).** A zero-coupon bond maturing at \(T\) pays one unit of currency at \(T\) and makes no intermediate payment. Its time-\(t\) value is denoted by \(P(t,T)\), for \(t ≤ T\), and it satisfies
 
@@ -79,7 +79,7 @@ $$
 
 The last formula is particularly important: **when short rates are stochastic, the discount factor inside the expectation is random**. In general it cannot be replaced by an exponential at the expected future short rate. The precise no-arbitrage argument is developed in Chapter 6.
 
-## 1.1.4 Assumptions of the lecture framework
+## 1.1.4 Framework assumptions
 
 The source assumes a frictionless, liquid continuum of default-free bonds, sufficiently smooth prices as functions of maturity, and no arbitrage. These are modelling assumptions, not literal descriptions of every bond market.
 

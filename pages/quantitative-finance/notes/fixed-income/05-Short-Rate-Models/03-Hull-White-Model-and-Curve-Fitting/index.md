@@ -17,7 +17,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/05-Short-Rate-Models/0
 
 ## 5.3.1 Time-dependent coefficients
 
-The lectures introduce a time-inhomogeneous Hull–White extension of Vasicek:
+The frameworks introduce a time-inhomogeneous Hull–White extension of Vasicek:
 
 $$
 \mathrm{d}r(t)=\left[\alpha(t)-a(t)r(t)\right]\mathrm{d}t
@@ -83,7 +83,7 @@ $$
 P(0,T)=P^*(0,T),\qquad\text{for all modelled maturities }T.
 $$
 
-The lecture explains why constant parameters generally cannot satisfy an infinite collection of maturity-specific constraints, whereas a deterministic drift function can.
+The framework explains why constant parameters generally cannot satisfy an infinite collection of maturity-specific constraints, whereas a deterministic drift function can.
 
 ## 5.3.4 Ho–Lee as an explicit calibration example
 
@@ -99,7 +99,7 @@ $$
 \alpha(t)=\frac{\partial f^*(0,t)}{\partial t}+\sigma^2t.
 $$
 
-HJM with constant forward-rate volatility reproduces exactly the same short-rate dynamics. This is the lecture's concrete demonstration of the initial-curve calibration principle.
+HJM with constant forward-rate volatility reproduces exactly the same short-rate dynamics. This is the concrete demonstration of the initial-curve calibration principle.
 
 ---
 

@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelli
 
 # 8.2 — Curve Risk and Hedging Strategies
 
-> **Scope:** This chapter applies the lecture's bond-price and duration equations to factor hedging. Key-rate hedging and hedge optimisation are supplementary, not separately derived in the PDF.
+> **Scope:** This chapter applies the bond-price and duration equations to factor hedging. Key-rate hedging and hedge optimisation are supplementary, not separately derived in the PDF.
 
 ## 8.2.1 Curve-risk vector
 
@@ -31,7 +31,7 @@ $$
 \Delta V\approx\boldsymbol g^{\mathsf T}\Delta\boldsymbol z.
 $$
 
-For a single continuously compounded yield, the lecture's duration formula is
+For a single continuously compounded yield, the duration formula is
 
 $$
 \frac{\partial V}{\partial y}=-V D(y).

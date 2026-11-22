@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-
 
 # 3.4 — Bond Portfolio Risk and Attribution
 
-> **Scope:** Portfolio attribution and factor-risk reporting are not developed in the lecture PDF. This section assembles a concise supplementary framework from its present-value and sensitivity equations.
+> **Scope:** Portfolio attribution and factor-risk reporting are not developed in the source PDF. This section assembles a concise supplementary framework from its present-value and sensitivity equations.
 
 ## 3.4.1 Portfolio valuation
 
@@ -58,7 +58,7 @@ $$
 +\underbrace{\text{other repricing and residual}}_{\text{basis, spread, model}}.
 $$
 
-The precise attribution is convention-dependent; one must decide whether carry, roll-down, credit-spread moves and financing are separate components before calculating contributions. The lecture source does not establish a unique attribution methodology.
+The precise attribution is convention-dependent; one must decide whether carry, roll-down, credit-spread moves and financing are separate components before calculating contributions. The framework source does not establish a unique attribution methodology.
 
 ## 3.4.4 Risk aggregation principles
 

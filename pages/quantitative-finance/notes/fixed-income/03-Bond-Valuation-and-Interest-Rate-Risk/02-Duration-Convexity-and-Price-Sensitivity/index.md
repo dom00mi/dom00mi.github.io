@@ -24,7 +24,7 @@ B(y)=\sum_{k=1}^{n}c_ke^{-y\tau_k}+Ne^{-y\tau_n},
 \qquad \tau_k=T_k-t.
 $$
 
-The lecture defines **duration** by the negative price derivative normalised by current price:
+The framework defines **duration** by the negative price derivative normalised by current price:
 
 $$
 D(y)=-\frac{1}{B(y)}\frac{\partial B(y)}{\partial y}.

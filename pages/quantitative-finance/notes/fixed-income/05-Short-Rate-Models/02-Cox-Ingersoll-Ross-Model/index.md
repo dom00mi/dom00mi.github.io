@@ -31,7 +31,7 @@ $$
 2ab\geq\sigma^2.
 $$
 
-The Feller boundary condition is a supplementary standard result; it is not derived in the lecture PDF.
+The Feller boundary condition is a supplementary standard result; it is not derived in the source PDF.
 
 ## 5.2.2 Conditional mean
 
@@ -79,7 +79,7 @@ $$
 =abB,\qquad A(0)=0.
 $$
 
-Thus CIR belongs to the affine short-rate family introduced in lecture §5.3. The Riccati equations determine its zero-coupon term structure and allow calibration to observed bonds, subject to the model's parameter restrictions.
+Thus CIR belongs to the affine short-rate family introduced in Section 5.3. The Riccati equations determine its zero-coupon term structure and allow calibration to observed bonds, subject to the model's parameter restrictions.
 
 ## 5.2.4 Vasicek versus CIR
 

@@ -76,7 +76,7 @@ The same formula can be expressed in a factor basis \(\Delta\boldsymbol z=F\Delt
 
 For a held instrument, P&L over time can be conceptually separated into coupon/accrual, passage-of-time effects on discounted cashflows, yield-curve changes and residual spread/basis moves. A rigorous attribution must specify whether the curve is held constant in maturity coordinates, date coordinates, or another convention while calculating **roll-down**.
 
-The lecture's main contribution to this discussion is the consistency requirement: whether one values bonds, swaps or options, all prices must be coherent with the chosen discounting and no-arbitrage framework. In the multi-curve setting one must maintain separate projection and discount curves in every scenario.
+The framework's main contribution to this discussion is the consistency requirement: whether one values bonds, swaps or options, all prices must be coherent with the chosen discounting and no-arbitrage framework. In the multi-curve setting one must maintain separate projection and discount curves in every scenario.
 
 ---
 

@@ -23,7 +23,7 @@ $$
 f(0,T)=f^*(0,T),\qquad T\ge0.
 $$
 
-Under the physical measure \(\mathbb P\), the lecture postulates
+Under the physical measure \(\mathbb P\), the framework postulates
 
 $$
 \mathrm{d}f(t,T)=\alpha^{\mathbb P}(t,T)\,\mathrm{d}t
@@ -96,7 +96,7 @@ $$
 +\boldsymbol\lambda(t)\,\mathrm{d}t,
 $$
 
-then the lecture's physical-measure drift condition is
+then the physical-measure drift condition is
 
 $$
 \alpha^{\mathbb P}(t,T)

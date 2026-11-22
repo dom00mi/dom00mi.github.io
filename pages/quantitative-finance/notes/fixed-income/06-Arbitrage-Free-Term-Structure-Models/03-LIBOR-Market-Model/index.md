@@ -17,7 +17,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/06-Arbitrage-Free-Term
 
 ## 6.3.1 Why market models are built on simple forward rates
 
-The lecture notes explain that making every **instantaneous continuously compounded forward rate** lognormal is difficult in an HJM model. Interest-rate derivatives, however, commonly depend on **simple forward rates over finite accrual periods**. Market models therefore take these forwards as their underlying state variables.
+The source notes explain that making every **instantaneous continuously compounded forward rate** lognormal is difficult in an HJM model. Interest-rate derivatives, however, commonly depend on **simple forward rates over finite accrual periods**. Market models therefore take these forwards as their underlying state variables.
 
 For dates \(T_0<T_1<\cdots<T_n\), define
 
@@ -39,7 +39,7 @@ $$
 \qquad t\le T_{k-1},
 $$
 
-where the volatility vectors are deterministic in the version developed in the lectures.
+where the volatility vectors are deterministic in the version developed in the source material.
 
 The caplet written on \(L_k\) is therefore priced with a Black formula using
 
@@ -70,7 +70,7 @@ $$
 \boldsymbol\gamma(t,T)=-\int_t^T\boldsymbol\sigma_f(t,u)\,\mathrm{d}u.
 $$
 
-The lecture derives
+The framework derives
 
 $$
 \boldsymbol\sigma_k(t)=

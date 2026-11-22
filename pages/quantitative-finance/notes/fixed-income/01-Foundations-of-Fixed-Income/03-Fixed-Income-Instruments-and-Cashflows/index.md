@@ -53,7 +53,7 @@ For coupons paid periodically, the payment frequency and accrual schedule matter
 
 ## 1.3.3 Floating-rate notes
 
-A floating-rate note resets each coupon with an observed reference rate. In the **single-curve, default-free framework** of the lecture notes, the coupon due at \(T_k\) is
+A floating-rate note resets each coupon with an observed reference rate. In the **single-curve, default-free framework** of the source notes, the coupon due at \(T_k\) is
 
 $$
 c_k=N\delta_kL(T_{k-1},T_k).
