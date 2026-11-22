@@ -1,29 +1,72 @@
 ---
 layout: default
-title: "Fixed Income Notes"
+title: "Fixed Income — Mathematical Finance Notes"
 permalink: /pages/quantitative-finance/notes/fixed-income/
 ---
 <div class="page-header">
   <a class="back" href="{{ '/pages/quantitative-finance/' | relative_url }}">← Back</a>
   <div class="eyebrow">Quantitative Finance / Notes</div>
   <h1>Fixed Income Notes</h1>
-  <p class="lead">A structured set of notes on fixed-income markets, yield curves, interest-rate derivatives and term-structure modelling.</p>
+  <p class="lead">Mathematical finance notes on discounting, yield curves, interest-rate derivatives and term-structure models.</p>
 </div>
 
 <article class="article" markdown="1">
 
-## Contents
 
-These notes develop fixed-income concepts from the time value of money through modern curve construction, interest-rate derivatives, short-rate models and curve-risk applications.
+# Fixed Income
 
-- [Foundations Of Fixed Income]({{ '/pages/quantitative-finance/notes/fixed-income/01-Foundations-of-Fixed-Income/' | relative_url }})
-- [Yield Curves And Term Structures]({{ '/pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Term-Structures/' | relative_url }})
-- [Bond Valuation And Interest Rate Risk]({{ '/pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-Interest-Rate-Risk/' | relative_url }})
-- [Interest Rate Derivatives]({{ '/pages/quantitative-finance/notes/fixed-income/04-Interest-Rate-Derivatives/' | relative_url }})
-- [Short Rate Models]({{ '/pages/quantitative-finance/notes/fixed-income/05-Short-Rate-Models/' | relative_url }})
-- [Arbitrage Free Term Structure Models]({{ '/pages/quantitative-finance/notes/fixed-income/06-Arbitrage-Free-Term-Structure-Models/' | relative_url }})
-- [Volatility And Model Calibration]({{ '/pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Model-Calibration/' | relative_url }})
-- [Yield Curve Modelling And Applications]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/' | relative_url }})
+*From discounting and yield curves to arbitrage-free interest-rate modelling.*
+
+These notes reorganise the attached **Monoyios–Hambly, *Fixed Income and Credit*** lecture notes (16 January 2026) into a progressive mathematical-finance curriculum. The emphasis is on assumptions, pricing identities, stochastic dynamics, martingale measures and model consistency, not on lists of elementary numerical examples.
+
+The source's core topics are treated in detail. Some of the requested headings—including bootstrapping, interpolation, futures, DV01, PCA, SABR and relative value—go beyond the PDF; those notes explicitly identify their **supplementary** status. Models referring to LIBOR are presented as the historical market-model constructions in the source, while the overnight-rate/multi-curve changes are discussed separately.
+
+## Chapters
+
+| Chapter | Focus | Notes |
+|:--|:--|:--|
+| **01 — Foundations of Fixed Income** | Start with the time value of money, zero-coupon bond prices, accumulation conventions and the cashflow decomposition of fixed- and floating-rate bonds. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/01-Foundations-of-Fixed-Income/' | relative_url }}) |
+| **02 — Yield Curves and Term Structures** | Develop discount, zero and forward curves; then distinguish the lecture’s term-structure identities from supplementary numerical curve construction and the OIS/multi-curve setting. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Term-Structures/' | relative_url }}) |
+| **03 — Bond Valuation and Interest Rate Risk** | Price coupon bonds, define their continuously compounded yield, derive duration and convexity, and extend the same sensitivities to portfolio-level risk. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-Interest-Rate-Risk/' | relative_url }}) |
+| **04 — Interest Rate Derivatives** | Value forward-rate agreements, fixed-for-floating swaps, caps, floors and swaptions using bond replication, forward measures and annuity numeraires. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/04-Interest-Rate-Derivatives/' | relative_url }}) |
+| **05 — Short-Rate Models** | Study the risk-neutral short-rate pricing PDE and affine models, including Vasicek, CIR and Hull–White extensions and initial term-structure calibration. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/05-Short-Rate-Models/' | relative_url }}) |
+| **06 — Arbitrage-Free Term-Structure Models** | Derive change-of-numéraire valuation, the HJM no-arbitrage drift restriction, and the construction of a consistent forward-LIBOR market model. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/06-Arbitrage-Free-Term-Structure-Models/' | relative_url }}) |
+| **07 — Volatility and Model Calibration** | Connect market Black volatilities with caplet and swaption pricing, then add clearly marked supplementary normal volatility, SABR and numerical-calibration notes. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Model-Calibration/' | relative_url }}) |
+| **08 — Yield-Curve Modelling and Applications** | Extend the curve identities towards PCA, factor risk, hedging and scenario analysis. These applications are clearly marked as supplementary where the PDF does not cover them. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/' | relative_url }}) |
+
+
+## Conventions and notation
+
+We write \(t\) for valuation time, \(T\) for maturity, \(P(t,T)\) for the price of a default-free unit zero-coupon bond, \(R(t,T)\) for its continuously compounded zero rate, \(f(t,T)\) for the instantaneous forward rate and \(r(t)=f(t,t)\) for the short rate. The money-market account is \(B(t)\), and \(\mathbb Q\) denotes an equivalent martingale measure for that numéraire. A forward measure for maturity \(T\) is denoted by \(\mathbb Q^T\).
+
+All displayed mathematical expressions are enclosed in **MathJax `$$ ... $$` blocks**. The Markdown pages use ordinary Jekyll front matter, explicit permalinks and `relative_url` links so they can be placed under `pages/quantitative-finance/notes/fixed-income/` on a Jekyll website with MathJax already enabled. The site's existing MathJax configuration must still load the MathJax script.
+
+---
+
+## References
+
+The following numbered bibliography follows the reference list of **Monoyios and Hambly, *Fixed Income and Credit*** (lecture notes dated 16 January 2026):
+
+[1] T. Björk, *Arbitrage Theory in Continuous Time*, Oxford University Press, 3rd ed., 2009.
+
+[2] D. Brigo and F. Mercurio, *Interest Rate Models — Theory and Practice: With Smile, Inflation and Credit*, Springer Finance, Springer, 2nd ed., 2006.
+
+[3] D. Brigo, M. Morini and A. Pallavicini, *Counterparty Credit Risk, Collateral and Funding*, Wiley, 2013.
+
+[4] D. Filipović, *Term-Structure Models: A Graduate Course*, Springer Finance, Springer, 2009.
+
+[5] D. Heath, R. Jarrow and A. Morton, “Bond Pricing and the Term Structure of Interest Rates: A New Methodology for Contingent Claims Valuation,” *Econometrica*, **60** (1992), 77–105.
+
+[6] P. Hunt and J. Kennedy, *Financial Derivatives in Theory and Practice*, Wiley, revised ed., 2004.
+
+[7] M. Musiela and M. Rutkowski, *Martingale Methods in Financial Modelling*, Stochastic Modelling and Applied Probability, vol. 36, Springer, 2nd ed., 2005.
+
+[8] P. Schönbucher, *Credit Derivatives Pricing Models*, Wiley, 2003.
+
+[9] S. E. Shreve, *Stochastic Calculus for Finance II: Continuous-Time Models*, Springer Finance, Springer, 2004.
+
+[10] J. Večeř, *Stochastic Finance: A Numeraire Approach*, Chapman & Hall/CRC Financial Mathematics Series, CRC Press, 2011.
+
+**Primary lecture source:** Michael Monoyios and Ben Hambly, *Fixed Income and Credit*; edition modified by Blanka Horvath, Leandro Sanchez-Betancourt and Hanqing Jin, 16 January 2026. The PDF includes a separate credit-risk section (pp. 50–61) that is outside the requested eight-chapter fixed-income directory structure.
 
 </article>
-

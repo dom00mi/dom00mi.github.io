@@ -1,22 +1,37 @@
 ---
 layout: default
-title: "Yield Curve Modelling And Applications"
+title: "08 — Yield-Curve Modelling and Applications"
 permalink: /pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/
 ---
 <div class="page-header">
   <a class="back" href="{{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}">← Back</a>
   <div class="eyebrow">Quantitative Finance / Fixed Income</div>
-  <h1>Yield Curve Modelling And Applications</h1>
-  <p class="lead">Notes and worked material for yield curve modelling and applications.</p>
+  <h1>Yield Curve Modelling and Applications</h1>
+  <p class="lead">A structured chapter on yield curve modelling and applications.</p>
 </div>
 
 <article class="article" markdown="1">
 
-## Chapters
 
-- [Yield Curve PCA And Factor Models]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/01-Yield-Curve-PCA-and-Factor-Models/' | relative_url }})
-- [Curve Risk And Hedging Strategies]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/02-Curve-Risk-and-Hedging-Strategies/' | relative_url }})
-- [Yield Curve Relative Value And Scenario Analysis]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/03-Yield-Curve-Relative-Value-and-Scenario-Analysis/' | relative_url }})
+# 08 — Yield-Curve Modelling and Applications
+
+Extend the curve identities towards PCA, factor risk, hedging and scenario analysis. These applications are clearly marked as supplementary where the PDF does not cover them.
+
+Curve-shape risk can be written as a sensitivity to maturity pillars, with a local scenario approximation
+
+$$
+\Delta V\approx\nabla V^{\mathsf T}\Delta\boldsymbol z
++\tfrac12\Delta\boldsymbol z^{\mathsf T}\nabla^2V\Delta\boldsymbol z.
+$$
+
+## Subchapters
+
+- **8.1** [Yield-Curve PCA and Factor Models]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/01-Yield-Curve-PCA-and-Factor-Models/' | relative_url }})
+- **8.2** [Curve Risk and Hedging Strategies]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/02-Curve-Risk-and-Hedging-Strategies/' | relative_url }})
+- **8.3** [Yield-Curve Relative Value and Scenario Analysis]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/03-Yield-Curve-Relative-Value-and-Scenario-Analysis/' | relative_url }})
+
+**Primary source mapping:** Supplementary chapter based on term-structure and sensitivity identities in lecture §§1, 3, 4, 8.
+
+[← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 
 </article>
-
