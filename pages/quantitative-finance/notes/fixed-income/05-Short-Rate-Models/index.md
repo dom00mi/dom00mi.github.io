@@ -31,7 +31,6 @@ $$
 - **5.3** [Hull–White Model and Curve Fitting]({{ '/pages/quantitative-finance/notes/fixed-income/05-Short-Rate-Models/03-Hull-White-Model-and-Curve-Fitting/' | relative_url }})
 - **5.4** [Bond Options and Short-Rate Model Calibration]({{ '/pages/quantitative-finance/notes/fixed-income/05-Short-Rate-Models/04-Bond-Options-and-Short-Rate-Model-Calibration/' | relative_url }})
 
-**Primary source mapping:** Lecture §5 and §6.4 (PDF pp. 25–31, 36–37).
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

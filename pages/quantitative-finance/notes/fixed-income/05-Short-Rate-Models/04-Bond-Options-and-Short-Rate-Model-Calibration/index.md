@@ -81,7 +81,6 @@ Curve-fitting parameters and option-volatility parameters play different roles: 
 
 ---
 
-**Source mapping:** Lecture §§5.1, 5.4, 7.2.2 (PDF pp. 25–27, 29–30, 40–41).
 
 **Suggested references:** [1], [2], [9]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

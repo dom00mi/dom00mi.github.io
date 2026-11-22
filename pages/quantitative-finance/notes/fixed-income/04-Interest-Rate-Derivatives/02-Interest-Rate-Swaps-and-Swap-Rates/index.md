@@ -92,7 +92,6 @@ This observation is central to swaption valuation. In the multiple-curve setting
 
 ---
 
-**Source mapping:** Lecture §3.3 and §3.4.2 (PDF pp. 17–21).
 
 **Suggested references:** [2], [6]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

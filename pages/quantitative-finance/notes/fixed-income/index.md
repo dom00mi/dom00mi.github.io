@@ -17,7 +17,6 @@ permalink: /pages/quantitative-finance/notes/fixed-income/
 
 *From discounting and yield curves to arbitrage-free interest-rate modelling.*
 
-These notes reorganise the attached **Monoyios–Hambly, *Fixed Income and Credit*** lecture notes (16 January 2026) into a progressive mathematical-finance curriculum. The emphasis is on assumptions, pricing identities, stochastic dynamics, martingale measures and model consistency, not on lists of elementary numerical examples.
 
 The source's core topics are treated in detail. Some of the requested headings—including bootstrapping, interpolation, futures, DV01, PCA, SABR and relative value—go beyond the PDF; those notes explicitly identify their **supplementary** status. Models referring to LIBOR are presented as the historical market-model constructions in the source, while the overnight-rate/multi-curve changes are discussed separately.
 
@@ -35,17 +34,8 @@ The source's core topics are treated in detail. Some of the requested headings�
 | **08 — Yield-Curve Modelling and Applications** | Extend the curve identities towards PCA, factor risk, hedging and scenario analysis. These applications are clearly marked as supplementary where the PDF does not cover them. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/' | relative_url }}) |
 
 
-## Conventions and notation
-
-We write \(t\) for valuation time, \(T\) for maturity, \(P(t,T)\) for the price of a default-free unit zero-coupon bond, \(R(t,T)\) for its continuously compounded zero rate, \(f(t,T)\) for the instantaneous forward rate and \(r(t)=f(t,t)\) for the short rate. The money-market account is \(B(t)\), and \(\mathbb Q\) denotes an equivalent martingale measure for that numéraire. A forward measure for maturity \(T\) is denoted by \(\mathbb Q^T\).
-
-All displayed mathematical expressions are enclosed in **MathJax `$$ ... $$` blocks**. The Markdown pages use ordinary Jekyll front matter, explicit permalinks and `relative_url` links so they can be placed under `pages/quantitative-finance/notes/fixed-income/` on a Jekyll website with MathJax already enabled. The site's existing MathJax configuration must still load the MathJax script.
-
----
-
 ## References
 
-The following numbered bibliography follows the reference list of **Monoyios and Hambly, *Fixed Income and Credit*** (lecture notes dated 16 January 2026):
 
 [1] T. Björk, *Arbitrage Theory in Continuous Time*, Oxford University Press, 3rd ed., 2009.
 
@@ -67,6 +57,5 @@ The following numbered bibliography follows the reference list of **Monoyios and
 
 [10] J. Večeř, *Stochastic Finance: A Numeraire Approach*, Chapman & Hall/CRC Financial Mathematics Series, CRC Press, 2011.
 
-**Primary lecture source:** Michael Monoyios and Ben Hambly, *Fixed Income and Credit*; edition modified by Blanka Horvath, Leandro Sanchez-Betancourt and Hanqing Jin, 16 January 2026. The PDF includes a separate credit-risk section (pp. 50–61) that is outside the requested eight-chapter fixed-income directory structure.
 
 </article>

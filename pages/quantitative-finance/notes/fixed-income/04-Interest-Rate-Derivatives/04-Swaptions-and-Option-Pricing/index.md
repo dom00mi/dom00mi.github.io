@@ -92,7 +92,6 @@ The PDF observes that a model in which every forward LIBOR is exactly lognormal 
 
 ---
 
-**Source mapping:** Lecture §§3.4.2, 7.3 (PDF pp. 20–21, 44–45).
 
 **Suggested references:** [2], [6], [7]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

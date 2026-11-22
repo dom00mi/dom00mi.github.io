@@ -103,7 +103,6 @@ HJM with constant forward-rate volatility reproduces exactly the same short-rate
 
 ---
 
-**Source mapping:** Lecture §§5.2–5.4 and 6.3 (PDF pp. 28–30, 35–36).
 
 **Suggested references:** [1], [2], [4], [5]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

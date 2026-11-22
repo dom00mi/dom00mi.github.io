@@ -72,7 +72,6 @@ For positive future cashflows this is negative: an increase in yield decreases b
 
 ---
 
-**Source mapping:** Lecture §3.1 (PDF pp. 15–16), with the par-rate identity derived algebraically from the lecture valuation equation.
 
 **Suggested references:** [1], [2]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

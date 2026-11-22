@@ -72,7 +72,6 @@ The implied-volatility approximation, numerical pricing method, shift convention
 
 ---
 
-**Source mapping:** Supplementary topic; no substantive SABR treatment in the lecture PDF.
 
 **Suggested references:** [2] (broad background on smile models). See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

@@ -124,7 +124,6 @@ Setting \(T=t\) recovers a Ho–Lee short rate fitting the initial forward curve
 
 ---
 
-**Source mapping:** Lecture §§4.1, 6.1–6.4 (PDF pp. 22–24, 32–37); original HJM paper [5].
 
 **Suggested references:** [1], [4], [5], [9]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

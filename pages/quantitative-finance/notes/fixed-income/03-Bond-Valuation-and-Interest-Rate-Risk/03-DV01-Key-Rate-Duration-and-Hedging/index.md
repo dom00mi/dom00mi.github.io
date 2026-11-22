@@ -73,7 +73,6 @@ First-order matching does not eliminate convexity, basis risk or subsequent chan
 
 ---
 
-**Source mapping:** Supplementary risk definitions built from lecture §3.1 duration/convexity (PDF p. 16).
 
 **Suggested references:** [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

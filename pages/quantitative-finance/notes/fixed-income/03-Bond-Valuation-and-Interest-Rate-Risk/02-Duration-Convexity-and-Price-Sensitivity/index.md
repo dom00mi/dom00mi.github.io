@@ -81,7 +81,6 @@ The linear term captures directional sensitivity; the convexity term captures cu
 
 ---
 
-**Source mapping:** Lecture §3.1 (PDF p. 16), Taylor approximation derived from the lecture definitions.
 
 **Suggested references:** [1], [2]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

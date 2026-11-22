@@ -30,7 +30,6 @@ $$
 - **6.2** [Heath–Jarrow–Morton Framework]({{ '/pages/quantitative-finance/notes/fixed-income/06-Arbitrage-Free-Term-Structure-Models/02-Heath-Jarrow-Morton-Framework/' | relative_url }})
 - **6.3** [LIBOR Market Model]({{ '/pages/quantitative-finance/notes/fixed-income/06-Arbitrage-Free-Term-Structure-Models/03-LIBOR-Market-Model/' | relative_url }})
 
-**Primary source mapping:** Lecture §§2, 4, 6–7 (PDF pp. 10–14, 22–24, 32–45).
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

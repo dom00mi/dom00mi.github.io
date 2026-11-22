@@ -75,7 +75,6 @@ A futures contract differs from a forward because margin cashflows are settled t
 
 ---
 
-**Source mapping:** Lecture §§1.3.1, 2.3, 3.2 (PDF pp. 6–7, 14, 16–17); futures distinction supplementary.
 
 **Suggested references:** [2], [6], [10]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

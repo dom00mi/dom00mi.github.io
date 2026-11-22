@@ -83,7 +83,6 @@ The source develops zero-coupon bonds, fixed-coupon bonds, floating-rate notes, 
 
 ---
 
-**Source mapping:** Lecture §§1.1, 3.1–3.3 (PDF pp. 4, 15–18).
 
 **Suggested references:** [1], [2], [6]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

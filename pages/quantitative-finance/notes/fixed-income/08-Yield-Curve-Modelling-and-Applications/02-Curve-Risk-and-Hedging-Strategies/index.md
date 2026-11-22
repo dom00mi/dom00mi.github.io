@@ -80,7 +80,6 @@ Matching duration or a finite set of factor exposures does not eliminate convexi
 
 ---
 
-**Source mapping:** Supplementary applications of lecture §§3.1, 3.3, 8 (PDF pp. 15–18, 46–49).
 
 **Suggested references:** [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

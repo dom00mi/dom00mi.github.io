@@ -66,7 +66,6 @@ Parallel duration, key-rate sensitivities and dynamic factor exposures answer di
 
 ---
 
-**Source mapping:** Supplementary applications of lecture §§3.1, 4 (PDF pp. 15–16, 22–24).
 
 **Suggested references:** [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

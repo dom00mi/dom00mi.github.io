@@ -30,7 +30,6 @@ $$
 - **4.3** [Caps, Floors and Caplets]({{ '/pages/quantitative-finance/notes/fixed-income/04-Interest-Rate-Derivatives/03-Caps-Floors-and-Caplets/' | relative_url }})
 - **4.4** [Swaptions and Option Pricing]({{ '/pages/quantitative-finance/notes/fixed-income/04-Interest-Rate-Derivatives/04-Swaptions-and-Option-Pricing/' | relative_url }})
 
-**Primary source mapping:** Lecture §§2.3, 3, 7 (PDF pp. 14–21, 38–45); futures commentary supplementary.
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

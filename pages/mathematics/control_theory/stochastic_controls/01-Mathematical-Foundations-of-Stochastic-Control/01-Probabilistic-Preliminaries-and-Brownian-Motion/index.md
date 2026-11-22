@@ -463,7 +463,7 @@ Another family of Merton-type problems allows the agent to receive a **random en
 
 #### Example 1.1 — Basis-Risk Hedging
 
-Consider a **basis-risk model** (see Monoyios [5]) in which a Black–Scholes–Merton stock $S$ is traded to hedge a European contingent claim on a **non-traded** asset $Y$. The second asset follows correlated geometric Brownian motion.
+Consider a **basis-risk model** in which a Black–Scholes–Merton stock $S$ is traded to hedge a European contingent claim on a **non-traded** asset $Y$. The second asset follows correlated geometric Brownian motion.
 
 Let $W$ and $W^\perp$ be independent Brownian motions on a filtered probability space
 
@@ -761,11 +761,10 @@ The natural next topic is **Dynamic Programming and the Hamilton–Jacobi–Bell
 2. H. Pham, *Continuous-Time Stochastic Control and Optimization with Financial Applications*, Springer, 2009. Recommended reading: Chapters 2–6 [source reference 14].
 3. L. C. G. Rogers, *Optimal Investment*, Springer, 2013. Recommended reading: Chapters 1–2 [source reference 16].
 4. H. Föllmer and A. Schied, *Stochastic Finance*, 4th revised and extended ed., De Gruyter, 2016 [source reference 6].
-5. M. Monoyios, “Performance of utility-based strategies for hedging basis risk,” *Quantitative Finance*, 4 (2004), 245–255 [source reference 9].
-6. D. Becherer, “Utility-indifference hedging and valuation via reaction-diffusion systems,” *Proceedings of the Royal Society A*, 460 (2004), 27–51 [source reference 1].
-7. F. Delbaen, P. Grandits, T. Rheinländer, D. Samperi, M. Schweizer and C. Stricker, “Exponential hedging and entropic penalties,” *Mathematical Finance*, 12 (2002), 99–123 [source reference 5].
-8. W. Schachermayer, “Optimal investment in incomplete markets when wealth may become negative,” *Annals of Applied Probability*, 11 (2001), 694–734 [source reference 17].
-9. W. Schachermayer, “A super-martingale property of the optimal portfolio process,” *Finance and Stochastics*, 7 (2003), 433–456 [source reference 18].
+5. D. Becherer, “Utility-indifference hedging and valuation via reaction-diffusion systems,” *Proceedings of the Royal Society A*, 460 (2004), 27–51 [source reference 1].
+6. F. Delbaen, P. Grandits, T. Rheinländer, D. Samperi, M. Schweizer and C. Stricker, “Exponential hedging and entropic penalties,” *Mathematical Finance*, 12 (2002), 99–123 [source reference 5].
+7. W. Schachermayer, “Optimal investment in incomplete markets when wealth may become negative,” *Annals of Applied Probability*, 11 (2001), 694–734 [source reference 17].
+8. W. Schachermayer, “A super-martingale property of the optimal portfolio process,” *Finance and Stochastics*, 7 (2003), 433–456 [source reference 18].
 
 
 ## Supporting material

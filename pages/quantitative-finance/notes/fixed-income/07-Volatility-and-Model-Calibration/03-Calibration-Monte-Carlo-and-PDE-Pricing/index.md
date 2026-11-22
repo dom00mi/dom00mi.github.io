@@ -79,7 +79,6 @@ The weights, admissible parameter region \(\Theta\), volatility quotation method
 
 ---
 
-**Source mapping:** Lecture §§5.1, 5.4, 7.2 (PDF pp. 25–30, 39–42); Monte Carlo estimator and optimisation objective supplementary.
 
 **Suggested references:** [1], [2], [4], [9]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

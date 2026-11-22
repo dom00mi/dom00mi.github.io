@@ -92,7 +92,6 @@ PCA describes historical covariance of curve changes. An HJM volatility field in
 
 ---
 
-**Source mapping:** Supplementary statistical theory; no PCA section in supplied lecture PDF.
 
 **Suggested references:** [4], [5] (term-structure modelling background; not direct PCA citations). See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

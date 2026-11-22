@@ -88,7 +88,6 @@ Following the transition from LIBOR to overnight benchmarks, backward-looking co
 
 ---
 
-**Source mapping:** Lecture §§7.1–7.3 and §8 (PDF pp. 38–49).
 
 **Suggested references:** [2], [5], [6], [7]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

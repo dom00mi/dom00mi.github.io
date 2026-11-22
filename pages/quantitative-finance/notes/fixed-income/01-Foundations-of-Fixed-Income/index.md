@@ -36,7 +36,6 @@ $$
 - **1.3** [Fixed Income Instruments and Cashflows]({{ '/pages/quantitative-finance/notes/fixed-income/01-Foundations-of-Fixed-Income/03-Fixed-Income-Instruments-and-Cashflows/' | relative_url }})
 - **1.4** [Bond Prices, Yields and Coupon Structures]({{ '/pages/quantitative-finance/notes/fixed-income/01-Foundations-of-Fixed-Income/04-Bond-Prices-Yields-and-Coupon-Structures/' | relative_url }})
 
-**Primary source mapping:** Lecture §§1, 3.1–3.2 (PDF pp. 4–9, 15–17).
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

@@ -78,7 +78,6 @@ A valid implementation should reproduce each input instrument's price, use the s
 
 ---
 
-**Source mapping:** Supplementary derivation from lecture §§1.1, 3.1, 3.3 (PDF pp. 4, 15, 17–18).
 
 **Suggested references:** [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

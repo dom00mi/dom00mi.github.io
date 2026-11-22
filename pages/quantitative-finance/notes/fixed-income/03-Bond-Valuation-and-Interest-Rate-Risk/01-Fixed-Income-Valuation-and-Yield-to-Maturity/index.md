@@ -65,7 +65,6 @@ With positive coupons and principal, a higher yield corresponds to a lower price
 
 ---
 
-**Source mapping:** Lecture §3.1 (PDF pp. 15–16).
 
 **Suggested references:** [1], [2]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

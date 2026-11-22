@@ -87,7 +87,6 @@ Both models are one-factor and mean-reverting. Vasicek permits negative rates bu
 
 ---
 
-**Source mapping:** Lecture §§5.2–5.4 (PDF pp. 27–30); Feller condition and conditional mean are supplementary standard results.
 
 **Suggested references:** [1], [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

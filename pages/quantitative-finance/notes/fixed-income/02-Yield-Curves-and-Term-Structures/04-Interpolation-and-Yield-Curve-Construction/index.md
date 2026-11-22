@@ -77,7 +77,6 @@ The chosen method should reproduce calibration pillars exactly, be consistent wi
 
 ---
 
-**Source mapping:** Supplementary construction using lecture §§1.4, 3.1 (PDF pp. 7–9, 15–16).
 
 **Suggested references:** [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

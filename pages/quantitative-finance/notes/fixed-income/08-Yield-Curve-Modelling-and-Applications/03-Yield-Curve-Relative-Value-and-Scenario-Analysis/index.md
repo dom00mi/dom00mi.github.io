@@ -80,7 +80,6 @@ The lecture's main contribution to this discussion is the consistency requiremen
 
 ---
 
-**Source mapping:** Supplementary applications of lecture §§1.4, 3, 4, 8 (PDF pp. 7–9, 15–24, 46–49).
 
 **Suggested references:** [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

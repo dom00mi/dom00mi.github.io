@@ -101,7 +101,6 @@ The notes contrast traditional forward-looking LIBOR payments with compounded ov
 
 ---
 
-**Source mapping:** Lecture §§3.4.1, 7.2 (PDF pp. 18–19, 38–41).
 
 **Suggested references:** [2], [6], [7]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

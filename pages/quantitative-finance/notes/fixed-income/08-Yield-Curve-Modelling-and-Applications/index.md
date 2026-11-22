@@ -30,7 +30,6 @@ $$
 - **8.2** [Curve Risk and Hedging Strategies]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/02-Curve-Risk-and-Hedging-Strategies/' | relative_url }})
 - **8.3** [Yield-Curve Relative Value and Scenario Analysis]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/03-Yield-Curve-Relative-Value-and-Scenario-Analysis/' | relative_url }})
 
-**Primary source mapping:** Supplementary chapter based on term-structure and sensitivity identities in lecture §§1, 3, 4, 8.
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

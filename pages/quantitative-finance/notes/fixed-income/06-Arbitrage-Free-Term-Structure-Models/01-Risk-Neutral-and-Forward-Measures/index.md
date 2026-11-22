@@ -94,7 +94,6 @@ Applying the same reasoning to bond-price ratios produces the martingale propert
 
 ---
 
-**Source mapping:** Lecture §2, especially Theorems 2.7–2.8 and Proposition 2.11 (PDF pp. 10–14).
 
 **Suggested references:** [1], [7], [9], [10]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

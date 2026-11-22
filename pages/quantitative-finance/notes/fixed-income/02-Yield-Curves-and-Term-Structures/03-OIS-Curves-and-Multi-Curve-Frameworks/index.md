@@ -82,7 +82,6 @@ The telescoping single-curve floating-leg identity can no longer be imposed with
 
 ---
 
-**Source mapping:** Lecture §§1.3, 8.1–8.2 (PDF pp. 6, 46–49).
 
 **Suggested references:** [2], [3]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

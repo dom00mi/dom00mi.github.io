@@ -29,7 +29,6 @@ $$
 - **7.2** [SABR Model and Volatility Smiles]({{ '/pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Model-Calibration/02-SABR-Model-and-Volatility-Smiles/' | relative_url }})
 - **7.3** [Calibration, Monte Carlo and PDE Pricing]({{ '/pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Model-Calibration/03-Calibration-Monte-Carlo-and-PDE-Pricing/' | relative_url }})
 
-**Primary source mapping:** Lecture §§3.4, 5, 7 (PDF pp. 18–21, 25–30, 38–45); Bachelier, SABR and numerical methods supplemented.
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

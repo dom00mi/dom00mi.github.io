@@ -117,7 +117,6 @@ The source uses this identity to exhibit Vasicek as a particular arbitrage-free 
 
 ---
 
-**Source mapping:** Lecture §§5.1–5.4, 6.4 (PDF pp. 25–30, 36–37); closed-form Vasicek distribution follows directly from its stated SDE.
 
 **Suggested references:** [1], [2], [4]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

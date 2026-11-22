@@ -31,7 +31,6 @@ $$
 - **3.3** [DV01, Key-Rate Duration and Hedging]({{ '/pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-Interest-Rate-Risk/03-DV01-Key-Rate-Duration-and-Hedging/' | relative_url }})
 - **3.4** [Bond Portfolio Risk and Attribution]({{ '/pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-Interest-Rate-Risk/04-Bond-Portfolio-Risk-and-Attribution/' | relative_url }})
 
-**Primary source mapping:** Lecture §3.1 (PDF pp. 15–16); key-rate and attribution topics supplementary.
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

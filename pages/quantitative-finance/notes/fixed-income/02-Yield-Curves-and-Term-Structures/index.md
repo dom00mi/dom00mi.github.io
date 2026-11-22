@@ -32,7 +32,6 @@ $$
 - **2.3** [OIS Curves and Multi-Curve Frameworks]({{ '/pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Term-Structures/03-OIS-Curves-and-Multi-Curve-Frameworks/' | relative_url }})
 - **2.4** [Interpolation and Yield Curve Construction]({{ '/pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Term-Structures/04-Interpolation-and-Yield-Curve-Construction/' | relative_url }})
 
-**Primary source mapping:** Lecture §§1, 3, 8 (PDF pp. 4–9, 15–18, 46–49); bootstrapping/interpolation supplementary.
 
 [← All Fixed Income notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }})
 

@@ -92,7 +92,6 @@ where \(\varphi\) is the standard normal density. For a caplet \(D=N\delta P(t,T
 
 ---
 
-**Source mapping:** Lecture §§2.3, 3.4, 7.1–7.3 (PDF pp. 14, 18–21, 38–45); Bachelier subsection supplementary.
 
 **Suggested references:** [2], [6], [7]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

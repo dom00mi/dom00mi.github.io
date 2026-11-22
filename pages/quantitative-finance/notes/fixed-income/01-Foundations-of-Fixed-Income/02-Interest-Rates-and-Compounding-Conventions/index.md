@@ -81,7 +81,6 @@ Thus the numerical value of the quoted rate depends on the convention even when 
 
 ---
 
-**Source mapping:** Lecture §§1.2–1.3 (PDF pp. 5–6).
 
 **Suggested references:** [1], [2]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

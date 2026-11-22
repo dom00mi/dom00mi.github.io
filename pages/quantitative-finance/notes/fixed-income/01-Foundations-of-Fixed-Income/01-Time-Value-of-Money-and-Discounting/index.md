@@ -85,7 +85,6 @@ The source assumes a frictionless, liquid continuum of default-free bonds, suffi
 
 ---
 
-**Source mapping:** Lecture §§1.1–1.2, 2 (PDF pp. 4–5, 10).
 
 **Suggested references:** [1], [2], [9]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 

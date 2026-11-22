@@ -88,7 +88,6 @@ The curve is observed at a particular date but can move with calendar time: for 
 
 ---
 
-**Source mapping:** Lecture §§1.3–1.4 and 4 (PDF pp. 6–9, 22).
 
 **Suggested references:** [1], [4], [5]. See the [numbered bibliography]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}#references).
 
