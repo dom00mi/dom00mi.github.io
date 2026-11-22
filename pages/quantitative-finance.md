@@ -24,6 +24,23 @@ permalink: /pages/quantitative-finance/
 | UK Yield Curve PCA | Yield curve factors | Coming soon |
 | Volatility Modelling | Calibration and numerical methods | In preparation |
 
+## Fixed Income Notes
+
+The [Fixed Income Notes]({{ '/pages/quantitative-finance/notes/fixed-income/' | relative_url }}) provide a structured path through fixed-income theory and quantitative methods, from discounting and bond valuation to yield-curve modelling, interest-rate derivatives and risk management.
+
+### Fixed-income roadmap
+
+| Section | Focus |
+|---|---|
+| [Foundations of Fixed Income]({{ '/pages/quantitative-finance/notes/fixed-income/01-Foundations-of-Fixed-Income/' | relative_url }}) | Time value of money, rates, instruments and bond cashflows |
+| [Yield Curves and Term Structures]({{ '/pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Term-Structures/' | relative_url }}) | Discount factors, bootstrapping, OIS curves and interpolation |
+| [Bond Valuation and Interest-Rate Risk]({{ '/pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-Interest-Rate-Risk/' | relative_url }}) | Valuation, duration, convexity, DV01 and hedging |
+| [Interest-Rate Derivatives]({{ '/pages/quantitative-finance/notes/fixed-income/04-Interest-Rate-Derivatives/' | relative_url }}) | FRAs, futures, swaps, caps, floors and swaptions |
+| [Short-Rate Models]({{ '/pages/quantitative-finance/notes/fixed-income/05-Short-Rate-Models/' | relative_url }}) | Vasicek, CIR, Hull–White and model calibration |
+| [Arbitrage-Free Term-Structure Models]({{ '/pages/quantitative-finance/notes/fixed-income/06-Arbitrage-Free-Term-Structure-Models/' | relative_url }}) | Risk-neutral measures, HJM and LIBOR market models |
+| [Volatility and Model Calibration]({{ '/pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Model-Calibration/' | relative_url }}) | Interest-rate volatility, SABR, Monte Carlo and PDE pricing |
+| [Yield-Curve Modelling and Applications]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/' | relative_url }}) | PCA, curve risk, hedging and relative-value analysis |
+
 ## Quant Finance Library in C++
 
 The [Quant Finance Library in C++]({{ '/pages/quantitative-finance/quant_finance_library_cpp/' | relative_url }}) is the main implementation-focused project in this collection. It brings together market data, mathematical models, pricing engines, calibration routines, numerical methods and portfolio risk in a single C++ codebase.
