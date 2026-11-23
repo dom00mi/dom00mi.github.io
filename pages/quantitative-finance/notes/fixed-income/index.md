@@ -18,7 +18,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/
 *From discounting and yield curves to arbitrage-free interest-rate modelling.*
 
 
-The source's core topics are treated in detail. Some of the requested headings—including bootstrapping, interpolation, futures, DV01, PCA, SABR and relative value—go beyond the PDF; those notes explicitly identify their **supplementary** status. Models referring to LIBOR are presented as the historical market-model constructions in the source, while the overnight-rate/multi-curve changes are discussed separately.
+I would like to share my notes on fixed-income mathematical modelling. I develop the subject from the foundations of discounting, cashflows and zero-coupon bond (ZCB) prices, then connect risk-neutral pricing—equivalently, martingale pricing—to pricing PDEs. From there, I work through short-rate and forward-rate models, interest-rate derivatives, curve construction and calibration, leading to the Heath–Jarrow–Morton framework, its no-arbitrage drift condition, and related applications in volatility, hedging and yield-curve risk.
 
 ## Chapters
 
@@ -31,7 +31,7 @@ The source's core topics are treated in detail. Some of the requested headings�
 | **05 — Short-Rate Models** | Study the risk-neutral short-rate pricing PDE and affine models, including Vasicek, CIR and Hull–White extensions and initial term-structure calibration. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/05-Short-Rate-Models/' | relative_url }}) |
 | **06 — Arbitrage-Free Term-Structure Models** | Derive change-of-numéraire valuation, the HJM no-arbitrage drift restriction, and the construction of a consistent forward-LIBOR market model. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/06-Arbitrage-Free-Term-Structure-Models/' | relative_url }}) |
 | **07 — Volatility and Model Calibration** | Connect market Black volatilities with caplet and swaption pricing, then add clearly marked supplementary normal volatility, SABR and numerical-calibration notes. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Model-Calibration/' | relative_url }}) |
-| **08 — Yield-Curve Modelling and Applications** | Extend the curve identities towards PCA, factor risk, hedging and scenario analysis. These applications are clearly marked as supplementary where the PDF does not cover them. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/' | relative_url }}) |
+| **08 — Yield-Curve Modelling and Applications** | Extend the curve identities towards PCA, factor risk, hedging and scenario analysis, connecting the theory to practical applications in yield-curve risk and relative-value analysis. | [Read chapter]({{ '/pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelling-and-Applications/' | relative_url }}) |
 
 
 ## References

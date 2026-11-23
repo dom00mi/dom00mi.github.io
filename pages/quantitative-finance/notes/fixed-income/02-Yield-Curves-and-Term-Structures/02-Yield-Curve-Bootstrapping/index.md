@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Te
 
 # 2.2 — Yield Curve Bootstrapping
 
-> **Scope:** The source PDF explains that market bonds and derivatives imply a yield curve, but does **not** present a full instrument-by-instrument bootstrapping algorithm. The sequential equations below are a supplementary construction from the pricing identities in §§1 and 3.
+> **Scope:** Market bonds and derivatives imply a yield curve. The sequential equations below construct discount factors instrument by instrument from the pricing identities in §§1 and 3.
 
 ## 2.2.1 Bootstrap objective
 

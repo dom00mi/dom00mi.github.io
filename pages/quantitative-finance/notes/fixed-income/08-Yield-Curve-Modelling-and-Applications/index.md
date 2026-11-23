@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelli
 
 # 08 — Yield-Curve Modelling and Applications
 
-Extend the curve identities towards PCA, factor risk, hedging and scenario analysis. These applications are clearly marked as supplementary where the PDF does not cover them.
+Extend the curve identities towards PCA, factor risk, hedging and scenario analysis, connecting the theory to practical applications in yield-curve risk and relative-value analysis.
 
 Curve-shape risk can be written as a sensitivity to maturity pillars, with a local scenario approximation
 

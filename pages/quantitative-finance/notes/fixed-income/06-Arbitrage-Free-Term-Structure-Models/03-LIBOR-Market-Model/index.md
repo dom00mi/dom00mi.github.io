@@ -84,7 +84,7 @@ for positive \(L_k\). Thus the lognormal forward-rate volatility and the bond vo
 
 The source also considers a **swap market model**, using a lognormal swap rate under an annuity measure. It observes that exact lognormality of every forward simple rate and every swap rate is generally incompatible.
 
-Following the transition from LIBOR to overnight benchmarks, backward-looking compounded rates require adjustments to the traditional LMM construction. The PDF mentions the extension using new bond-like numéraires for rates fixed in arrears, but does not work out a complete post-LIBOR market model.
+Following the transition from LIBOR to overnight benchmarks, backward-looking compounded rates require adjustments to the traditional LMM construction. A post-LIBOR extension uses new bond-like numeraires for rates fixed in arrears and is developed here as a natural continuation of the market-model framework.
 
 ---
 

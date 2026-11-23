@@ -70,7 +70,7 @@ for the observed maturities. Once the fitted model is specified, derivative pric
 
 ## 5.4.4 Interest-rate option volatility calibration
 
-The PDF describes caplet Black volatilities inferred from observed cap prices and volatility functions selected to reproduce those implied variances:
+Caplet Black volatilities can be inferred from observed cap prices, with volatility functions selected to reproduce the corresponding implied variances:
 
 $$
 \int_t^{T_{k-1}}\lVert\boldsymbol\sigma_k(u)\rVert^2

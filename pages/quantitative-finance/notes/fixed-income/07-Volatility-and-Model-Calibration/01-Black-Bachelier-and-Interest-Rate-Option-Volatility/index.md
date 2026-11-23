@@ -73,7 +73,7 @@ Matching the integrated variance does not uniquely determine the time profile or
 
 ## 7.1.4 Bachelier (normal) pricing
 
-> **Supplementary theory:** The PDF develops Black pricing, not a separate Bachelier model. The normal formula below is included for the requested comparison.
+> **Supplementary theory:** The normal Bachelier formula is developed alongside Black pricing to provide a consistent comparison.
 
 Under a normal forward model with \(\mathrm{d}F=\sigma_N\,\mathrm{d}W\) and time to fixing \(\tau\), define
 

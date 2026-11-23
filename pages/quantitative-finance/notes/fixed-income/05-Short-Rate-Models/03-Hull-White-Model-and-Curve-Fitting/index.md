@@ -41,7 +41,7 @@ $$
 P(t,T)=e^{-A(t,T)-B(t,T)r(t)}.
 $$
 
-For the general drift \(a(t)(b(t)-r(t))\) and volatility \(\sigma(t)\) in the PDF, the coefficient equations are
+For the general drift \(a(t)(b(t)-r(t))\) and volatility \(\sigma(t)\) in the model, the coefficient equations are
 
 $$
 \partial_t B(t,T)-a(t)B(t,T)+1=0,

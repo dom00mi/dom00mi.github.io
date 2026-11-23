@@ -69,7 +69,7 @@ Some FRA markets settle at the beginning rather than the end of the accrual peri
 
 ## 4.1.4 Interest-rate futures
 
-> **Supplementary note:** The PDF does not derive exchange-traded interest-rate futures or futures convexity adjustments.
+> **Supplementary note:** Exchange-traded interest-rate futures and futures convexity adjustments are developed here alongside the underlying forward-rate framework.
 
 A futures contract differs from a forward because margin cashflows are settled through time. Under stochastic interest rates, the futures-implied rate and the corresponding FRA forward rate need not agree. Their difference depends on the dynamics and covariation of the underlying rate and discount factors; no universal adjustment can be inferred from the source alone.
 

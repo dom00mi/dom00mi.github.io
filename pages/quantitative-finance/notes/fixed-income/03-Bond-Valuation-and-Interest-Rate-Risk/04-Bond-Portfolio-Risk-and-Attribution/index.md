@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/03-Bond-Valuation-and-
 
 # 3.4 — Bond Portfolio Risk and Attribution
 
-> **Scope:** Portfolio attribution and factor-risk reporting are not developed in the source PDF. This section assembles a concise supplementary framework from its present-value and sensitivity equations.
+> **Scope:** This section develops portfolio attribution and factor-risk reporting from present-value and sensitivity equations.
 
 ## 3.4.1 Portfolio valuation
 

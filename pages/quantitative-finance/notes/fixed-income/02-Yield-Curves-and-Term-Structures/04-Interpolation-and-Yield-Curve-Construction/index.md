@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/02-Yield-Curves-and-Te
 
 # 2.4 — Interpolation and Yield Curve Construction
 
-> **Scope:** The PDF states that building the term structure from observed prices is important but does not specify numerical interpolation schemes. The methods below are supplementary ways to respect the discount-factor identities.
+> **Scope:** Building the term structure from observed prices requires interpolation between market maturities. The methods below preserve the discount-factor identities.
 
 ## 2.4.1 Why interpolation is necessary
 

@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/08-Yield-Curve-Modelli
 
 # 8.3 — Yield-Curve Relative Value and Scenario Analysis
 
-> **Scope:** Relative-value trading frameworks and scenario analysis are not standalone topics in the PDF. The formulas below are supplementary applications of its arbitrage-free bond-pricing and curve identities.
+> **Scope:** This section develops relative-value trading frameworks and scenario analysis from arbitrage-free bond-pricing and curve identities.
 
 ## 8.3.1 Relative value as model-versus-market comparison
 

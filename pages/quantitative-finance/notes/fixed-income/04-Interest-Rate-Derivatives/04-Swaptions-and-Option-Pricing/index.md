@@ -88,7 +88,7 @@ For notional \(N\), multiply the entire result by \(N\). The model treats the **
 
 ## 4.4.4 Model consistency
 
-The PDF observes that a model in which every forward LIBOR is exactly lognormal need not make forward swap rates lognormal as well. A swap rate is a nonlinear ratio of bond-price combinations, and the two assumptions are generally not simultaneously exact; see the swap market model discussion in Section 7.3.
+A model in which every forward LIBOR is exactly lognormal need not make forward swap rates lognormal as well. A swap rate is a nonlinear ratio of bond-price combinations, and the two assumptions are generally not simultaneously exact; see the swap market model discussion in Section 7.3.
 
 ---
 

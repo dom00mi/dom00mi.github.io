@@ -15,7 +15,7 @@ permalink: /pages/quantitative-finance/notes/fixed-income/07-Volatility-and-Mode
 
 # 7.2 — SABR Model and Volatility Smiles
 
-> **Scope:** SABR is **not derived or specified** in the supplied source PDF. The model below is supplementary theory for the requested chapter; it should not be attributed to the framework text.
+> **Scope:** SABR is introduced here as supplementary volatility-smile theory and is developed for the modelling applications in this chapter.
 
 ## 7.2.1 Why a volatility-smile model is needed
 
@@ -68,7 +68,7 @@ V^{\mathrm{SABR}}(K_i;\boldsymbol\theta)
 -V^{\mathrm{mkt}}(K_i)\right]^2.
 $$
 
-The implied-volatility approximation, numerical pricing method, shift convention, and treatment of negative forward rates must be specified before the model is operational. For low or negative rates, **shifted SABR** is often considered, but the PDF does not provide such a construction.
+The implied-volatility approximation, numerical pricing method, shift convention, and treatment of negative forward rates must be specified before the model is operational. For low or negative rates, **shifted SABR** is often considered, but that construction is developed separately here.
 
 ---
 

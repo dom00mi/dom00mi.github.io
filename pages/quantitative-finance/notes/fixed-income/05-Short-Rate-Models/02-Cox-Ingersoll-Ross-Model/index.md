@@ -31,7 +31,7 @@ $$
 2ab\geq\sigma^2.
 $$
 
-The Feller boundary condition is a supplementary standard result; it is not derived in the source PDF.
+The Feller boundary condition is included as a standard result alongside the CIR model.
 
 ## 5.2.2 Conditional mean
 

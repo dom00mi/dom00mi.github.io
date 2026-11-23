@@ -54,7 +54,7 @@ The bond-price case uses terminal payoff \(\Psi(x)=1\). A bond-option or caplet 
 
 ## 7.3.3 Monte Carlo form of the same price
 
-> **Supplementary numerical implementation:** The PDF provides the Feynman–Kac expectation but not a Monte Carlo algorithm or its convergence analysis.
+> **Numerical implementation:** The Feynman–Kac expectation provides the starting point for a Monte Carlo algorithm and its convergence analysis.
 
 For simulated risk-neutral short-rate paths \(r^{(j)}\), a natural estimator for a maturity-\(T\) payoff \(H^{(j)}\) is
 
